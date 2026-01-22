@@ -1,0 +1,137 @@
+{
+  "chapterNumber": 1,
+  "chapterName": "Nativity",
+  "bookTitle": "St. Francis of Assisi: Passion, Poverty and the Man who Transformed the Catholic Church",
+  "questions": [
+    {
+      "id": "ch1_q1",
+      "question": "What did the strange pilgrim tell Francis' mother?",
+      "correctAnswer": "That she could only give birth in a stable",
+      "distractors": [
+        "That her son would become a great saint",
+        "That she should name the child John",
+        "That she would have twin sons",
+        "That her child would rebuild the church",
+        "That she should flee to France"
+      ],
+      "pageReference": "1"
+    },
+    {
+      "id": "ch1_q2",
+      "question": "What name was given to Francis by his mother?",
+      "correctAnswer": "John",
+      "distractors": [
+        "Peter",
+        "Francis",
+        "Giovanni",
+        "Thomas",
+        "Paul"
+      ],
+      "pageReference": "2"
+    },
+    {
+      "id": "ch1_q3",
+      "question": "What biblical figure was Pica naming her son after?",
+      "correctAnswer": "John the Baptist",
+      "distractors": [
+        "John the Apostle",
+        "John the Evangelist",
+        "Saint John of the Cross",
+        "Pope John I",
+        "John Mark"
+      ],
+      "pageReference": "2"
+    },
+    {
+      "id": "ch1_q4",
+      "question": "What was John the Baptist known for?",
+      "correctAnswer": "Being an ascetic and herald of the messiah",
+      "distractors": [
+        "Building churches and monasteries",
+        "Writing the Gospel of John",
+        "Leading the twelve apostles",
+        "Performing miracles and healings",
+        "Founding a religious order"
+      ],
+      "pageReference": "2"
+    },
+    {
+      "id": "ch1_q5",
+      "question": "Why did Francis' father, Pietro, choose the name Francis?",
+      "correctAnswer": "After his favorite country, France",
+      "distractors": [
+        "To honor a French saint",
+        "Because it meant 'free man'",
+        "It was his own father's name",
+        "After a famous knight from France",
+        "Because of a prophecy about greatness"
+      ],
+      "pageReference": "3"
+    },
+    {
+      "id": "ch1_q6",
+      "question": "What did Francis' name mean to his father?",
+      "correctAnswer": "A way to pay homage to France, in honor of wealth, grandiosity, and commerce",
+      "distractors": [
+        "A tribute to Francis' patron saint",
+        "A symbol of military strength and honor",
+        "A connection to the French royal family",
+        "A sign of spiritual devotion and piety",
+        "A marker of noble birth and aristocracy"
+      ],
+      "pageReference": "3"
+    },
+    {
+      "id": "ch1_q7",
+      "question": "How did Francis' parents differ in their beliefs about his future?",
+      "correctAnswer": "His mother believed he would do great things for God and his father believed he would be a worldly prince",
+      "distractors": [
+        "His mother wanted him to be a priest and his father wanted him to be a merchant",
+        "His mother hoped he would marry well and his father wanted him to join the military",
+        "His mother expected him to be humble and his father wanted him to be wealthy",
+        "His mother wished him to stay in Assisi and his father wanted him to travel",
+        "His mother wanted him to serve the poor and his father wanted him to serve the nobility"
+      ],
+      "pageReference": "2-4"
+    },
+    {
+      "id": "ch1_q8",
+      "question": "Why did the townspeople criticize Francis?",
+      "correctAnswer": "When he presided over great festivals and banquets, he often spent more money than his social position should have permitted",
+      "distractors": [
+        "He refused to attend church services regularly",
+        "He was too generous with the poor and beggars",
+        "He neglected his duties in his father's business",
+        "He spent too much time with lepers and outcasts",
+        "He criticized the wealthy merchants of Assisi"
+      ],
+      "pageReference": "4"
+    },
+    {
+      "id": "ch1_q9",
+      "question": "How were Francis' business practices different from his father's when he worked as a merchant?",
+      "correctAnswer": "He was more good-natured and generous with others, and would give to the poor when they asked",
+      "distractors": [
+        "He charged higher prices to make more profit",
+        "He refused to work with certain customers",
+        "He only sold to the wealthy nobility",
+        "He spent more time in prayer than in business",
+        "He kept more accurate records and accounts"
+      ],
+      "pageReference": "4"
+    },
+    {
+      "id": "ch1_q10",
+      "question": "What sign of reverence did the poor beggar make when he came upon Francis?",
+      "correctAnswer": "He spread his garment on the ground and called out a prophecy about Francis' future",
+      "distractors": [
+        "He knelt and kissed Francis' hand",
+        "He bowed deeply and removed his hat",
+        "He made the sign of the cross over Francis",
+        "He offered Francis a simple wooden cross",
+        "He sang a hymn of praise and thanksgiving"
+      ],
+      "pageReference": "5"
+    }
+  ]
+}

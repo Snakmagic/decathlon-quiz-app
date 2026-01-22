@@ -1,0 +1,98 @@
+{
+  "chapterNumber": 10,
+  "chapterName": "Evangelization and Brother Bernard",
+  "bookTitle": "St. Francis of Assisi: Passion, Poverty and the Man who Transformed the Catholic Church",
+  "questions": [
+    {
+      "id": "ch10_q1",
+      "question": "What made Bernard believe that Francis was not crazy to be a beggar in Assisi?",
+      "correctAnswer": "It was his eyes, they were filled with confidence and joy",
+      "distractors": [
+        "His peaceful demeanor despite hardships",
+        "The miracles people said he performed",
+        "His eloquent preaching in the streets",
+        "The way others began to follow him",
+        "His knowledge of Scripture and theology"
+      ],
+      "pageReference": "107"
+    },
+    {
+      "id": "ch10_q2",
+      "question": "Why did Bernard invite Francis to have dinner at his house?",
+      "correctAnswer": "Because he had noticed Francis' inner serenity, and when Francis asked him to help rebuild the church he said yes and then invited him for dinner",
+      "distractors": [
+        "Because he wanted to learn more about Francis' visions",
+        "Because his wife insisted they help this holy beggar",
+        "Because he felt sorry for Francis living in poverty",
+        "Because he hoped to convert Francis back to normal life",
+        "Because the bishop had asked him to help Francis"
+      ],
+      "pageReference": "109"
+    },
+    {
+      "id": "ch10_q3",
+      "question": "Why did Francis accept Bernard's invitation?",
+      "correctAnswer": "Because he noticed that Bernard wanted to talk about more than just donating supplies",
+      "distractors": [
+        "Because he was very hungry and needed a meal",
+        "Because Bernard was a wealthy and influential man",
+        "Because he hoped to convert Bernard's whole family",
+        "Because the bishop had encouraged him to accept",
+        "Because he needed a place to sleep that night"
+      ],
+      "pageReference": "109"
+    },
+    {
+      "id": "ch10_q4",
+      "question": "What scripture passages came up at random when Francis and Bernard went to discern God's will together?",
+      "correctAnswer": "Matthew 19:21 'If you would be perfect, go, sell what you possess and give to the poor...'; Luke 9:3 'Take nothing for your journey'; Luke 9:23 'If any man would come after me, let him deny himself and take up his cross daily and follow me'",
+      "distractors": [
+        "Matthew 5:3-10 The Beatitudes about the poor in spirit",
+        "Matthew 25:31-46 Whatever you do to the least of these",
+        "Luke 10:1-12 Jesus sending out the seventy-two",
+        "Mark 10:17-22 The rich young man",
+        "Acts 2:42-47 The early church sharing all things in common"
+      ],
+      "pageReference": "111-112"
+    },
+    {
+      "id": "ch10_q5",
+      "question": "What did Bernard decide to do after talking with Francis, praying with him and hearing the scriptures?",
+      "correctAnswer": "He decided to join Francis and sell all he owned",
+      "distractors": [
+        "He decided to donate half his wealth to the church",
+        "He decided to fund Francis' work while keeping his business",
+        "He decided to become a hermit in the mountains",
+        "He decided to join a monastery",
+        "He decided to help Francis but keep his family's estate"
+      ],
+      "pageReference": "112"
+    },
+    {
+      "id": "ch10_q6",
+      "question": "What was the most powerful instrument Francis had in his evangelization?",
+      "correctAnswer": "The example of his transformed life",
+      "distractors": [
+        "His eloquent preaching",
+        "His knowledge of Scripture",
+        "His ability to perform miracles",
+        "His poverty and humility",
+        "His dedication to prayer"
+      ],
+      "pageReference": "112"
+    },
+    {
+      "id": "ch10_q7",
+      "question": "What did Bernard's desire to follow Francis confirm for him?",
+      "correctAnswer": "That Francis was following God's will",
+      "distractors": [
+        "That Francis should start accepting more followers",
+        "That Francis' father had been wrong about him",
+        "That Francis should write a rule for living",
+        "That Francis was destined to be a great saint",
+        "That Francis should seek the Pope's approval"
+      ],
+      "pageReference": "114"
+    }
+  ]
+}

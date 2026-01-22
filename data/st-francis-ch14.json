@@ -1,0 +1,124 @@
+{
+  "chapterNumber": 14,
+  "chapterName": "On Pilgrimage",
+  "bookTitle": "St. Francis of Assisi: Passion, Poverty and the Man who Transformed the Catholic Church",
+  "questions": [
+    {
+      "id": "ch14_q1",
+      "question": "Where and in what year did the Franciscans have their first General Chapter meeting?",
+      "correctAnswer": "At St Mary of the Angels in 1217",
+      "distractors": [
+        "At the Portiuncula in 1216",
+        "In Rome in 1218",
+        "At Rivotorto in 1215",
+        "In Assisi in 1219",
+        "At San Damiano in 1217"
+      ],
+      "pageReference": "151"
+    },
+    {
+      "id": "ch14_q2",
+      "question": "What was the outcome of the General Chapter meeting?",
+      "correctAnswer": "Francis decided to send the friars to all nations to establish provinces for the order",
+      "distractors": [
+        "They voted to seek papal approval for their rule",
+        "They established a formal training program for new friars",
+        "They decided to build a central monastery",
+        "They chose leaders for each region of Italy",
+        "They agreed to focus only on serving in Italy"
+      ],
+      "pageReference": "151"
+    },
+    {
+      "id": "ch14_q3",
+      "question": "Who is known for building large churches and shrines in Palestine to memorialize events from the Gospels?",
+      "correctAnswer": "Constantine and his mother, Helena",
+      "distractors": [
+        "Pope Gregory and Saint Augustine",
+        "Charlemagne and his wife",
+        "Saint Jerome and Saint Paula",
+        "Emperor Justinian and Theodora",
+        "Saint Bernard and the Cistercians"
+      ],
+      "pageReference": "151"
+    },
+    {
+      "id": "ch14_q4",
+      "question": "Why did Francis believe the perfect way to live the Christian life was on pilgrimage?",
+      "correctAnswer": "Because the pilgrim would surrender identity, class and security - everyone was basically equal on pilgrimage",
+      "distractors": [
+        "Because pilgrimage required complete trust in God's providence",
+        "Because pilgrimage meant following in Christ's footsteps literally",
+        "Because pilgrimage was a form of penance and purification",
+        "Because pilgrimage brought spiritual enlightenment",
+        "Because pilgrimage tested one's faith and commitment"
+      ],
+      "pageReference": "152"
+    },
+    {
+      "id": "ch14_q5",
+      "question": "What symbols did pilgrims carry to signify where they were traveling?",
+      "correctAnswer": "To Compostela: scalloped shell; to Rome: keys; to Holy Land: Jerusalem cross",
+      "distractors": [
+        "To Compostela: staff and gourd; to Rome: papal seal; to Holy Land: palm branch",
+        "To Compostela: red cross; to Rome: golden key; to Holy Land: olive branch",
+        "To Compostela: Santiago star; to Rome: fish symbol; to Holy Land: crown of thorns",
+        "To Compostela: walking stick; to Rome: Peter's rock; to Holy Land: shepherd's crook",
+        "To Compostela: yellow arrow; to Rome: crossed keys; to Holy Land: star of David"
+      ],
+      "pageReference": "152"
+    },
+    {
+      "id": "ch14_q6",
+      "question": "What provided some protection to the pilgrims as they traveled?",
+      "correctAnswer": "Their distinctive dress",
+      "distractors": [
+        "Armed guards hired for protection",
+        "Letters from church authorities",
+        "Traveling in large groups",
+        "Divine providence and miracles",
+        "The hospitality of monasteries"
+      ],
+      "pageReference": "152"
+    },
+    {
+      "id": "ch14_q7",
+      "question": "What did pilgrims need to rely on since they traveled without money or belongings?",
+      "correctAnswer": "Alms, kindness of others, trust and hope in God's providence",
+      "distractors": [
+        "The charity of monasteries along the way",
+        "Work they could do in exchange for food",
+        "The protection of fellow pilgrims",
+        "Pre-arranged hospitality from churches",
+        "Their own strength and determination"
+      ],
+      "pageReference": "152"
+    },
+    {
+      "id": "ch14_q8",
+      "question": "How was Jesus' life on earth like a pilgrimage?",
+      "correctAnswer": "He listened to the voice of his Father, He obeyed and he left his 'home' in heaven to be human on earth (incarnate)",
+      "distractors": [
+        "He wandered the desert for forty days without food",
+        "He traveled constantly with no place to lay his head",
+        "He journeyed to Jerusalem to die on the cross",
+        "He visited the temple and synagogues as a pilgrim",
+        "He walked the Via Dolorosa carrying his cross"
+      ],
+      "pageReference": "153"
+    },
+    {
+      "id": "ch14_q9",
+      "question": "Where did Francis want to make a pilgrimage and why?",
+      "correctAnswer": "Francis wanted to go to the Holy Land so that he could walk in the footsteps of Christ in the sacred places where Jesus walked",
+      "distractors": [
+        "To Rome to receive the Pope's blessing in person",
+        "To Santiago de Compostela to honor Saint James",
+        "To Canterbury to visit the shrine of Saint Thomas Becket",
+        "To Mount Athos to join the Orthodox monks in prayer",
+        "To Lourdes to pray at the grotto of Mary"
+      ],
+      "pageReference": "155"
+    }
+  ]
+}

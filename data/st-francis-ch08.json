@@ -1,0 +1,293 @@
+{
+  "chapterNumber": 8,
+  "chapterName": "Go Forth: Through Creation to Gubbio",
+  "bookTitle": "St. Francis of Assisi: Passion, Poverty and the Man who Transformed the Catholic Church",
+  "questions": [
+    {
+      "id": "ch8_q1",
+      "question": "Why was Francis' heart crushed even though he knew he was making the right decision to be disassociated with his family?",
+      "correctAnswer": "Because his father could not see the beauty of Francis' new life",
+      "distractors": [
+        "Because he would miss his mother deeply",
+        "Because he had no money or possessions",
+        "Because he feared he would never see them again",
+        "Because the townspeople mocked him",
+        "Because he was uncertain about his future"
+      ],
+      "pageReference": "79"
+    },
+    {
+      "id": "ch8_q2",
+      "question": "What symbol did Francis draw onto his penitent tunic?",
+      "correctAnswer": "The Tau",
+      "distractors": [
+        "A cross",
+        "A dove",
+        "A fish",
+        "Chi Rho",
+        "A lamb"
+      ],
+      "pageReference": "80"
+    },
+    {
+      "id": "ch8_q3",
+      "question": "Which of the ten commandments did Francis worry that he wasn't following?",
+      "correctAnswer": "To honor his mother and father",
+      "distractors": [
+        "Thou shalt not steal",
+        "Keep holy the Sabbath",
+        "Thou shalt not covet",
+        "Love thy neighbor as thyself",
+        "Thou shalt have no other gods"
+      ],
+      "pageReference": "82"
+    },
+    {
+      "id": "ch8_q4",
+      "question": "What was Francis renouncing when he exiled himself outside the walls of Assisi?",
+      "correctAnswer": "Security, sense of community and citizenship",
+      "distractors": [
+        "His family name and inheritance",
+        "His dreams of becoming a knight",
+        "His father's business and wealth",
+        "His friendships and social status",
+        "His right to marry and have children"
+      ],
+      "pageReference": "82"
+    },
+    {
+      "id": "ch8_q5",
+      "question": "What could the robbers not take away from Francis as he was walking away from Assisi toward Perugia?",
+      "correctAnswer": "His joy, his ability to praise the Creator",
+      "distractors": [
+        "His faith in God's plan",
+        "His memories of his mother",
+        "His determination to serve",
+        "His knowledge of scripture",
+        "His hope for the future"
+      ],
+      "pageReference": "83"
+    },
+    {
+      "id": "ch8_q6",
+      "question": "What mode of transportation did Francis usually use prior to his exile when he traveled?",
+      "correctAnswer": "Riding a horse",
+      "distractors": [
+        "Walking on foot",
+        "Riding in a cart",
+        "Being carried in a litter",
+        "Traveling by donkey",
+        "Riding with merchants"
+      ],
+      "pageReference": "84"
+    },
+    {
+      "id": "ch8_q7",
+      "question": "How did Francis feel now that he had completely separated from his former way of life?",
+      "correctAnswer": "He felt free, fully awake and began to feel kinship with the land",
+      "distractors": [
+        "He felt afraid and uncertain about the future",
+        "He felt lonely and abandoned by everyone",
+        "He felt proud of his sacrifice for God",
+        "He felt sad but determined to continue",
+        "He felt angry at his father's rejection"
+      ],
+      "pageReference": "85"
+    },
+    {
+      "id": "ch8_q8",
+      "question": "What insight did Francis have about his actions of walking around in nature?",
+      "correctAnswer": "As he walked, he was rejoicing in God as he felt God's love and grace pouring down on him",
+      "distractors": [
+        "He realized walking was a form of penance",
+        "He understood that nature was his new home",
+        "He saw that poverty meant freedom to wander",
+        "He recognized walking as prayer in motion",
+        "He learned that solitude brought clarity"
+      ],
+      "pageReference": "85"
+    },
+    {
+      "id": "ch8_q9",
+      "question": "What did the mountains remind Francis about God?",
+      "correctAnswer": "God's power and omnipotence",
+      "distractors": [
+        "God's majesty and glory",
+        "God's eternal nature",
+        "God's unchanging character",
+        "God's transcendence",
+        "God's creative genius"
+      ],
+      "pageReference": "85"
+    },
+    {
+      "id": "ch8_q10",
+      "question": "What did the trees, their twisted trunks and deep roots, remind Francis of?",
+      "correctAnswer": "The old monks in the monasteries",
+      "distractors": [
+        "The strength of faith",
+        "The wisdom of the elders",
+        "The resilience of the poor",
+        "The endurance of the saints",
+        "The foundation of the church"
+      ],
+      "pageReference": "86"
+    },
+    {
+      "id": "ch8_q11",
+      "question": "What did Francis reflect on regarding the oil pressed from the olive trees?",
+      "correctAnswer": "That the oil was used in cooking to nourish people and was used to bless by priests in benedictions",
+      "distractors": [
+        "That it represented the Holy Spirit anointing believers",
+        "That it showed how suffering produces blessing",
+        "That it demonstrated God's provision for daily needs",
+        "That it symbolized light in darkness",
+        "That it illustrated transformation through pressure"
+      ],
+      "pageReference": "86"
+    },
+    {
+      "id": "ch8_q12",
+      "question": "What did the annual cycle of growth, harvest and reseeding remind Francis of?",
+      "correctAnswer": "The Paschal Mystery, Christ's life, death and resurrection",
+      "distractors": [
+        "The liturgical year and seasons of the church",
+        "The cycle of sin and redemption",
+        "The pattern of spiritual growth",
+        "The rhythm of prayer throughout the day",
+        "The journey from birth to eternal life"
+      ],
+      "pageReference": "87"
+    },
+    {
+      "id": "ch8_q13",
+      "question": "Since all was created by one God, Francis saw all creation as what?",
+      "correctAnswer": "Good",
+      "distractors": [
+        "Sacred",
+        "Holy",
+        "United",
+        "Beautiful",
+        "Divine"
+      ],
+      "pageReference": "88"
+    },
+    {
+      "id": "ch8_q14",
+      "question": "When Francis prayed the Our Father, he felt like he was declaring that all people were what?",
+      "correctAnswer": "Fraternal",
+      "distractors": [
+        "Equal",
+        "Beloved",
+        "Children of God",
+        "United",
+        "Holy"
+      ],
+      "pageReference": "89"
+    },
+    {
+      "id": "ch8_q15",
+      "question": "Why did Francis believe he saw Christ the most in other people?",
+      "correctAnswer": "Because they are made in the image and likeness of God (Genesis 1:27)",
+      "distractors": [
+        "Because Christ said 'whatever you do to the least, you do to me'",
+        "Because all people are temples of the Holy Spirit",
+        "Because Jesus became human to show God's love",
+        "Because Christ dwells in the hearts of believers",
+        "Because all people are called to be saints"
+      ],
+      "pageReference": "89"
+    },
+    {
+      "id": "ch8_q16",
+      "question": "As a nature mystic, what did Francis do from time to time?",
+      "correctAnswer": "Preach to the birds",
+      "distractors": [
+        "Talk to the trees",
+        "Bless the animals",
+        "Sing to the flowers",
+        "Pray with the wolves",
+        "Dance in the fields"
+      ],
+      "pageReference": "91"
+    },
+    {
+      "id": "ch8_q17",
+      "question": "What scripture was Francis reminded of when he began to feel anxious while walking through nature?",
+      "correctAnswer": "Matthew 6:28-30 about the lilies of the field and how God clothes them",
+      "distractors": [
+        "Matthew 6:25-27 about not worrying about your life",
+        "Psalm 23 about the Lord being my shepherd",
+        "Matthew 11:28 about coming to Jesus for rest",
+        "Philippians 4:6-7 about not being anxious about anything",
+        "1 Peter 5:7 about casting all anxieties on God"
+      ],
+      "pageReference": "92"
+    },
+    {
+      "id": "ch8_q18",
+      "question": "Where did Francis stay for some time which was close to Gubbio?",
+      "correctAnswer": "In a Benedictine Monastery",
+      "distractors": [
+        "In a hermit's cave",
+        "With a family of farmers",
+        "At a leper hospital",
+        "In an abandoned church",
+        "With Franciscan brothers"
+      ],
+      "pageReference": "92"
+    },
+    {
+      "id": "ch8_q19",
+      "question": "Why did Francis NOT see his vocation as being part of a monastic community?",
+      "correctAnswer": "Because of his wanderlust and desire to live in poverty on the open road sharing the gospel to anyone who would listen. He didn't want to swap one form of security for another",
+      "distractors": [
+        "Because he didn't want to submit to a religious superior",
+        "Because he felt called to preach rather than pray",
+        "Because monasteries were too focused on study",
+        "Because he wanted to serve the poor directly",
+        "Because he disagreed with monastic rules"
+      ],
+      "pageReference": "93-94"
+    },
+    {
+      "id": "ch8_q20",
+      "question": "Who was the merchant friend in Gubbio that offered Francis hospitality and a new tunic? How were they acquainted?",
+      "correctAnswer": "Frederico Spadalunga; they fought together in the battle against Perugia",
+      "distractors": [
+        "Antonio Bernardone; they were childhood friends in Assisi",
+        "Giovanni di Paolo; they had traveled together to Rome",
+        "Marco Rufino; they had worked together in the textile business",
+        "Pietro Cattani; they had met at San Damiano",
+        "Leonardo Graziano; they had studied together as youth"
+      ],
+      "pageReference": "94-95"
+    },
+    {
+      "id": "ch8_q21",
+      "question": "Who did Francis serve while in Gubbio?",
+      "correctAnswer": "The lepers",
+      "distractors": [
+        "The poor of the town",
+        "The sick in hospitals",
+        "The monks in the monastery",
+        "The prisoners in jail",
+        "The orphans and widows"
+      ],
+      "pageReference": "95"
+    },
+    {
+      "id": "ch8_q22",
+      "question": "What decision did Francis make after a few months in Gubbio because of God's voice in his head?",
+      "correctAnswer": "To go back to Assisi to rebuild God's house",
+      "distractors": [
+        "To travel to Rome to see the Pope",
+        "To establish a new community of brothers",
+        "To go on pilgrimage to Jerusalem",
+        "To preach throughout all of Italy",
+        "To write a rule for religious life"
+      ],
+      "pageReference": "95"
+    }
+  ]
+}
