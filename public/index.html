@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>St. Francis Quiz - Academic Decathlon 2026</title>
+  <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+      background-color: #f9fafb;
+      color: #1f2937;
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    #root {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      width: 100%;
+      flex: 1;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 30px;
+      padding: 20px 0;
+    }
+
+    .header h1 {
+      color: #2c5282;
+      font-size: 2rem;
+      margin-bottom: 8px;
+    }
+
+    .header p {
+      color: #6b7280;
+      font-size: 1rem;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+      padding: 24px;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 24px;
+      font-size: 1rem;
+      font-weight: 500;
+      text-align: center;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      min-height: 44px;
+      width: 100%;
+    }
+
+    .btn-primary {
+      background-color: #2c5282;
+      color: white;
+    }
+
+    .btn-primary:hover {
+      background-color: #2b4c7e;
+    }
+
+    .btn-primary:disabled {
+      background-color: #9ca3af;
+      cursor: not-allowed;
+    }
+
+    .btn-secondary {
+      background-color: #d97706;
+      color: white;
+    }
+
+    .btn-secondary:hover {
+      background-color: #b45309;
+    }
+
+    .btn-outline {
+      background-color: transparent;
+      border: 2px solid #2c5282;
+      color: #2c5282;
+    }
+
+    .btn-outline:hover {
+      background-color: #2c5282;
+      color: white;
+    }
+
+    .menu-buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .chapter-select {
+      width: 100%;
+      padding: 12px 16px;
+      font-size: 1rem;
+      border: 2px solid #e5e7eb;
+      border-radius: 8px;
+      background-color: white;
+      cursor: pointer;
+      min-height: 44px;
+    }
+
+    .chapter-select:focus {
+      outline: none;
+      border-color: #2c5282;
+    }
+
+    .divider {
+      display: flex;
+      align-items: center;
+      margin: 20px 0;
+    }
+
+    .divider-line {
+      flex: 1;
+      height: 1px;
+      background-color: #e5e7eb;
+    }
+
+    .divider-text {
+      padding: 0 16px;
+      color: #9ca3af;
+      font-size: 0.875rem;
+    }
+
+    .progress-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      padding: 12px 16px;
+      background-color: #f3f4f6;
+      border-radius: 8px;
+    }
+
+    .progress-text {
+      font-weight: 500;
+      color: #374151;
+    }
+
+    .chapter-tag {
+      font-size: 0.875rem;
+      color: #6b7280;
+    }
+
+    .question-text {
+      font-size: 1.25rem;
+      font-weight: 500;
+      margin-bottom: 24px;
+      color: #1f2937;
+    }
+
+    .choices {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+
+    .choice {
+      display: flex;
+      align-items: flex-start;
+      padding: 16px;
+      border: 2px solid #e5e7eb;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      background-color: white;
+      text-align: left;
+      min-height: 44px;
+    }
+
+    .choice:hover:not(.disabled) {
+      border-color: #2c5282;
+      background-color: #f0f7ff;
+    }
+
+    .choice.selected {
+      border-color: #2c5282;
+      background-color: #e8f0fe;
+    }
+
+    .choice.correct {
+      border-color: #059669;
+      background-color: #d1fae5;
+    }
+
+    .choice.incorrect {
+      border-color: #dc2626;
+      background-color: #fee2e2;
+    }
+
+    .choice.disabled {
+      cursor: default;
+    }
+
+    .choice-letter {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 28px;
+      height: 28px;
+      min-width: 28px;
+      border-radius: 50%;
+      background-color: #e5e7eb;
+      font-weight: 600;
+      font-size: 0.875rem;
+      margin-right: 12px;
+      color: #374151;
+    }
+
+    .choice.selected .choice-letter {
+      background-color: #2c5282;
+      color: white;
+    }
+
+    .choice.correct .choice-letter {
+      background-color: #059669;
+      color: white;
+    }
+
+    .choice.incorrect .choice-letter {
+      background-color: #dc2626;
+      color: white;
+    }
+
+    .choice-text {
+      flex: 1;
+      font-size: 1rem;
+    }
+
+    .feedback {
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .feedback.correct {
+      background-color: #d1fae5;
+      border: 2px solid #059669;
+    }
+
+    .feedback.incorrect {
+      background-color: #fee2e2;
+      border: 2px solid #dc2626;
+    }
+
+    .feedback-icon {
+      font-size: 2rem;
+      margin-bottom: 8px;
+    }
+
+    .feedback-title {
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+
+    .feedback.correct .feedback-title {
+      color: #059669;
+    }
+
+    .feedback.incorrect .feedback-title {
+      color: #dc2626;
+    }
+
+    .feedback-text {
+      color: #374151;
+      margin-bottom: 4px;
+    }
+
+    .page-ref {
+      font-size: 0.875rem;
+      color: #6b7280;
+      font-style: italic;
+    }
+
+    .results-score {
+      text-align: center;
+      padding: 30px 0;
+    }
+
+    .score-number {
+      font-size: 3rem;
+      font-weight: 700;
+      color: #2c5282;
+    }
+
+    .score-percent {
+      font-size: 1.5rem;
+      color: #6b7280;
+      margin-top: 8px;
+    }
+
+    .missed-section {
+      margin-top: 30px;
+    }
+
+    .missed-title {
+      font-size: 1.125rem;
+      font-weight: 600;
+      margin-bottom: 16px;
+      color: #374151;
+    }
+
+    .missed-list {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .missed-item {
+      padding: 16px;
+      background-color: #fef2f2;
+      border-radius: 8px;
+      border-left: 4px solid #dc2626;
+    }
+
+    .missed-question {
+      font-weight: 500;
+      margin-bottom: 8px;
+    }
+
+    .missed-answer {
+      font-size: 0.875rem;
+      color: #059669;
+    }
+
+    .missed-chapter {
+      font-size: 0.75rem;
+      color: #6b7280;
+      margin-top: 4px;
+    }
+
+    .results-buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-top: 30px;
+    }
+
+    .loading {
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .loading-spinner {
+      width: 48px;
+      height: 48px;
+      border: 4px solid #e5e7eb;
+      border-top-color: #2c5282;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+      margin: 0 auto 20px;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    .error {
+      text-align: center;
+      padding: 40px 20px;
+      color: #dc2626;
+    }
+
+    .error-title {
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin-bottom: 12px;
+    }
+
+    .stats-bar {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+    }
+
+    .stat-item {
+      text-align: center;
+    }
+
+    .stat-value {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #2c5282;
+    }
+
+    .stat-label {
+      font-size: 0.75rem;
+      color: #6b7280;
+      text-transform: uppercase;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        padding: 16px;
+      }
+
+      .header h1 {
+        font-size: 1.5rem;
+      }
+
+      .card {
+        padding: 16px;
+      }
+
+      .question-text {
+        font-size: 1.125rem;
+      }
+
+      .choice {
+        padding: 12px;
+      }
+
+      .score-number {
+        font-size: 2.5rem;
+      }
+
+      .stats-bar {
+        gap: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+
+  <script type="text/babel">
+    const { useState, useEffect } = React;
+
+    // Utility: Fisher-Yates shuffle
+    function shuffleArray(array) {
+      const shuffled = [...array];
+      for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+      }
+      return shuffled;
+    }
+
+    // Utility: Select random items from array
+    function selectRandom(array, count) {
+      const shuffled = shuffleArray(array);
+      return shuffled.slice(0, count);
+    }
+
+    // Prepare a question with 4 randomized choices
+    function prepareQuestion(question, chapterName, chapterNumber) {
+      const distractors = selectRandom(question.distractors, 3);
+      const choices = shuffleArray([question.correctAnswer, ...distractors]);
+      return {
+        ...question,
+        chapterName,
+        chapterNumber,
+        choices,
+      };
+    }
+
+    // Loading Screen Component
+    function LoadingScreen() {
+      return (
+        <div className="container">
+          <div className="loading">
+            <div className="loading-spinner"></div>
+            <p>Loading questions...</p>
+          </div>
+        </div>
+      );
+    }
+
+    // Error Screen Component
+    function ErrorScreen({ message, onRetry }) {
+      return (
+        <div className="container">
+          <div className="card error">
+            <div className="error-title">Error Loading Questions</div>
+            <p>{message}</p>
+            <button className="btn btn-primary" onClick={onRetry} style={{ marginTop: '20px', maxWidth: '200px' }}>
+              Try Again
+            </button>
+          </div>
+        </div>
+      );
+    }
+
+    // Start Screen Component
+    function StartScreen({ chapters, onStartQuiz }) {
+      const [selectedChapter, setSelectedChapter] = useState('');
+
+      const totalQuestions = chapters.reduce((sum, ch) => sum + ch.questions.length, 0);
+
+      const handleChapterQuiz = () => {
+        if (selectedChapter) {
+          const chapter = chapters.find(ch => ch.chapterNumber === parseInt(selectedChapter));
+          const questions = chapter.questions.map(q =>
+            prepareQuestion(q, chapter.chapterName, chapter.chapterNumber)
+          );
+          onStartQuiz(questions, `Chapter ${chapter.chapterNumber}: ${chapter.chapterName}`);
+        }
+      };
+
+      const handleAllChapters = () => {
+        const allQuestions = chapters.flatMap(ch =>
+          ch.questions.map(q => prepareQuestion(q, ch.chapterName, ch.chapterNumber))
+        );
+        onStartQuiz(shuffleArray(allQuestions), 'All Chapters');
+      };
+
+      const handleRandomQuiz = (count) => {
+        const allQuestions = chapters.flatMap(ch =>
+          ch.questions.map(q => prepareQuestion(q, ch.chapterName, ch.chapterNumber))
+        );
+        const selected = selectRandom(allQuestions, Math.min(count, allQuestions.length));
+        onStartQuiz(selected, `Random ${count} Questions`);
+      };
+
+      return (
+        <div className="container">
+          <div className="header">
+            <h1>St. Francis of Assisi Quiz</h1>
+            <p>Academic Decathlon 2026</p>
+          </div>
+
+          <div className="card">
+            <div className="stats-bar">
+              <div className="stat-item">
+                <div className="stat-value">{chapters.length}</div>
+                <div className="stat-label">Chapters</div>
+              </div>
+              <div className="stat-item">
+                <div className="stat-value">{totalQuestions}</div>
+                <div className="stat-label">Questions</div>
+              </div>
+            </div>
+
+            <div className="menu-buttons">
+              <select
+                className="chapter-select"
+                value={selectedChapter}
+                onChange={(e) => setSelectedChapter(e.target.value)}
+              >
+                <option value="">Select a Chapter...</option>
+                {chapters.map(ch => (
+                  <option key={ch.chapterNumber} value={ch.chapterNumber}>
+                    Ch. {ch.chapterNumber}: {ch.chapterName} ({ch.questions.length} questions)
+                  </option>
+                ))}
+              </select>
+
+              <button
+                className="btn btn-primary"
+                onClick={handleChapterQuiz}
+                disabled={!selectedChapter}
+              >
+                Start Chapter Quiz
+              </button>
+
+              <div className="divider">
+                <div className="divider-line"></div>
+                <span className="divider-text">OR</span>
+                <div className="divider-line"></div>
+              </div>
+
+              <button className="btn btn-secondary" onClick={handleAllChapters}>
+                All Chapters ({totalQuestions} questions)
+              </button>
+
+              <div className="divider">
+                <div className="divider-line"></div>
+                <span className="divider-text">RANDOM</span>
+                <div className="divider-line"></div>
+              </div>
+
+              <button className="btn btn-outline" onClick={() => handleRandomQuiz(10)}>
+                Random 10 Questions
+              </button>
+              <button className="btn btn-outline" onClick={() => handleRandomQuiz(25)}>
+                Random 25 Questions
+              </button>
+              <button className="btn btn-outline" onClick={() => handleRandomQuiz(50)}>
+                Random 50 Questions
+              </button>
+            </div>
+          </div>
+        </div>
+      );
+    }
+
+    // Quiz Screen Component
+    function QuizScreen({ questions, quizTitle, onComplete }) {
+      const [currentIndex, setCurrentIndex] = useState(0);
+      const [selectedAnswer, setSelectedAnswer] = useState(null);
+      const [showFeedback, setShowFeedback] = useState(false);
+      const [userAnswers, setUserAnswers] = useState([]);
+
+      const currentQuestion = questions[currentIndex];
+      const isCorrect = selectedAnswer === currentQuestion.correctAnswer;
+      const letters = ['A', 'B', 'C', 'D'];
+
+      const handleSubmit = () => {
+        if (selectedAnswer === null) return;
+
+        setUserAnswers([...userAnswers, {
+          question: currentQuestion,
+          userAnswer: selectedAnswer,
+          correct: isCorrect
+        }]);
+        setShowFeedback(true);
+      };
+
+      const handleNext = () => {
+        if (currentIndex + 1 >= questions.length) {
+          const finalAnswers = [...userAnswers, {
+            question: currentQuestion,
+            userAnswer: selectedAnswer,
+            correct: isCorrect
+          }];
+          onComplete(finalAnswers);
+        } else {
+          setCurrentIndex(currentIndex + 1);
+          setSelectedAnswer(null);
+          setShowFeedback(false);
+        }
+      };
+
+      const getChoiceClass = (choice) => {
+        let className = 'choice';
+        if (showFeedback) {
+          className += ' disabled';
+          if (choice === currentQuestion.correctAnswer) {
+            className += ' correct';
+          } else if (choice === selectedAnswer) {
+            className += ' incorrect';
+          }
+        } else if (choice === selectedAnswer) {
+          className += ' selected';
+        }
+        return className;
+      };
+
+      return (
+        <div className="container">
+          <div className="card">
+            <div className="progress-bar">
+              <span className="progress-text">
+                Question {currentIndex + 1} of {questions.length}
+              </span>
+              <span className="chapter-tag">
+                Ch. {currentQuestion.chapterNumber}: {currentQuestion.chapterName}
+              </span>
+            </div>
+
+            <div className="question-text">{currentQuestion.question}</div>
+
+            <div className="choices">
+              {currentQuestion.choices.map((choice, index) => (
+                <button
+                  key={index}
+                  className={getChoiceClass(choice)}
+                  onClick={() => !showFeedback && setSelectedAnswer(choice)}
+                  disabled={showFeedback}
+                >
+                  <span className="choice-letter">{letters[index]}</span>
+                  <span className="choice-text">{choice}</span>
+                </button>
+              ))}
+            </div>
+
+            {showFeedback && (
+              <div className={`feedback ${isCorrect ? 'correct' : 'incorrect'}`}>
+                <div className="feedback-icon">{isCorrect ? '✓' : '✗'}</div>
+                <div className="feedback-title">
+                  {isCorrect ? 'Correct!' : 'Incorrect'}
+                </div>
+                <div className="feedback-text">
+                  {isCorrect ? 'Great job!' : `The correct answer is: ${currentQuestion.correctAnswer}`}
+                </div>
+                <div className="page-ref">Page reference: {currentQuestion.pageReference}</div>
+              </div>
+            )}
+
+            {!showFeedback ? (
+              <button
+                className="btn btn-primary"
+                onClick={handleSubmit}
+                disabled={selectedAnswer === null}
+              >
+                Submit Answer
+              </button>
+            ) : (
+              <button className="btn btn-secondary" onClick={handleNext}>
+                {currentIndex + 1 >= questions.length ? 'See Results' : 'Next Question'}
+              </button>
+            )}
+          </div>
+        </div>
+      );
+    }
+
+    // Results Screen Component
+    function ResultsScreen({ answers, quizTitle, onReviewMissed, onRetry, onMenu }) {
+      const correct = answers.filter(a => a.correct).length;
+      const total = answers.length;
+      const percent = Math.round((correct / total) * 100);
+      const missed = answers.filter(a => !a.correct);
+
+      return (
+        <div className="container">
+          <div className="header">
+            <h1>Quiz Complete!</h1>
+            <p>{quizTitle}</p>
+          </div>
+
+          <div className="card">
+            <div className="results-score">
+              <div className="score-number">{correct}/{total}</div>
+              <div className="score-percent">{percent}%</div>
+            </div>
+
+            {missed.length > 0 && (
+              <div className="missed-section">
+                <div className="missed-title">Questions Missed: {missed.length}</div>
+                <div className="missed-list">
+                  {missed.map((item, index) => (
+                    <div key={index} className="missed-item">
+                      <div className="missed-question">{item.question.question}</div>
+                      <div className="missed-answer">
+                        Correct: {item.question.correctAnswer}
+                      </div>
+                      <div className="missed-chapter">
+                        Chapter {item.question.chapterNumber}: {item.question.chapterName} (p. {item.question.pageReference})
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            <div className="results-buttons">
+              {missed.length > 0 && (
+                <button className="btn btn-secondary" onClick={onReviewMissed}>
+                  Review Missed Questions ({missed.length})
+                </button>
+              )}
+              <button className="btn btn-primary" onClick={onRetry}>
+                Try Again
+              </button>
+              <button className="btn btn-outline" onClick={onMenu}>
+                Return to Menu
+              </button>
+            </div>
+          </div>
+        </div>
+      );
+    }
+
+    // Main App Component
+    function App() {
+      const [mode, setMode] = useState('loading');
+      const [chapters, setChapters] = useState([]);
+      const [error, setError] = useState(null);
+      const [quizQuestions, setQuizQuestions] = useState([]);
+      const [quizTitle, setQuizTitle] = useState('');
+      const [quizAnswers, setQuizAnswers] = useState([]);
+      const [lastQuizConfig, setLastQuizConfig] = useState(null);
+
+      // Load all chapters on mount
+      useEffect(() => {
+        loadChapters();
+      }, []);
+
+      const loadChapters = async () => {
+        setMode('loading');
+        setError(null);
+
+        try {
+          const loadedChapters = [];
+          for (let i = 1; i <= 18; i++) {
+            const paddedNum = i.toString().padStart(2, '0');
+            const response = await fetch(`/data/st-francis-ch${paddedNum}.json`);
+            if (!response.ok) {
+              throw new Error(`Failed to load chapter ${i}`);
+            }
+            const chapter = await response.json();
+            loadedChapters.push(chapter);
+          }
+          loadedChapters.sort((a, b) => a.chapterNumber - b.chapterNumber);
+          setChapters(loadedChapters);
+          setMode('menu');
+        } catch (err) {
+          setError('Could not load questions. Please check that all chapter files are in the /data folder.');
+          setMode('error');
+        }
+      };
+
+      const handleStartQuiz = (questions, title) => {
+        setQuizQuestions(questions);
+        setQuizTitle(title);
+        setLastQuizConfig({ questions, title });
+        setMode('quiz');
+      };
+
+      const handleQuizComplete = (answers) => {
+        setQuizAnswers(answers);
+        setMode('results');
+      };
+
+      const handleReviewMissed = () => {
+        const missed = quizAnswers.filter(a => !a.correct);
+        const reviewQuestions = missed.map(m =>
+          prepareQuestion(m.question, m.question.chapterName, m.question.chapterNumber)
+        );
+        setQuizQuestions(reviewQuestions);
+        setQuizTitle('Review: Missed Questions');
+        setMode('quiz');
+      };
+
+      const handleRetry = () => {
+        if (lastQuizConfig) {
+          // Re-prepare questions to get new distractor combinations
+          const freshQuestions = lastQuizConfig.questions.map(q =>
+            prepareQuestion(q, q.chapterName, q.chapterNumber)
+          );
+          setQuizQuestions(shuffleArray(freshQuestions));
+          setQuizTitle(lastQuizConfig.title);
+          setMode('quiz');
+        }
+      };
+
+      const handleMenu = () => {
+        setQuizQuestions([]);
+        setQuizAnswers([]);
+        setMode('menu');
+      };
+
+      if (mode === 'loading') {
+        return <LoadingScreen />;
+      }
+
+      if (mode === 'error') {
+        return <ErrorScreen message={error} onRetry={loadChapters} />;
+      }
+
+      if (mode === 'menu') {
+        return <StartScreen chapters={chapters} onStartQuiz={handleStartQuiz} />;
+      }
+
+      if (mode === 'quiz') {
+        return (
+          <QuizScreen
+            questions={quizQuestions}
+            quizTitle={quizTitle}
+            onComplete={handleQuizComplete}
+          />
+        );
+      }
+
+      if (mode === 'results') {
+        return (
+          <ResultsScreen
+            answers={quizAnswers}
+            quizTitle={quizTitle}
+            onReviewMissed={handleReviewMissed}
+            onRetry={handleRetry}
+            onMenu={handleMenu}
+          />
+        );
+      }
+
+      return null;
+    }
+
+    // Render the app
+    const root = ReactDOM.createRoot(document.getElementById('root'));
+    root.render(<App />);
+  </script>
+</body>
+</html>
