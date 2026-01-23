@@ -7,6 +7,9 @@
   <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
   <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <!-- Firebase SDK -->
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore-compat.js"></script>
   <style>
     * {
       box-sizing: border-box;
@@ -421,6 +424,54 @@
       text-transform: uppercase;
     }
 
+    .name-input {
+      width: 100%;
+      padding: 12px 16px;
+      font-size: 1rem;
+      border: 2px solid #e5e7eb;
+      border-radius: 8px;
+      margin-bottom: 16px;
+    }
+
+    .name-input:focus {
+      outline: none;
+      border-color: #2c5282;
+    }
+
+    .welcome-text {
+      text-align: center;
+      margin-bottom: 24px;
+      color: #374151;
+    }
+
+    .student-greeting {
+      text-align: center;
+      padding: 12px;
+      background-color: #e8f0fe;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      color: #2c5282;
+      font-weight: 500;
+    }
+
+    .change-name {
+      font-size: 0.75rem;
+      color: #6b7280;
+      cursor: pointer;
+      text-decoration: underline;
+      margin-left: 8px;
+    }
+
+    .change-name:hover {
+      color: #2c5282;
+    }
+
+    .time-spent {
+      font-size: 0.875rem;
+      color: #6b7280;
+      margin-top: 8px;
+    }
+
     @media (max-width: 768px) {
       .container {
         padding: 16px;
@@ -455,8 +506,25 @@
 <body>
   <div id="root"></div>
 
+  <script>
+    // Firebase Configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyA_ZuZqAmUHn12SG_hShls9fANiaLrRf6c",
+      authDomain: "decathlon-quiz-app.firebaseapp.com",
+      projectId: "decathlon-quiz-app",
+      storageBucket: "decathlon-quiz-app.firebasestorage.app",
+      messagingSenderId: "956206924526",
+      appId: "1:956206924526:web:7b9b6418a4ac41db6e29ff",
+      measurementId: "G-BYGNTNH5WK"
+    };
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    const db = firebase.firestore();
+  </script>
+
   <script type="text/babel">
-    const { useState, useEffect } = React;
+    const { useState, useEffect, useRef } = React;
 
     // Utility: Fisher-Yates shuffle
     function shuffleArray(array) {
@@ -486,6 +554,27 @@
       };
     }
 
+    // Format time in minutes and seconds
+    function formatTime(seconds) {
+      const mins = Math.floor(seconds / 60);
+      const secs = seconds % 60;
+      if (mins === 0) return `${secs} seconds`;
+      return `${mins} min ${secs} sec`;
+    }
+
+    // Log quiz attempt to Firestore
+    async function logQuizAttempt(data) {
+      try {
+        await db.collection('quizAttempts').add({
+          ...data,
+          timestamp: firebase.firestore.FieldValue.serverTimestamp()
+        });
+        console.log('Quiz attempt logged successfully');
+      } catch (error) {
+        console.error('Error logging quiz attempt:', error);
+      }
+    }
+
     // Loading Screen Component
     function LoadingScreen() {
       return (
@@ -513,8 +602,55 @@
       );
     }
 
+    // Name Entry Screen Component
+    function NameEntryScreen({ onSubmit }) {
+      const [name, setName] = useState('');
+
+      const handleSubmit = (e) => {
+        e.preventDefault();
+        if (name.trim()) {
+          localStorage.setItem('studentName', name.trim());
+          onSubmit(name.trim());
+        }
+      };
+
+      return (
+        <div className="container">
+          <div className="header">
+            <h1>St. Francis of Assisi Quiz</h1>
+            <p>Academic Decathlon 2026</p>
+          </div>
+
+          <div className="card">
+            <div className="welcome-text">
+              <h2 style={{ marginBottom: '12px', color: '#2c5282' }}>Welcome!</h2>
+              <p>Please enter your name to get started. This helps track your progress.</p>
+            </div>
+
+            <form onSubmit={handleSubmit}>
+              <input
+                type="text"
+                className="name-input"
+                placeholder="Enter your name..."
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+                autoFocus
+              />
+              <button
+                type="submit"
+                className="btn btn-primary"
+                disabled={!name.trim()}
+              >
+                Start Studying
+              </button>
+            </form>
+          </div>
+        </div>
+      );
+    }
+
     // Start Screen Component
-    function StartScreen({ chapters, onStartQuiz }) {
+    function StartScreen({ chapters, studentName, onStartQuiz, onChangeName }) {
       const [selectedChapter, setSelectedChapter] = useState('');
 
       const totalQuestions = chapters.reduce((sum, ch) => sum + ch.questions.length, 0);
@@ -552,6 +688,11 @@
           </div>
 
           <div className="card">
+            <div className="student-greeting">
+              Welcome back, {studentName}!
+              <span className="change-name" onClick={onChangeName}>change</span>
+            </div>
+
             <div className="stats-bar">
               <div className="stat-item">
                 <div className="stat-value">{chapters.length}</div>
@@ -622,6 +763,7 @@
       const [selectedAnswer, setSelectedAnswer] = useState(null);
       const [showFeedback, setShowFeedback] = useState(false);
       const [userAnswers, setUserAnswers] = useState([]);
+      const startTimeRef = useRef(Date.now());
 
       const currentQuestion = questions[currentIndex];
       const isCorrect = selectedAnswer === currentQuestion.correctAnswer;
@@ -645,7 +787,8 @@
             userAnswer: selectedAnswer,
             correct: isCorrect
           }];
-          onComplete(finalAnswers);
+          const timeSpent = Math.round((Date.now() - startTimeRef.current) / 1000);
+          onComplete(finalAnswers, timeSpent);
         } else {
           setCurrentIndex(currentIndex + 1);
           setSelectedAnswer(null);
@@ -728,7 +871,7 @@
     }
 
     // Results Screen Component
-    function ResultsScreen({ answers, quizTitle, onReviewMissed, onRetry, onMenu }) {
+    function ResultsScreen({ answers, quizTitle, timeSpent, onReviewMissed, onRetry, onMenu }) {
       const correct = answers.filter(a => a.correct).length;
       const total = answers.length;
       const percent = Math.round((correct / total) * 100);
@@ -745,6 +888,7 @@
             <div className="results-score">
               <div className="score-number">{correct}/{total}</div>
               <div className="score-percent">{percent}%</div>
+              <div className="time-spent">Time: {formatTime(timeSpent)}</div>
             </div>
 
             {missed.length > 0 && (
@@ -793,9 +937,15 @@
       const [quizTitle, setQuizTitle] = useState('');
       const [quizAnswers, setQuizAnswers] = useState([]);
       const [lastQuizConfig, setLastQuizConfig] = useState(null);
+      const [studentName, setStudentName] = useState('');
+      const [timeSpent, setTimeSpent] = useState(0);
 
-      // Load all chapters on mount
+      // Check for stored name and load chapters on mount
       useEffect(() => {
+        const storedName = localStorage.getItem('studentName');
+        if (storedName) {
+          setStudentName(storedName);
+        }
         loadChapters();
       }, []);
 
@@ -816,11 +966,29 @@
           }
           loadedChapters.sort((a, b) => a.chapterNumber - b.chapterNumber);
           setChapters(loadedChapters);
-          setMode('menu');
+
+          // Check if we need name entry
+          const storedName = localStorage.getItem('studentName');
+          if (storedName) {
+            setMode('menu');
+          } else {
+            setMode('nameEntry');
+          }
         } catch (err) {
           setError('Could not load questions. Please check that all chapter files are in the /data folder.');
           setMode('error');
         }
+      };
+
+      const handleNameSubmit = (name) => {
+        setStudentName(name);
+        setMode('menu');
+      };
+
+      const handleChangeName = () => {
+        localStorage.removeItem('studentName');
+        setStudentName('');
+        setMode('nameEntry');
       };
 
       const handleStartQuiz = (questions, title) => {
@@ -830,9 +998,32 @@
         setMode('quiz');
       };
 
-      const handleQuizComplete = (answers) => {
+      const handleQuizComplete = async (answers, elapsed) => {
         setQuizAnswers(answers);
+        setTimeSpent(elapsed);
         setMode('results');
+
+        // Log to Firestore
+        const correct = answers.filter(a => a.correct).length;
+        const total = answers.length;
+        const missed = answers.filter(a => !a.correct).map(a => ({
+          questionId: a.question.id,
+          question: a.question.question,
+          correctAnswer: a.question.correctAnswer,
+          userAnswer: a.userAnswer,
+          chapterNumber: a.question.chapterNumber,
+          chapterName: a.question.chapterName
+        }));
+
+        await logQuizAttempt({
+          studentName: studentName,
+          quizMode: quizTitle,
+          score: correct,
+          total: total,
+          percentage: Math.round((correct / total) * 100),
+          timeSpent: elapsed,
+          missedQuestions: missed
+        });
       };
 
       const handleReviewMissed = () => {
@@ -871,8 +1062,19 @@
         return <ErrorScreen message={error} onRetry={loadChapters} />;
       }
 
+      if (mode === 'nameEntry') {
+        return <NameEntryScreen onSubmit={handleNameSubmit} />;
+      }
+
       if (mode === 'menu') {
-        return <StartScreen chapters={chapters} onStartQuiz={handleStartQuiz} />;
+        return (
+          <StartScreen
+            chapters={chapters}
+            studentName={studentName}
+            onStartQuiz={handleStartQuiz}
+            onChangeName={handleChangeName}
+          />
+        );
       }
 
       if (mode === 'quiz') {
@@ -890,6 +1092,7 @@
           <ResultsScreen
             answers={quizAnswers}
             quizTitle={quizTitle}
+            timeSpent={timeSpent}
             onReviewMissed={handleReviewMissed}
             onRetry={handleRetry}
             onMenu={handleMenu}
