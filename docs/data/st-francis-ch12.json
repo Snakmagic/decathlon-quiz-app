@@ -1,0 +1,111 @@
+{
+  "chapterNumber": 12,
+  "chapterName": "To Rome",
+  "bookTitle": "St. Francis of Assisi: Passion, Poverty and the Man who Transformed the Catholic Church",
+  "questions": [
+    {
+      "id": "ch12_q1",
+      "question": "How many friars were in the community when they decided to get an endorsement from the pope?",
+      "correctAnswer": "Twelve",
+      "distractors": [
+        "Seven",
+        "Twenty-four",
+        "Forty",
+        "Seventy-two",
+        "One hundred"
+      ],
+      "pageReference": "126"
+    },
+    {
+      "id": "ch12_q2",
+      "question": "Why did the friars travel to Rome?",
+      "correctAnswer": "To get approval for their way of life from the pope",
+      "distractors": [
+        "To seek financial support for their missions",
+        "To ask permission to preach throughout Italy",
+        "To receive training in theology",
+        "To establish a monastery in Rome",
+        "To participate in a church council"
+      ],
+      "pageReference": "128"
+    },
+    {
+      "id": "ch12_q3",
+      "question": "What did Francis bring to share with the pope?",
+      "correctAnswer": "He had a brief Rule of life that was mostly composed of scripture verses",
+      "distractors": [
+        "A detailed plan for establishing monasteries",
+        "Letters of recommendation from bishops",
+        "Gifts from the people of Assisi",
+        "A theological treatise on poverty",
+        "Relics from San Damiano"
+      ],
+      "pageReference": "128"
+    },
+    {
+      "id": "ch12_q4",
+      "question": "Who helped Francis and the brothers to get a meeting with the pope? How was he able to do this?",
+      "correctAnswer": "The Bishop of Assisi, Guido - Bishop Guido was in Rome on business and obtained a recommendation from a cardinal",
+      "distractors": [
+        "Cardinal Hugolino - he was a personal friend of Francis",
+        "Brother Bernard - he had connections in Rome",
+        "A wealthy patron - he paid for an audience",
+        "Brother Sylvester - he was a priest with church connections",
+        "The Benedictine abbot - he knew the papal court"
+      ],
+      "pageReference": "128"
+    },
+    {
+      "id": "ch12_q5",
+      "question": "What happened after the initial meeting with the pope that made him change his mind and call the brothers back?",
+      "correctAnswer": "The pope had a dream that a poor beggar appeared with his arms outstretched and held up a basilica preventing it from falling",
+      "distractors": [
+        "A cardinal convinced him of Francis' holiness",
+        "Francis performed a miracle in the papal court",
+        "The pope received a vision while at prayer",
+        "News came of the friars' good works",
+        "The bishop returned with more information"
+      ],
+      "pageReference": "129"
+    },
+    {
+      "id": "ch12_q6",
+      "question": "What did Francis say was his and the brothers' vocation during his conversation with the pope?",
+      "correctAnswer": "To remain humble and to follow in the footsteps of Christ's humility",
+      "distractors": [
+        "To preach the gospel to all nations",
+        "To serve the poor and the lepers",
+        "To rebuild the churches of Italy",
+        "To live in perfect poverty",
+        "To pray for the conversion of sinners"
+      ],
+      "pageReference": "133"
+    },
+    {
+      "id": "ch12_q7",
+      "question": "What did Pope Innocent say to the doubtful cardinal about Francis and the brothers?",
+      "correctAnswer": "I know Francis will do great things for the Church. Through his Order, he will renew the Church",
+      "distractors": [
+        "Their way of life is too extreme and will fail",
+        "We must watch them carefully to ensure orthodoxy",
+        "They will need our guidance to succeed",
+        "Their poverty is admirable but impractical",
+        "Time will tell if their vision is from God"
+      ],
+      "pageReference": "139"
+    },
+    {
+      "id": "ch12_q8",
+      "question": "Where did the friars take up residence once they returned to Assisi? What was their rent?",
+      "correctAnswer": "They moved to their humble residence of St Mary of the Angels. Their rent was a basket of fish",
+      "distractors": [
+        "They returned to Rivotorto. Their rent was prayers for the owner",
+        "They moved to San Damiano. They paid no rent",
+        "They settled at San Pietro. Their rent was manual labor",
+        "They lived at the bishop's palace. They paid rent in services",
+        "They stayed in the town square. There was no rent"
+      ],
+      "pageReference": "141"
+    }
+  ]
+}

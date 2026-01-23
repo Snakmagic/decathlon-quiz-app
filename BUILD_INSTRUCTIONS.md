@@ -1,14 +1,17 @@
 # BUILD INSTRUCTIONS FOR CLAUDE CODE
 
 ## Project Overview
+
 Build a web-based quiz application for studying St. Francis of Assisi (Academic Decathlon 2026). The app uses React (via CDN) - no build process needed, just a single HTML file that can be opened in a browser or deployed online.
 
 ## What Already Exists
+
 ✅ **Data files**: 18 chapter JSON files in `/data/` folder (228 total questions)
 ✅ **Project structure**: Folders set up and ready
 ✅ **Design approach**: Documented below
 
 ## Your Task
+
 Build the quiz application following these specifications.
 
 ---
@@ -16,13 +19,15 @@ Build the quiz application following these specifications.
 ## Technical Approach
 
 ### Architecture Decision: Single HTML File with React via CDN
+
 - Use React loaded from CDN (no build process, no npm install needed)
-- Everything in one `public/index.html` file
+- Everything in one `docs/index.html` file
 - Inline CSS in `<style>` tags
 - Inline JavaScript/React in `<script type="text/babel">` tags
 - Load Babel standalone for JSX compilation
 
 ### Why This Approach?
+
 - ✅ No build process - just open in browser
 - ✅ Easy to deploy anywhere
 - ✅ Still get React's benefits (state management, components)
@@ -33,25 +38,33 @@ Build the quiz application following these specifications.
 ## Core Functionality Requirements
 
 ### 1. Data Loading
+
 **Load all 18 chapter files on app startup:**
+
 ```javascript
 // Load all chapters from /data/ folder
 const chapters = [];
 for (let i = 1; i <= 18; i++) {
-  const response = await fetch(`./data/st-francis-ch${i.toString().padStart(2, '0')}.json`);
+  const response = await fetch(
+    `./data/st-francis-ch${i.toString().padStart(2, "0")}.json`,
+  );
   const chapter = await response.json();
   chapters.push(chapter);
 }
 ```
 
 ### 2. Quiz Modes
+
 User can select:
+
 - **By Chapter**: Practice one specific chapter
 - **All Chapters**: Mix questions from entire book
 - **Random**: Choose 10, 25, or 50 questions randomly
 
 ### 3. Question Display Logic
+
 **Critical: Randomize distractors each time**
+
 ```javascript
 // For each question:
 // 1. Randomly select 3 distractors from the 5-6 available
@@ -61,6 +74,7 @@ User can select:
 ```
 
 ### 4. User Flow
+
 ```
 Start Screen
   ↓
@@ -87,9 +101,11 @@ Results Screen
 ```
 
 ### 5. State Management
+
 Use React state to track:
+
 ```javascript
-const [currentMode, setCurrentMode] = useState('menu'); // 'menu', 'quiz', 'results'
+const [currentMode, setCurrentMode] = useState("menu"); // 'menu', 'quiz', 'results'
 const [questions, setQuestions] = useState([]); // Current quiz questions
 const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
 const [selectedAnswer, setSelectedAnswer] = useState(null);
@@ -102,11 +118,12 @@ const [showFeedback, setShowFeedback] = useState(false);
 ## Design & Styling Requirements
 
 ### Visual Design
+
 - **Clean, minimal interface**
 - **Easy to read on laptop and phone**
-- **Color scheme**: 
+- **Color scheme**:
   - Primary: Deep blue (#2c5282)
-  - Accent: Gold/amber (#d97706) 
+  - Accent: Gold/amber (#d97706)
   - Success: Green (#059669)
   - Error: Red (#dc2626)
   - Background: Light gray (#f9fafb)
@@ -114,6 +131,7 @@ const [showFeedback, setShowFeedback] = useState(false);
 ### Component Layout
 
 **Start Screen:**
+
 ```
 ┌─────────────────────────────────┐
 │   St. Francis Quiz              │
@@ -128,6 +146,7 @@ const [showFeedback, setShowFeedback] = useState(false);
 ```
 
 **Quiz Screen:**
+
 ```
 ┌─────────────────────────────────┐
 │ Question 5 of 50                │
@@ -146,6 +165,7 @@ const [showFeedback, setShowFeedback] = useState(false);
 ```
 
 **After Answer (Correct):**
+
 ```
 ┌─────────────────────────────────┐
 │ ✓ Correct!                      │
@@ -158,6 +178,7 @@ const [showFeedback, setShowFeedback] = useState(false);
 ```
 
 **Results Screen:**
+
 ```
 ┌─────────────────────────────────┐
 │ Quiz Complete!                  │
@@ -176,6 +197,7 @@ const [showFeedback, setShowFeedback] = useState(false);
 ```
 
 ### Responsive Design
+
 - **Desktop (>768px)**: Max width 800px, centered
 - **Mobile (<768px)**: Full width with padding
 - **Touch-friendly**: Buttons at least 44px height
@@ -185,12 +207,15 @@ const [showFeedback, setShowFeedback] = useState(false);
 ## Implementation Guide
 
 ### Step 1: Create the HTML Shell
-Create `/public/index.html` with:
+
+Create `/docs/index.html` with:
+
 - React, ReactDOM, Babel from CDN
 - Basic meta tags for mobile
 - Container div with id="root"
 
 ### Step 2: Build Core Components
+
 ```javascript
 // Main App component
 function App() {
@@ -203,7 +228,7 @@ function StartScreen({ onStartQuiz }) {
   // Quiz mode selection
 }
 
-// QuizScreen component  
+// QuizScreen component
 function QuizScreen({ questions, onComplete }) {
   // Question display
   // Answer selection
@@ -219,19 +244,30 @@ function ResultsScreen({ score, totalQuestions, missedQuestions, onRestart }) {
 ```
 
 ### Step 3: Implement Quiz Logic
+
 ```javascript
 // Utility functions needed:
-function loadAllChapters() { /* Fetch all JSON files */ }
-function selectQuestions(mode, chapterNumber, count) { /* Return question array */ }
-function shuffleArray(array) { /* Fisher-Yates shuffle */ }
-function selectRandomDistractors(distractors, count = 3) { /* Pick 3 random */ }
-function prepareQuestion(question) { 
+function loadAllChapters() {
+  /* Fetch all JSON files */
+}
+function selectQuestions(mode, chapterNumber, count) {
+  /* Return question array */
+}
+function shuffleArray(array) {
+  /* Fisher-Yates shuffle */
+}
+function selectRandomDistractors(distractors, count = 3) {
+  /* Pick 3 random */
+}
+function prepareQuestion(question) {
   /* Combine correct answer + 3 random distractors, shuffle */
 }
 ```
 
 ### Step 4: Add Styling
+
 Inline CSS with:
+
 - Flexbox for layouts
 - Mobile-first responsive design
 - Button hover states
@@ -239,6 +275,7 @@ Inline CSS with:
 - Accessible color contrast
 
 ### Step 5: Test & Refine
+
 - Test on laptop browser
 - Test on mobile (or use browser dev tools mobile view)
 - Verify all 18 chapters load correctly
@@ -251,7 +288,7 @@ Inline CSS with:
 
 ```
 francis-quiz-app/
-├── public/
+├── docs/
 │   └── index.html          ← CREATE THIS (entire app in one file)
 └── data/                   ← ALREADY EXISTS
     ├── st-francis-ch01.json
@@ -264,6 +301,7 @@ francis-quiz-app/
 ## Testing Checklist
 
 After building, verify:
+
 - ✅ App loads without errors
 - ✅ All 18 chapters load successfully
 - ✅ Each quiz mode works (Chapter, All, Random)
@@ -281,6 +319,7 @@ After building, verify:
 ## Deployment Instructions (for later)
 
 ### Option 1: GitHub Pages
+
 ```bash
 # In the repository:
 git add .
@@ -288,12 +327,13 @@ git commit -m "Add quiz app"
 git push origin main
 
 # Enable GitHub Pages:
-# Settings > Pages > Source: main branch > /public folder
+# Settings > Pages > Source: main branch > /docs folder
 # Your app will be at: https://username.github.io/francis-quiz-app/
 ```
 
 ### Option 2: Local Use
-Simply open `/public/index.html` in a web browser. That's it!
+
+Simply open `/docs/index.html` in a web browser. That's it!
 
 ---
 
@@ -328,6 +368,7 @@ A: Show friendly error message: "Could not load questions. Please check that all
 ## Success Criteria
 
 The app is complete when:
+
 1. ✅ A user can open index.html in a browser and see the start screen
 2. ✅ They can select any quiz mode and take a quiz
 3. ✅ Questions display with 4 randomized choices
@@ -341,12 +382,13 @@ The app is complete when:
 ## Ready to Build!
 
 You have:
+
 - ✅ All 228 questions in JSON format
 - ✅ Clear technical specification
 - ✅ Design mockups
 - ✅ Implementation guide
 - ✅ Testing checklist
 
-**Your task**: Create `/public/index.html` with the complete working quiz application.
+**Your task**: Create `/docs/index.html` with the complete working quiz application.
 
 Good luck! 🚀
