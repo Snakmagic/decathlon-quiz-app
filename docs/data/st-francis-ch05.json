@@ -19,7 +19,7 @@
     {
       "id": "ch5_q2",
       "question": "What is Hansen's disease?",
-      "correctAnswer": "Known as leprosy, it is a disease that affects the peripheral nerves and mucosa of the respiratory tract. People that suffer from leprosy can have damage on their skin, nerves, limbs and eyes",
+      "correctAnswer": "Known as leprosy, it is a disease that affects the peripheral nerves and mucosa of the respiratory tract",
       "distractors": [
         "A plague that caused fever and death within days",
         "A skin condition that was highly contagious through touch",
@@ -58,7 +58,7 @@
     {
       "id": "ch5_q5",
       "question": "From what personal experience did Francis draw deep empathy when he recognized the leper's prison of pain, exclusion, and fear?",
-      "correctAnswer": "He recalled his own year of captivity in Perugia and realized that, even after his release, he is keenly aware of his own inner suffering",
+      "correctAnswer": "He recalled his own year of captivity in Perugia",
       "distractors": [
         "His time in poverty begging on the streets",
         "His rejection by the townspeople of Assisi",
@@ -110,7 +110,7 @@
     {
       "id": "ch5_q9",
       "question": "What deeper understanding of God's love began to take shape in Francis' heart as he reflected on his encounter with the leper?",
-      "correctAnswer": "Francis continued to reflect about how the love of God would seep down to the lowliest parts of creation - all the way down to the leper",
+      "correctAnswer": "God's love would seep down to the lowliest parts of creation - all the way down to the leper",
       "distractors": [
         "God's love required Francis to serve in the leper hospital",
         "God's love was especially for those who suffered most",
