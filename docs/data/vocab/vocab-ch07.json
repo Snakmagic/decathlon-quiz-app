@@ -1,0 +1,213 @@
+{
+  "chapterNumber": 7,
+  "vocabulary": [
+    {
+      "id": "ch7_vocab1",
+      "term": "primogeniture",
+      "definition": "an exclusive right of inheritance belonging to the eldest son",
+      "distractors": [
+        "a loose sleeveless garment worn over other clothes",
+        "of or relating to a bishop",
+        "an open square especially in an Italian town",
+        "insulting or abusive language",
+        "a group of attendants"
+      ],
+      "pageReference": "71"
+    },
+    {
+      "id": "ch7_vocab2",
+      "term": "eccentric",
+      "definition": "deviating from conventional conduct especially in odd or whimsical ways",
+      "distractors": [
+        "an open square especially in an Italian town",
+        "fallen into partial ruin especially through neglect",
+        "a loose sleeveless garment worn over other clothes",
+        "characteristic of disobedience",
+        "a group of attendants"
+      ],
+      "pageReference": "73"
+    },
+    {
+      "id": "ch7_vocab3",
+      "term": "erratic",
+      "definition": "characterized by lack of consistency, regularity, or uniformity",
+      "distractors": [
+        "require by authority to leave",
+        "fallen into partial ruin especially through neglect",
+        "deviating from conventional conduct especially in odd or whimsical ways",
+        "a loose sleeveless garment worn over other clothes",
+        "an exclusive right of inheritance belonging to the eldest son"
+      ],
+      "pageReference": "73"
+    },
+    {
+      "id": "ch7_vocab4",
+      "term": "rebellious",
+      "definition": "characteristic of disobedience",
+      "distractors": [
+        "fallen into partial ruin especially through neglect",
+        "characterized by lack of consistency, regularity, or uniformity",
+        "deviating from conventional conduct especially in odd or whimsical ways",
+        "an ecclesiastic (such as a bishop or abbot) of superior rank",
+        "insulting or abusive language"
+      ],
+      "pageReference": "73"
+    },
+    {
+      "id": "ch7_vocab5",
+      "term": "squanderer",
+      "definition": "to spend extravagantly or foolishly",
+      "distractors": [
+        "a court or forum of justice",
+        "deviating from conventional conduct especially in odd or whimsical ways",
+        "of or relating to a bishop",
+        "require by authority to leave",
+        "a loose sleeveless garment worn over other clothes"
+      ],
+      "pageReference": "73"
+    },
+    {
+      "id": "ch7_vocab6",
+      "term": "banish",
+      "definition": "require by authority to leave",
+      "distractors": [
+        "of or relating to a bishop",
+        "a group of attendants",
+        "characterized by lack of consistency, regularity, or uniformity",
+        "characteristic of disobedience",
+        "deviating from conventional conduct especially in odd or whimsical ways"
+      ],
+      "pageReference": "74"
+    },
+    {
+      "id": "ch7_vocab7",
+      "term": "tribunals",
+      "definition": "a court or forum of justice",
+      "distractors": [
+        "a group of attendants",
+        "to spend extravagantly or foolishly",
+        "fallen into partial ruin especially through neglect",
+        "an open square especially in an Italian town",
+        "deviating from conventional conduct especially in odd or whimsical ways"
+      ],
+      "pageReference": "74"
+    },
+    {
+      "id": "ch7_vocab8",
+      "term": "piazza",
+      "definition": "an open square especially in an Italian town",
+      "distractors": [
+        "an exclusive right of inheritance belonging to the eldest son",
+        "deviating from conventional conduct especially in odd or whimsical ways",
+        "of or relating to a bishop",
+        "an ecclesiastic (such as a bishop or abbot) of superior rank",
+        "a loose sleeveless garment worn over other clothes"
+      ],
+      "pageReference": "75"
+    },
+    {
+      "id": "ch7_vocab9",
+      "term": "retinue",
+      "definition": "a group of attendants",
+      "distractors": [
+        "an open square especially in an Italian town",
+        "characteristic of disobedience",
+        "a court or forum of justice",
+        "require by authority to leave",
+        "fallen into partial ruin especially through neglect"
+      ],
+      "pageReference": "75"
+    },
+    {
+      "id": "ch7_vocab10",
+      "term": "episcopal",
+      "definition": "of or relating to a bishop",
+      "distractors": [
+        "characterized by lack of consistency, regularity, or uniformity",
+        "fallen into partial ruin especially through neglect",
+        "an ecclesiastic (such as a bishop or abbot) of superior rank",
+        "characteristic of disobedience",
+        "to spend extravagantly or foolishly"
+      ],
+      "pageReference": "76"
+    },
+    {
+      "id": "ch7_vocab11",
+      "term": "mitre",
+      "definition": "a liturgical headdress worn by bishops and abbots",
+      "distractors": [
+        "characteristic of disobedience",
+        "fallen into partial ruin especially through neglect",
+        "characterized by lack of consistency, regularity, or uniformity",
+        "an ecclesiastic (such as a bishop or abbot) of superior rank",
+        "an exclusive right of inheritance belonging to the eldest son"
+      ],
+      "pageReference": "76"
+    },
+    {
+      "id": "ch7_vocab12",
+      "term": "mantle",
+      "definition": "a loose sleeveless garment worn over other clothes",
+      "distractors": [
+        "an ecclesiastic (such as a bishop or abbot) of superior rank",
+        "fallen into partial ruin especially through neglect",
+        "to spend extravagantly or foolishly",
+        "require by authority to leave",
+        "an exclusive right of inheritance belonging to the eldest son"
+      ],
+      "pageReference": "76"
+    },
+    {
+      "id": "ch7_vocab13",
+      "term": "dilapidated",
+      "definition": "fallen into partial ruin especially through neglect",
+      "distractors": [
+        "a liturgical headdress worn by bishops and abbots",
+        "insulting or abusive language",
+        "a loose sleeveless garment worn over other clothes",
+        "require by authority to leave",
+        "deviating from conventional conduct especially in odd or whimsical ways"
+      ],
+      "pageReference": "76"
+    },
+    {
+      "id": "ch7_vocab14",
+      "term": "prelate",
+      "definition": "an ecclesiastic (such as a bishop or abbot) of superior rank",
+      "distractors": [
+        "of or relating to a bishop",
+        "characteristic of disobedience",
+        "a group of attendants",
+        "require by authority to leave",
+        "an exclusive right of inheritance belonging to the eldest son"
+      ],
+      "pageReference": "77"
+    },
+    {
+      "id": "ch7_vocab15",
+      "term": "invectives",
+      "definition": "insulting or abusive language",
+      "distractors": [
+        "fallen into partial ruin especially through neglect",
+        "a liturgical headdress worn by bishops and abbots",
+        "of or relating to a bishop",
+        "to dispossess especially of property, authority, or title",
+        "a group of attendants"
+      ],
+      "pageReference": "78"
+    },
+    {
+      "id": "ch7_vocab16",
+      "term": "divested",
+      "definition": "to dispossess especially of property, authority, or title",
+      "distractors": [
+        "of or relating to a bishop",
+        "a liturgical headdress worn by bishops and abbots",
+        "fallen into partial ruin especially through neglect",
+        "an open square especially in an Italian town",
+        "an ecclesiastic (such as a bishop or abbot) of superior rank"
+      ],
+      "pageReference": "78"
+    }
+  ]
+}

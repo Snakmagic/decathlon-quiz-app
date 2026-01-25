@@ -1,0 +1,187 @@
+{
+  "chapterNumber": 4,
+  "vocabulary": [
+    {
+      "id": "ch4_vocab1",
+      "term": "sanctuaries",
+      "definition": "a consecrated place such as a church for worship and prayer",
+      "distractors": [
+        "spellbound",
+        "the use of memory usually with little intelligence",
+        "having seemingly contradictory qualities",
+        "to set free",
+        "repeated practice"
+      ],
+      "pageReference": "33"
+    },
+    {
+      "id": "ch4_vocab2",
+      "term": "solace",
+      "definition": "a source of relief or consolation",
+      "distractors": [
+        "repeated practice",
+        "the use of memory usually with little intelligence",
+        "the state of being glorified",
+        "take on bodily and especially human nature and form",
+        "less serious sin against God\u2019s law"
+      ],
+      "pageReference": "33"
+    },
+    {
+      "id": "ch4_vocab3",
+      "term": "mesmerized",
+      "definition": "spellbound",
+      "distractors": [
+        "to give up",
+        "the state of being glorified",
+        "repeated practice",
+        "a source of relief or consolation",
+        "to set free"
+      ],
+      "pageReference": "34"
+    },
+    {
+      "id": "ch4_vocab4",
+      "term": "rote",
+      "definition": "the use of memory usually with little intelligence",
+      "distractors": [
+        "spellbound",
+        "take on bodily and especially human nature and form",
+        "less serious sin against God\u2019s law",
+        "repeated practice",
+        "the state of being glorified"
+      ],
+      "pageReference": "36"
+    },
+    {
+      "id": "ch4_vocab5",
+      "term": "custom",
+      "definition": "repeated practice",
+      "distractors": [
+        "a consecrated place such as a church for worship and prayer",
+        "the state of being glorified",
+        "a source of relief or consolation",
+        "spellbound",
+        "less serious sin against God\u2019s law"
+      ],
+      "pageReference": "36"
+    },
+    {
+      "id": "ch4_vocab6",
+      "term": "decorum",
+      "definition": "orderliness",
+      "distractors": [
+        "having seemingly contradictory qualities",
+        "a source of relief or consolation",
+        "conditions considered essential for a proper standard of living",
+        "a consecrated place such as a church for worship and prayer",
+        "take on bodily and especially human nature and form"
+      ],
+      "pageReference": "36"
+    },
+    {
+      "id": "ch4_vocab7",
+      "term": "decency",
+      "definition": "conditions considered essential for a proper standard of living",
+      "distractors": [
+        "intellectual depth",
+        "orderliness",
+        "take on bodily and especially human nature and form",
+        "a source of relief or consolation",
+        "having seemingly contradictory qualities"
+      ],
+      "pageReference": "36"
+    },
+    {
+      "id": "ch4_vocab8",
+      "term": "venial",
+      "definition": "less serious sin against God\u2019s law",
+      "distractors": [
+        "spellbound",
+        "repeated practice",
+        "the state of being glorified",
+        "a consecrated place such as a church for worship and prayer",
+        "conditions considered essential for a proper standard of living"
+      ],
+      "pageReference": "37"
+    },
+    {
+      "id": "ch4_vocab9",
+      "term": "paradox",
+      "definition": "having seemingly contradictory qualities",
+      "distractors": [
+        "to set free",
+        "take on bodily and especially human nature and form",
+        "conditions considered essential for a proper standard of living",
+        "orderliness",
+        "intellectual depth"
+      ],
+      "pageReference": "37"
+    },
+    {
+      "id": "ch4_vocab10",
+      "term": "liberate",
+      "definition": "to set free",
+      "distractors": [
+        "intellectual depth",
+        "a consecrated place such as a church for worship and prayer",
+        "spellbound",
+        "to give up",
+        "a source of relief or consolation"
+      ],
+      "pageReference": "39"
+    },
+    {
+      "id": "ch4_vocab11",
+      "term": "profundity",
+      "definition": "intellectual depth",
+      "distractors": [
+        "having seemingly contradictory qualities",
+        "take on bodily and especially human nature and form",
+        "spellbound",
+        "a source of relief or consolation",
+        "to give up"
+      ],
+      "pageReference": "39"
+    },
+    {
+      "id": "ch4_vocab12",
+      "term": "exaltation",
+      "definition": "the state of being glorified",
+      "distractors": [
+        "a source of relief or consolation",
+        "having seemingly contradictory qualities",
+        "take on bodily and especially human nature and form",
+        "less serious sin against God\u2019s law",
+        "orderliness"
+      ],
+      "pageReference": "39"
+    },
+    {
+      "id": "ch4_vocab13",
+      "term": "relinquish",
+      "definition": "to give up",
+      "distractors": [
+        "to set free",
+        "the state of being glorified",
+        "orderliness",
+        "the use of memory usually with little intelligence",
+        "less serious sin against God\u2019s law"
+      ],
+      "pageReference": "41"
+    },
+    {
+      "id": "ch4_vocab14",
+      "term": "incarnate",
+      "definition": "take on bodily and especially human nature and form",
+      "distractors": [
+        "having seemingly contradictory qualities",
+        "the use of memory usually with little intelligence",
+        "a source of relief or consolation",
+        "to set free",
+        "the state of being glorified"
+      ],
+      "pageReference": "41"
+    }
+  ]
+}

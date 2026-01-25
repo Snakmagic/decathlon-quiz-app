@@ -123,15 +123,25 @@
     {
       "id": "ch4_q10",
       "question": "How was Francis being transformed through his encounter with God in the crucifix at San Damiano?",
-      "correctAnswer": "His heart came alive with a burning, consuming love; the sense of separation from God and others began to leave him; he began to feel a oneness with God; the sense of inner shame and sinfulness began to leave him; his awareness of sin caused him to place all his faith and reliance on God; he was filling and reforming his sinful soul with God's grace; he began to experience grace and peace",
+      "acceptableAnswers": [
+        "His heart came alive with a burning, consuming love",
+        "The sense of separation from God and others began to leave him",
+        "He began to feel a oneness with God",
+        "The sense of inner shame and sinfulness began to leave him",
+        "His awareness of sin caused him to place all his faith and reliance on God",
+        "He was filling and reforming his sinful soul with God's grace",
+        "He began to experience grace and peace"
+      ],
       "distractors": [
         "He became more disciplined in following religious rules and regulations",
         "He developed a fear of sin and punishment that motivated him to be better",
         "He gained knowledge of theology and scripture",
         "He became determined to prove his worthiness to God through good works",
-        "He learned to control his emotions and desires through willpower"
+        "He learned to control his emotions and desires through willpower",
+        "He started attending more church services regularly"
       ],
-      "pageReference": "38-39"
+      "pageReference": "38-39",
+      "type": "accept-any"
     }
   ]
 }

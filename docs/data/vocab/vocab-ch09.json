@@ -1,0 +1,109 @@
+{
+  "chapterNumber": 9,
+  "vocabulary": [
+    {
+      "id": "ch9_vocab1",
+      "term": "laxity",
+      "definition": "the state of being not stringent",
+      "distractors": [
+        "a state of utter calm and unruffled repose or quietude",
+        "radiant with light or emotion",
+        "to bring back to into its original state",
+        "substances of which something can be made",
+        "a receptacle for the consecrated elements of the Eucharist"
+      ],
+      "pageReference": "97"
+    },
+    {
+      "id": "ch9_vocab2",
+      "term": "materials",
+      "definition": "substances of which something can be made",
+      "distractors": [
+        "a receptacle for the consecrated elements of the Eucharist",
+        "radiant with light or emotion",
+        "to bring back to into its original state",
+        "a state of utter calm and unruffled repose or quietude",
+        "to preach the gospel to convert others to Christianity"
+      ],
+      "pageReference": "97"
+    },
+    {
+      "id": "ch9_vocab3",
+      "term": "restoration",
+      "definition": "to bring back to into its original state",
+      "distractors": [
+        "substances of which something can be made",
+        "a receptacle for the consecrated elements of the Eucharist",
+        "to preach the gospel to convert others to Christianity",
+        "radiant with light or emotion",
+        "the tendency of something to act in a certain manner under given circumstances"
+      ],
+      "pageReference": "97"
+    },
+    {
+      "id": "ch9_vocab4",
+      "term": "serenity",
+      "definition": "a state of utter calm and unruffled repose or quietude",
+      "distractors": [
+        "the tendency of something to act in a certain manner under given circumstances",
+        "the state of being not stringent",
+        "substances of which something can be made",
+        "radiant with light or emotion",
+        "a receptacle for the consecrated elements of the Eucharist"
+      ],
+      "pageReference": "98"
+    },
+    {
+      "id": "ch9_vocab5",
+      "term": "tabernacle",
+      "definition": "a receptacle for the consecrated elements of the Eucharist",
+      "distractors": [
+        "to bring back to into its original state",
+        "the state of being not stringent",
+        "the tendency of something to act in a certain manner under given circumstances",
+        "radiant with light or emotion",
+        "to preach the gospel to convert others to Christianity"
+      ],
+      "pageReference": "99"
+    },
+    {
+      "id": "ch9_vocab6",
+      "term": "ablaze",
+      "definition": "radiant with light or emotion",
+      "distractors": [
+        "the state of being not stringent",
+        "the tendency of something to act in a certain manner under given circumstances",
+        "a receptacle for the consecrated elements of the Eucharist",
+        "to preach the gospel to convert others to Christianity",
+        "a state of utter calm and unruffled repose or quietude"
+      ],
+      "pageReference": "100"
+    },
+    {
+      "id": "ch9_vocab7",
+      "term": "evangelization",
+      "definition": "to preach the gospel to convert others to Christianity",
+      "distractors": [
+        "the state of being not stringent",
+        "a state of utter calm and unruffled repose or quietude",
+        "the tendency of something to act in a certain manner under given circumstances",
+        "to bring back to into its original state",
+        "a receptacle for the consecrated elements of the Eucharist"
+      ],
+      "pageReference": "101"
+    },
+    {
+      "id": "ch9_vocab8",
+      "term": "disposition",
+      "definition": "the tendency of something to act in a certain manner under given circumstances",
+      "distractors": [
+        "to preach the gospel to convert others to Christianity",
+        "the state of being not stringent",
+        "substances of which something can be made",
+        "a receptacle for the consecrated elements of the Eucharist",
+        "radiant with light or emotion"
+      ],
+      "pageReference": "103"
+    }
+  ]
+}

@@ -6,7 +6,7 @@
     {
       "id": "ch17_q1",
       "question": "Explain Francis' feelings of nostalgia for the early years of his ministry.",
-      "correctAnswer": "In the early years, the brothers were young and being few in number, they created a community focused on poverty and prayer. Francis' dream of a community that lived as itinerant apostles while alternating between prayer and serving others began small and fruitful. Francis felt freest during the early years. As the group grew into the thousands, Francis couldn't know each brother personally, some of the brothers didn't even agree with the Rule of the community, especially his views on poverty which concerned Francis as he looked back on his life",
+      "correctAnswer": "In the early years, the brothers were young and being few in number, they created a community focused on poverty and prayer",
       "distractors": [
         "He missed the simplicity before the Pope's approval",
         "He regretted not staying in Assisi with his family",
@@ -45,7 +45,10 @@
     {
       "id": "ch17_q4",
       "question": "In what ways was Francis' health beginning to fail?",
-      "correctAnswer": "He was losing his eyesight; he was in pain and couldn't walk the whole way when he traveled",
+      "acceptableAnswers": [
+        "He was losing his eyesight",
+        "He was in pain and couldn't walk the whole way when he traveled"
+      ],
       "distractors": [
         "He had a persistent cough and fever",
         "He could no longer speak clearly",
@@ -53,7 +56,8 @@
         "He suffered from constant headaches",
         "He had stomach problems and couldn't eat"
       ],
-      "pageReference": "190"
+      "pageReference": "190",
+      "type": "accept-any"
     },
     {
       "id": "ch17_q5",
@@ -96,8 +100,10 @@
     },
     {
       "id": "ch17_q8",
-      "question": "How did Francis see the 'crosses' or hard times in his life?",
-      "correctAnswer": "They were signs of God's glory",
+      "acceptableAnswers": [
+        "They were signs of God's glory",
+        "He had learned how to internalize the cross by embracing sufferings and weaknesses"
+      ],
       "distractors": [
         "They were punishments for his sins",
         "They were tests of his faithfulness",
@@ -105,7 +111,8 @@
         "They were necessary for salvation",
         "They were temporary and would pass"
       ],
-      "pageReference": "193"
+      "pageReference": "193",
+      "type": "accept-any"
     },
     {
       "id": "ch17_q9",

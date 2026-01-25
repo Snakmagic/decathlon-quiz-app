@@ -1,0 +1,135 @@
+{
+  "chapterNumber": 18,
+  "vocabulary": [
+    {
+      "id": "ch18_vocab1",
+      "term": "filial",
+      "definition": "with the same respect as a son or daughter",
+      "distractors": [
+        "early stage of development, very imperfectly developed",
+        "supplying the necessities of life",
+        "forgetfulness of kindness received; lack of gratitude",
+        "a device (such as a stretcher) for carrying a sick or injured person",
+        "gentle or friendly reproof"
+      ],
+      "pageReference": "206"
+    },
+    {
+      "id": "ch18_vocab2",
+      "term": "primitive",
+      "definition": "early stage of development, very imperfectly developed",
+      "distractors": [
+        "gentle or friendly reproof",
+        "clear and free of storms",
+        "inviting",
+        "supplying the necessities of life",
+        "a device (such as a stretcher) for carrying a sick or injured person"
+      ],
+      "pageReference": "206"
+    },
+    {
+      "id": "ch18_vocab3",
+      "term": "cauterized",
+      "definition": "to burn with a hot iron",
+      "distractors": [
+        "inviting",
+        "supplying the necessities of life",
+        "forgetfulness of kindness received; lack of gratitude",
+        "gentle or friendly reproof",
+        "clear and free of storms"
+      ],
+      "pageReference": "206"
+    },
+    {
+      "id": "ch18_vocab4",
+      "term": "litter",
+      "definition": "a device (such as a stretcher) for carrying a sick or injured person",
+      "distractors": [
+        "early stage of development, very imperfectly developed",
+        "to burn with a hot iron",
+        "inviting",
+        "with the same respect as a son or daughter",
+        "supplying the necessities of life"
+      ],
+      "pageReference": "208"
+    },
+    {
+      "id": "ch18_vocab5",
+      "term": "ingratitude",
+      "definition": "forgetfulness of kindness received; lack of gratitude",
+      "distractors": [
+        "gentle or friendly reproof",
+        "clear and free of storms",
+        "to burn with a hot iron",
+        "being superior to all other",
+        "a device (such as a stretcher) for carrying a sick or injured person"
+      ],
+      "pageReference": "209"
+    },
+    {
+      "id": "ch18_vocab6",
+      "term": "preeminence",
+      "definition": "being superior to all other",
+      "distractors": [
+        "forgetfulness of kindness received; lack of gratitude",
+        "a device (such as a stretcher) for carrying a sick or injured person",
+        "supplying the necessities of life",
+        "inviting",
+        "with the same respect as a son or daughter"
+      ],
+      "pageReference": "210"
+    },
+    {
+      "id": "ch18_vocab7",
+      "term": "admonition",
+      "definition": "gentle or friendly reproof",
+      "distractors": [
+        "early stage of development, very imperfectly developed",
+        "clear and free of storms",
+        "to burn with a hot iron",
+        "forgetfulness of kindness received; lack of gratitude",
+        "being superior to all other"
+      ],
+      "pageReference": "210"
+    },
+    {
+      "id": "ch18_vocab8",
+      "term": "beckoning",
+      "definition": "inviting",
+      "distractors": [
+        "to burn with a hot iron",
+        "early stage of development, very imperfectly developed",
+        "a device (such as a stretcher) for carrying a sick or injured person",
+        "gentle or friendly reproof",
+        "supplying the necessities of life"
+      ],
+      "pageReference": "210"
+    },
+    {
+      "id": "ch18_vocab9",
+      "term": "serene",
+      "definition": "clear and free of storms",
+      "distractors": [
+        "with the same respect as a son or daughter",
+        "being superior to all other",
+        "supplying the necessities of life",
+        "a device (such as a stretcher) for carrying a sick or injured person",
+        "gentle or friendly reproof"
+      ],
+      "pageReference": "213"
+    },
+    {
+      "id": "ch18_vocab10",
+      "term": "sustenance",
+      "definition": "supplying the necessities of life",
+      "distractors": [
+        "to burn with a hot iron",
+        "inviting",
+        "being superior to all other",
+        "a device (such as a stretcher) for carrying a sick or injured person",
+        "clear and free of storms"
+      ],
+      "pageReference": "213"
+    }
+  ]
+}

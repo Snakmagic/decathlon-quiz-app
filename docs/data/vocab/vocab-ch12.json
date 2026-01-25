@@ -1,0 +1,161 @@
+{
+  "chapterNumber": 12,
+  "vocabulary": [
+    {
+      "id": "ch12_vocab1",
+      "term": "endorsement",
+      "definition": "a formal decree of approval",
+      "distractors": [
+        "contrary to an established religion",
+        "a Roman Catholic church given ceremonial privileges",
+        "the shaven crown of hair worn by Fransciscans",
+        "the strength to stand or endure",
+        "conforming to established doctrine especially in religion"
+      ],
+      "pageReference": "126"
+    },
+    {
+      "id": "ch12_vocab2",
+      "term": "traditionalists",
+      "definition": "people that adhere to the doctrines or practices of a tradition",
+      "distractors": [
+        "a formal division from a church",
+        "one in a subservient or subordinate position",
+        "disagreeing especially with an established religious system, organization or belief",
+        "a Roman Catholic church given ceremonial privileges",
+        "a formal decree of approval"
+      ],
+      "pageReference": "126"
+    },
+    {
+      "id": "ch12_vocab3",
+      "term": "stability",
+      "definition": "the strength to stand or endure",
+      "distractors": [
+        "conforming to established doctrine especially in religion",
+        "a formal division from a church",
+        "contrary to an established religion",
+        "a state governed by officials who are regarded as divinely guided",
+        "a Roman Catholic church given ceremonial privileges"
+      ],
+      "pageReference": "126"
+    },
+    {
+      "id": "ch12_vocab4",
+      "term": "theocracy",
+      "definition": "a state governed by officials who are regarded as divinely guided",
+      "distractors": [
+        "people that adhere to the doctrines or practices of a tradition",
+        "the strength to stand or endure",
+        "one in a subservient or subordinate position",
+        "the shaven crown of hair worn by Fransciscans",
+        "a formal decree of approval"
+      ],
+      "pageReference": "126"
+    },
+    {
+      "id": "ch12_vocab5",
+      "term": "vassals",
+      "definition": "one in a subservient or subordinate position",
+      "distractors": [
+        "contrary to an established religion",
+        "to interfere with or slow the progress of",
+        "people that adhere to the doctrines or practices of a tradition",
+        "a Roman Catholic church given ceremonial privileges",
+        "a formal division from a church"
+      ],
+      "pageReference": "126"
+    },
+    {
+      "id": "ch12_vocab6",
+      "term": "dissident",
+      "definition": "disagreeing especially with an established religious system, organization or belief",
+      "distractors": [
+        "contrary to an established religion",
+        "the strength to stand or endure",
+        "people that adhere to the doctrines or practices of a tradition",
+        "to interfere with or slow the progress of",
+        "a state governed by officials who are regarded as divinely guided"
+      ],
+      "pageReference": "127"
+    },
+    {
+      "id": "ch12_vocab7",
+      "term": "heterodox",
+      "definition": "contrary to an established religion",
+      "distractors": [
+        "the strength to stand or endure",
+        "disagreeing especially with an established religious system, organization or belief",
+        "the shaven crown of hair worn by Fransciscans",
+        "to interfere with or slow the progress of",
+        "a formal division from a church"
+      ],
+      "pageReference": "127"
+    },
+    {
+      "id": "ch12_vocab8",
+      "term": "orthodox",
+      "definition": "conforming to established doctrine especially in religion",
+      "distractors": [
+        "to interfere with or slow the progress of",
+        "one in a subservient or subordinate position",
+        "the strength to stand or endure",
+        "disagreeing especially with an established religious system, organization or belief",
+        "people that adhere to the doctrines or practices of a tradition"
+      ],
+      "pageReference": "127"
+    },
+    {
+      "id": "ch12_vocab9",
+      "term": "schism",
+      "definition": "a formal division from a church",
+      "distractors": [
+        "the strength to stand or endure",
+        "a Roman Catholic church given ceremonial privileges",
+        "a state governed by officials who are regarded as divinely guided",
+        "conforming to established doctrine especially in religion",
+        "disagreeing especially with an established religious system, organization or belief"
+      ],
+      "pageReference": "127"
+    },
+    {
+      "id": "ch12_vocab10",
+      "term": "basilica",
+      "definition": "a Roman Catholic church given ceremonial privileges",
+      "distractors": [
+        "a state governed by officials who are regarded as divinely guided",
+        "one in a subservient or subordinate position",
+        "conforming to established doctrine especially in religion",
+        "contrary to an established religion",
+        "the strength to stand or endure"
+      ],
+      "pageReference": "129"
+    },
+    {
+      "id": "ch12_vocab11",
+      "term": "impede",
+      "definition": "to interfere with or slow the progress of",
+      "distractors": [
+        "the shaven crown of hair worn by Fransciscans",
+        "a Roman Catholic church given ceremonial privileges",
+        "people that adhere to the doctrines or practices of a tradition",
+        "a state governed by officials who are regarded as divinely guided",
+        "one in a subservient or subordinate position"
+      ],
+      "pageReference": "130"
+    },
+    {
+      "id": "ch12_vocab12",
+      "term": "tonsure",
+      "definition": "the shaven crown of hair worn by Fransciscans",
+      "distractors": [
+        "to interfere with or slow the progress of",
+        "contrary to an established religion",
+        "a state governed by officials who are regarded as divinely guided",
+        "a formal division from a church",
+        "disagreeing especially with an established religious system, organization or belief"
+      ],
+      "pageReference": "138"
+    }
+  ]
+}

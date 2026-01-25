@@ -145,31 +145,65 @@
 
     .stats-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 20px;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 16px;
       margin-bottom: 30px;
     }
 
     .stat-card {
       background: white;
       border-radius: 12px;
-      padding: 20px;
+      padding: 16px;
       text-align: center;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
       border: 1px solid #e5e7eb;
     }
 
+    .stat-card.questions {
+      border-top: 3px solid #2c5282;
+    }
+
+    .stat-card.vocab {
+      border-top: 3px solid #7c3aed;
+    }
+
     .stat-value {
-      font-size: 2.5rem;
+      font-size: 2rem;
       font-weight: 700;
       color: #2c5282;
     }
 
+    .stat-value.vocab {
+      color: #7c3aed;
+    }
+
     .stat-label {
-      font-size: 0.875rem;
+      font-size: 0.75rem;
       color: #6b7280;
       text-transform: uppercase;
       margin-top: 4px;
+    }
+
+    .filter-row {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+    }
+
+    .filter-row select {
+      flex: 1;
+      min-width: 180px;
+      padding: 12px 16px;
+      font-size: 1rem;
+      border: 2px solid #e5e7eb;
+      border-radius: 8px;
+      background-color: white;
+    }
+
+    .filter-row select:focus {
+      outline: none;
+      border-color: #2c5282;
     }
 
     .timeline {
@@ -190,6 +224,11 @@
       border-left: 4px solid #2c5282;
     }
 
+    .timeline-item.vocab {
+      border-left-color: #7c3aed;
+      background-color: #faf5ff;
+    }
+
     .timeline-info {
       flex: 1;
     }
@@ -202,6 +241,26 @@
     .timeline-mode {
       font-size: 0.875rem;
       color: #6b7280;
+    }
+
+    .timeline-badge {
+      display: inline-block;
+      font-size: 0.625rem;
+      padding: 2px 6px;
+      border-radius: 4px;
+      margin-left: 8px;
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+
+    .timeline-badge.questions {
+      background-color: #dbeafe;
+      color: #2c5282;
+    }
+
+    .timeline-badge.vocab {
+      background-color: #ede9fe;
+      color: #7c3aed;
     }
 
     .timeline-date {
@@ -229,7 +288,7 @@
 
     .chapter-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
       gap: 12px;
     }
 
@@ -238,6 +297,10 @@
       background-color: #f9fafb;
       border-radius: 8px;
       text-align: center;
+    }
+
+    .chapter-item.vocab {
+      background-color: #faf5ff;
     }
 
     .chapter-name {
@@ -259,12 +322,53 @@
       color: #9ca3af;
     }
 
+    .chapter-breakdown {
+      display: flex;
+      gap: 8px;
+      justify-content: center;
+      margin-top: 4px;
+    }
+
+    .chapter-type-score {
+      font-size: 0.625rem;
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+
+    .chapter-type-score.questions {
+      background-color: #dbeafe;
+      color: #2c5282;
+    }
+
+    .chapter-type-score.vocab {
+      background-color: #ede9fe;
+      color: #7c3aed;
+    }
+
+    .weak-section-title {
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: #374151;
+      margin: 16px 0 8px 0;
+      padding-bottom: 8px;
+      border-bottom: 1px solid #e5e7eb;
+    }
+
+    .weak-section-title.vocab {
+      color: #7c3aed;
+    }
+
     .weak-area {
       padding: 12px 16px;
       background-color: #fef2f2;
       border-radius: 8px;
       border-left: 4px solid #dc2626;
       margin-bottom: 8px;
+    }
+
+    .weak-area.vocab {
+      background-color: #faf5ff;
+      border-left-color: #7c3aed;
     }
 
     .weak-question {
@@ -309,24 +413,6 @@
       color: #6b7280;
     }
 
-    .student-filter {
-      margin-bottom: 20px;
-    }
-
-    .student-filter select {
-      width: 100%;
-      padding: 12px 16px;
-      font-size: 1rem;
-      border: 2px solid #e5e7eb;
-      border-radius: 8px;
-      background-color: white;
-    }
-
-    .student-filter select:focus {
-      outline: none;
-      border-color: #2c5282;
-    }
-
     .trend-chart {
       display: flex;
       align-items: flex-end;
@@ -340,11 +426,18 @@
       flex: 1;
       min-width: 30px;
       max-width: 60px;
-      background: linear-gradient(to top, #2c5282, #4a7ab8);
       border-radius: 4px 4px 0 0;
       position: relative;
       cursor: pointer;
       transition: opacity 0.2s;
+    }
+
+    .trend-bar.questions {
+      background: linear-gradient(to top, #2c5282, #4a7ab8);
+    }
+
+    .trend-bar.vocab {
+      background: linear-gradient(to top, #7c3aed, #a78bfa);
     }
 
     .trend-bar:hover {
@@ -369,6 +462,35 @@
       color: #9ca3af;
     }
 
+    .trend-legend {
+      display: flex;
+      gap: 16px;
+      justify-content: center;
+      margin-top: 12px;
+    }
+
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.75rem;
+      color: #6b7280;
+    }
+
+    .legend-dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 2px;
+    }
+
+    .legend-dot.questions {
+      background-color: #2c5282;
+    }
+
+    .legend-dot.vocab {
+      background-color: #7c3aed;
+    }
+
     .logout-btn {
       position: fixed;
       top: 20px;
@@ -383,8 +505,66 @@
       gap: 20px;
     }
 
+    .type-stats {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin-bottom: 20px;
+    }
+
+    .type-stat-card {
+      padding: 16px;
+      border-radius: 8px;
+      text-align: center;
+    }
+
+    .type-stat-card.questions {
+      background-color: #eff6ff;
+      border: 1px solid #bfdbfe;
+    }
+
+    .type-stat-card.vocab {
+      background-color: #f5f3ff;
+      border: 1px solid #ddd6fe;
+    }
+
+    .type-stat-title {
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+
+    .type-stat-title.questions {
+      color: #2c5282;
+    }
+
+    .type-stat-title.vocab {
+      color: #7c3aed;
+    }
+
+    .type-stat-row {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.875rem;
+      padding: 4px 0;
+    }
+
+    .type-stat-label {
+      color: #6b7280;
+    }
+
+    .type-stat-value {
+      font-weight: 600;
+      color: #1f2937;
+    }
+
     @media (max-width: 900px) {
       .dashboard-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .type-stats {
         grid-template-columns: 1fr;
       }
     }
@@ -399,7 +579,7 @@
       }
 
       .stat-value {
-        font-size: 2rem;
+        font-size: 1.75rem;
       }
 
       .logout-btn {
@@ -407,6 +587,14 @@
         display: block;
         width: 100%;
         margin-bottom: 20px;
+      }
+
+      .filter-row {
+        flex-direction: column;
+      }
+
+      .filter-row select {
+        width: 100%;
       }
     }
   </style>
@@ -525,6 +713,7 @@
       const [attempts, setAttempts] = useState([]);
       const [loading, setLoading] = useState(true);
       const [selectedStudent, setSelectedStudent] = useState('all');
+      const [selectedType, setSelectedType] = useState('all');
 
       useEffect(() => {
         loadAttempts();
@@ -549,40 +738,71 @@
         }
       };
 
-      // Filter attempts by student
-      const filteredAttempts = selectedStudent === 'all'
-        ? attempts
-        : attempts.filter(a => a.studentName === selectedStudent);
+      // Filter attempts by student and type
+      let filteredAttempts = attempts;
+      if (selectedStudent !== 'all') {
+        filteredAttempts = filteredAttempts.filter(a => a.studentName === selectedStudent);
+      }
+      if (selectedType !== 'all') {
+        filteredAttempts = filteredAttempts.filter(a => a.attemptType === selectedType);
+      }
 
       // Get unique students
       const students = [...new Set(attempts.map(a => a.studentName))].filter(Boolean);
 
-      // Calculate stats
+      // Separate by type
+      const questionAttempts = filteredAttempts.filter(a => a.attemptType === 'questions' || !a.attemptType);
+      const vocabAttempts = filteredAttempts.filter(a => a.attemptType === 'vocabulary');
+
+      // Calculate overall stats
       const totalAttempts = filteredAttempts.length;
       const avgScore = totalAttempts > 0
         ? Math.round(filteredAttempts.reduce((sum, a) => sum + (a.percentage || 0), 0) / totalAttempts)
         : 0;
       const totalTime = filteredAttempts.reduce((sum, a) => sum + (a.timeSpent || 0), 0);
-      const totalQuestions = filteredAttempts.reduce((sum, a) => sum + (a.total || 0), 0);
+      const totalItems = filteredAttempts.reduce((sum, a) => sum + (a.total || 0), 0);
 
-      // Chapter breakdown
+      // Question stats
+      const questionStats = {
+        count: questionAttempts.length,
+        avgScore: questionAttempts.length > 0
+          ? Math.round(questionAttempts.reduce((sum, a) => sum + (a.percentage || 0), 0) / questionAttempts.length)
+          : 0,
+        total: questionAttempts.reduce((sum, a) => sum + (a.total || 0), 0)
+      };
+
+      // Vocabulary stats
+      const vocabStats = {
+        count: vocabAttempts.length,
+        avgScore: vocabAttempts.length > 0
+          ? Math.round(vocabAttempts.reduce((sum, a) => sum + (a.percentage || 0), 0) / vocabAttempts.length)
+          : 0,
+        total: vocabAttempts.reduce((sum, a) => sum + (a.total || 0), 0)
+      };
+
+      // Chapter breakdown (combined)
       const chapterStats = {};
       filteredAttempts.forEach(attempt => {
-        if (attempt.quizMode && attempt.quizMode.startsWith('Chapter')) {
+        let chNum = null;
+        if (attempt.quizMode) {
           const match = attempt.quizMode.match(/Chapter (\d+)/);
-          if (match) {
-            const chNum = match[1];
-            if (!chapterStats[chNum]) {
-              chapterStats[chNum] = { total: 0, correct: 0, attempts: 0, name: attempt.quizMode };
-            }
-            chapterStats[chNum].total += attempt.total || 0;
-            chapterStats[chNum].correct += attempt.score || 0;
-            chapterStats[chNum].attempts++;
+          if (match) chNum = match[1];
+        }
+        if (chNum) {
+          if (!chapterStats[chNum]) {
+            chapterStats[chNum] = {
+              questions: { total: 0, correct: 0, attempts: 0 },
+              vocab: { total: 0, correct: 0, attempts: 0 }
+            };
           }
+          const type = attempt.attemptType === 'vocabulary' ? 'vocab' : 'questions';
+          chapterStats[chNum][type].total += attempt.total || 0;
+          chapterStats[chNum][type].correct += attempt.score || 0;
+          chapterStats[chNum][type].attempts++;
         }
       });
 
-      // Weak areas (most missed questions)
+      // Weak areas - Questions
       const missedQuestions = {};
       filteredAttempts.forEach(attempt => {
         if (attempt.missedQuestions) {
@@ -590,7 +810,7 @@
             const key = q.questionId || q.question;
             if (!missedQuestions[key]) {
               missedQuestions[key] = {
-                question: q.question,
+                text: q.question,
                 chapter: q.chapterNumber,
                 chapterName: q.chapterName,
                 count: 0
@@ -600,26 +820,54 @@
           });
         }
       });
-      const weakAreas = Object.values(missedQuestions)
+      const weakQuestions = Object.values(missedQuestions)
         .sort((a, b) => b.count - a.count)
         .slice(0, 5);
 
-      // Score trend (last 10 attempts)
-      const recentAttempts = [...filteredAttempts].reverse().slice(-10);
+      // Weak areas - Vocabulary
+      const missedTerms = {};
+      filteredAttempts.forEach(attempt => {
+        if (attempt.missedTerms) {
+          attempt.missedTerms.forEach(t => {
+            const key = t.termId || t.term;
+            if (!missedTerms[key]) {
+              missedTerms[key] = {
+                term: t.term,
+                definition: t.definition,
+                chapter: t.chapterNumber,
+                count: 0
+              };
+            }
+            missedTerms[key].count++;
+          });
+        }
+      });
+      const weakTerms = Object.values(missedTerms)
+        .sort((a, b) => b.count - a.count)
+        .slice(0, 5);
+
+      // Score trend (last 15 attempts)
+      const recentAttempts = [...filteredAttempts].reverse().slice(-15);
 
       // Export to CSV
       const exportToCSV = () => {
-        const headers = ['Date', 'Student', 'Quiz Mode', 'Score', 'Total', 'Percentage', 'Time (sec)', 'Missed Questions'];
-        const rows = filteredAttempts.map(a => [
-          a.timestamp ? formatDate(a.timestamp) : '',
-          a.studentName || '',
-          a.quizMode || '',
-          a.score || 0,
-          a.total || 0,
-          a.percentage || 0,
-          a.timeSpent || 0,
-          a.missedQuestions ? a.missedQuestions.map(q => q.question).join('; ') : ''
-        ]);
+        const headers = ['Date', 'Student', 'Type', 'Quiz Mode', 'Score', 'Total', 'Percentage', 'Time (sec)', 'Missed Items'];
+        const rows = filteredAttempts.map(a => {
+          const missedItems = a.attemptType === 'vocabulary'
+            ? (a.missedTerms || []).map(t => t.term).join('; ')
+            : (a.missedQuestions || []).map(q => q.question).join('; ');
+          return [
+            a.timestamp ? formatDate(a.timestamp) : '',
+            a.studentName || '',
+            a.attemptType || 'questions',
+            a.quizMode || '',
+            a.score || 0,
+            a.total || 0,
+            a.percentage || 0,
+            a.timeSpent || 0,
+            missedItems
+          ];
+        });
 
         const csvContent = [
           headers.join(','),
@@ -648,40 +896,84 @@
             <p>St. Francis Quiz Progress Tracking</p>
           </div>
 
-          {/* Student Filter */}
-          {students.length > 0 && (
-            <div className="student-filter">
-              <select
-                value={selectedStudent}
-                onChange={(e) => setSelectedStudent(e.target.value)}
-              >
-                <option value="all">All Students</option>
-                {students.map(student => (
-                  <option key={student} value={student}>{student}</option>
-                ))}
-              </select>
-            </div>
-          )}
+          {/* Filters */}
+          <div className="filter-row">
+            <select
+              value={selectedStudent}
+              onChange={(e) => setSelectedStudent(e.target.value)}
+            >
+              <option value="all">All Students</option>
+              {students.map(student => (
+                <option key={student} value={student}>{student}</option>
+              ))}
+            </select>
 
-          {/* Stats Overview */}
+            <select
+              value={selectedType}
+              onChange={(e) => setSelectedType(e.target.value)}
+            >
+              <option value="all">All Types</option>
+              <option value="questions">Questions Only</option>
+              <option value="vocabulary">Vocabulary Only</option>
+            </select>
+          </div>
+
+          {/* Overall Stats */}
           <div className="stats-grid">
             <div className="stat-card">
               <div className="stat-value">{totalAttempts}</div>
-              <div className="stat-label">Quiz Attempts</div>
+              <div className="stat-label">Total Quizzes</div>
             </div>
             <div className="stat-card">
               <div className="stat-value">{avgScore}%</div>
               <div className="stat-label">Average Score</div>
             </div>
             <div className="stat-card">
-              <div className="stat-value">{totalQuestions}</div>
-              <div className="stat-label">Questions Answered</div>
+              <div className="stat-value">{totalItems}</div>
+              <div className="stat-label">Items Answered</div>
             </div>
             <div className="stat-card">
               <div className="stat-value">{formatDuration(totalTime)}</div>
-              <div className="stat-label">Total Study Time</div>
+              <div className="stat-label">Study Time</div>
             </div>
           </div>
+
+          {/* Type Breakdown */}
+          {selectedType === 'all' && (questionStats.count > 0 || vocabStats.count > 0) && (
+            <div className="type-stats">
+              <div className="type-stat-card questions">
+                <div className="type-stat-title questions">Questions</div>
+                <div className="type-stat-row">
+                  <span className="type-stat-label">Quizzes:</span>
+                  <span className="type-stat-value">{questionStats.count}</span>
+                </div>
+                <div className="type-stat-row">
+                  <span className="type-stat-label">Average:</span>
+                  <span className="type-stat-value">{questionStats.avgScore}%</span>
+                </div>
+                <div className="type-stat-row">
+                  <span className="type-stat-label">Answered:</span>
+                  <span className="type-stat-value">{questionStats.total}</span>
+                </div>
+              </div>
+
+              <div className="type-stat-card vocab">
+                <div className="type-stat-title vocab">Vocabulary</div>
+                <div className="type-stat-row">
+                  <span className="type-stat-label">Quizzes:</span>
+                  <span className="type-stat-value">{vocabStats.count}</span>
+                </div>
+                <div className="type-stat-row">
+                  <span className="type-stat-label">Average:</span>
+                  <span className="type-stat-value">{vocabStats.avgScore}%</span>
+                </div>
+                <div className="type-stat-row">
+                  <span className="type-stat-label">Answered:</span>
+                  <span className="type-stat-value">{vocabStats.total}</span>
+                </div>
+              </div>
+            </div>
+          )}
 
           {attempts.length === 0 ? (
             <div className="card">
@@ -700,7 +992,7 @@
                     {recentAttempts.map((attempt, i) => (
                       <div
                         key={i}
-                        className="trend-bar"
+                        className={`trend-bar ${attempt.attemptType === 'vocabulary' ? 'vocab' : 'questions'}`}
                         style={{ height: `${attempt.percentage || 0}%` }}
                         data-score={`${attempt.percentage || 0}%`}
                         title={`${attempt.quizMode}: ${attempt.percentage}%`}
@@ -711,6 +1003,16 @@
                     <span>Oldest</span>
                     <span>Most Recent</span>
                   </div>
+                  <div className="trend-legend">
+                    <div className="legend-item">
+                      <div className="legend-dot questions"></div>
+                      <span>Questions</span>
+                    </div>
+                    <div className="legend-item">
+                      <div className="legend-dot vocab"></div>
+                      <span>Vocabulary</span>
+                    </div>
+                  </div>
                 </div>
               )}
 
@@ -720,9 +1022,14 @@
                   <div className="card-title">Recent Activity</div>
                   <div className="timeline">
                     {filteredAttempts.slice(0, 10).map((attempt, i) => (
-                      <div key={i} className="timeline-item">
+                      <div key={i} className={`timeline-item ${attempt.attemptType === 'vocabulary' ? 'vocab' : ''}`}>
                         <div className="timeline-info">
-                          <div className="timeline-student">{attempt.studentName || 'Unknown'}</div>
+                          <div className="timeline-student">
+                            {attempt.studentName || 'Unknown'}
+                            <span className={`timeline-badge ${attempt.attemptType === 'vocabulary' ? 'vocab' : 'questions'}`}>
+                              {attempt.attemptType === 'vocabulary' ? 'Vocab' : 'Questions'}
+                            </span>
+                          </div>
                           <div className="timeline-mode">{attempt.quizMode || 'Quiz'}</div>
                           <div className="timeline-date">{formatDate(attempt.timestamp)}</div>
                         </div>
@@ -747,12 +1054,21 @@
                       {Object.entries(chapterStats)
                         .sort((a, b) => parseInt(a[0]) - parseInt(b[0]))
                         .map(([chNum, stats]) => {
-                          const pct = stats.total > 0 ? Math.round((stats.correct / stats.total) * 100) : 0;
+                          const qPct = stats.questions.total > 0 ? Math.round((stats.questions.correct / stats.questions.total) * 100) : null;
+                          const vPct = stats.vocab.total > 0 ? Math.round((stats.vocab.correct / stats.vocab.total) * 100) : null;
+                          const totalAttempts = stats.questions.attempts + stats.vocab.attempts;
                           return (
                             <div key={chNum} className="chapter-item">
                               <div className="chapter-name">Ch. {chNum}</div>
-                              <div className={`chapter-score ${getScoreClass(pct)}`}>{pct}%</div>
-                              <div className="chapter-attempts">{stats.attempts} attempts</div>
+                              <div className="chapter-breakdown">
+                                {qPct !== null && (
+                                  <span className="chapter-type-score questions">Q: {qPct}%</span>
+                                )}
+                                {vPct !== null && (
+                                  <span className="chapter-type-score vocab">V: {vPct}%</span>
+                                )}
+                              </div>
+                              <div className="chapter-attempts">{totalAttempts} attempts</div>
                             </div>
                           );
                         })}
@@ -764,17 +1080,37 @@
               </div>
 
               {/* Weak Areas */}
-              {weakAreas.length > 0 && (
+              {(weakQuestions.length > 0 || weakTerms.length > 0) && (
                 <div className="card">
-                  <div className="card-title">Areas to Review (Most Missed Questions)</div>
-                  {weakAreas.map((area, i) => (
-                    <div key={i} className="weak-area">
-                      <div className="weak-question">{area.question}</div>
-                      <div className="weak-stats">
-                        Chapter {area.chapter}: {area.chapterName} - Missed {area.count} time{area.count > 1 ? 's' : ''}
-                      </div>
-                    </div>
-                  ))}
+                  <div className="card-title">Areas to Review</div>
+
+                  {weakQuestions.length > 0 && (selectedType === 'all' || selectedType === 'questions') && (
+                    <>
+                      <div className="weak-section-title">Frequently Missed Questions</div>
+                      {weakQuestions.map((area, i) => (
+                        <div key={i} className="weak-area">
+                          <div className="weak-question">{area.text}</div>
+                          <div className="weak-stats">
+                            Chapter {area.chapter}{area.chapterName ? `: ${area.chapterName}` : ''} - Missed {area.count} time{area.count > 1 ? 's' : ''}
+                          </div>
+                        </div>
+                      ))}
+                    </>
+                  )}
+
+                  {weakTerms.length > 0 && (selectedType === 'all' || selectedType === 'vocabulary') && (
+                    <>
+                      <div className="weak-section-title vocab">Frequently Missed Vocabulary</div>
+                      {weakTerms.map((area, i) => (
+                        <div key={i} className="weak-area vocab">
+                          <div className="weak-question">{area.term}</div>
+                          <div className="weak-stats">
+                            Chapter {area.chapter} - Missed {area.count} time{area.count > 1 ? 's' : ''}
+                          </div>
+                        </div>
+                      ))}
+                    </>
+                  )}
                 </div>
               )}
 

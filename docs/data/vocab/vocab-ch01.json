@@ -1,0 +1,148 @@
+{
+  "chapterNumber": 1,
+  "vocabulary": [
+    {
+      "id": "ch1_vocab1",
+      "term": "expectant",
+      "definition": "expecting the birth of a child",
+      "distractors": [
+        "one that conveys news or proclaims",
+        "a gesture of respect",
+        "buying and selling goods",
+        "to make a forceful protest",
+        "a building in which domestic animals are sheltered and fed"
+      ],
+      "pageReference": "1"
+    },
+    {
+      "id": "ch1_vocab2",
+      "term": "stable",
+      "definition": "a building in which domestic animals are sheltered and fed",
+      "distractors": [
+        "a person who repents of sin",
+        "expecting the birth of a child",
+        "impressive because of uncommon grandeur",
+        "to make a forceful protest",
+        "buying and selling goods"
+      ],
+      "pageReference": "1"
+    },
+    {
+      "id": "ch1_vocab3",
+      "term": "ascetic",
+      "definition": "practicing strict self-denial as a measure of personal and especially spiritual discipline",
+      "distractors": [
+        "expecting the birth of a child",
+        "buying and selling goods",
+        "impressive because of uncommon grandeur",
+        "a gesture of respect",
+        "a building in which domestic animals are sheltered and fed"
+      ],
+      "pageReference": "2"
+    },
+    {
+      "id": "ch1_vocab4",
+      "term": "herald",
+      "definition": "one that conveys news or proclaims",
+      "distractors": [
+        "a building in which domestic animals are sheltered and fed",
+        "a prediction of something to come",
+        "practicing strict self-denial as a measure of personal and especially spiritual discipline",
+        "a person who spends wastefully",
+        "impressive because of uncommon grandeur"
+      ],
+      "pageReference": "2"
+    },
+    {
+      "id": "ch1_vocab5",
+      "term": "penitent",
+      "definition": "a person who repents of sin",
+      "distractors": [
+        "practicing strict self-denial as a measure of personal and especially spiritual discipline",
+        "a prediction of something to come",
+        "expecting the birth of a child",
+        "buying and selling goods",
+        "a building in which domestic animals are sheltered and fed"
+      ],
+      "pageReference": "3"
+    },
+    {
+      "id": "ch1_vocab6",
+      "term": "grandiosity",
+      "definition": "impressive because of uncommon grandeur",
+      "distractors": [
+        "a gesture of respect",
+        "buying and selling goods",
+        "a person who repents of sin",
+        "practicing strict self-denial as a measure of personal and especially spiritual discipline",
+        "a prediction of something to come"
+      ],
+      "pageReference": "3"
+    },
+    {
+      "id": "ch1_vocab7",
+      "term": "commerce",
+      "definition": "buying and selling goods",
+      "distractors": [
+        "a building in which domestic animals are sheltered and fed",
+        "practicing strict self-denial as a measure of personal and especially spiritual discipline",
+        "a gesture of respect",
+        "a person who spends wastefully",
+        "to make a forceful protest"
+      ],
+      "pageReference": "3"
+    },
+    {
+      "id": "ch1_vocab8",
+      "term": "spendthrift",
+      "definition": "a person who spends wastefully",
+      "distractors": [
+        "practicing strict self-denial as a measure of personal and especially spiritual discipline",
+        "a prediction of something to come",
+        "expecting the birth of a child",
+        "a gesture of respect",
+        "to make a forceful protest"
+      ],
+      "pageReference": "4"
+    },
+    {
+      "id": "ch1_vocab9",
+      "term": "remonstrated",
+      "definition": "to make a forceful protest",
+      "distractors": [
+        "impressive because of uncommon grandeur",
+        "practicing strict self-denial as a measure of personal and especially spiritual discipline",
+        "buying and selling goods",
+        "one that conveys news or proclaims",
+        "a person who repents of sin"
+      ],
+      "pageReference": "4"
+    },
+    {
+      "id": "ch1_vocab10",
+      "term": "reverence",
+      "definition": "a gesture of respect",
+      "distractors": [
+        "impressive because of uncommon grandeur",
+        "buying and selling goods",
+        "one that conveys news or proclaims",
+        "expecting the birth of a child",
+        "a person who spends wastefully"
+      ],
+      "pageReference": "5"
+    },
+    {
+      "id": "ch1_vocab11",
+      "term": "prophecy",
+      "definition": "a prediction of something to come",
+      "distractors": [
+        "one that conveys news or proclaims",
+        "practicing strict self-denial as a measure of personal and especially spiritual discipline",
+        "impressive because of uncommon grandeur",
+        "buying and selling goods",
+        "expecting the birth of a child"
+      ],
+      "pageReference": "5"
+    }
+  ]
+}

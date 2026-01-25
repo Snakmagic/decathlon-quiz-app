@@ -45,7 +45,11 @@
     {
       "id": "ch10_q4",
       "question": "What scripture passages came up at random when Francis and Bernard went to discern God's will together?",
-      "correctAnswer": "Matthew 19:21 'If you would be perfect, go, sell what you possess and give to the poor...'; Luke 9:3 'Take nothing for your journey'; Luke 9:23 'If any man would come after me, let him deny himself and take up his cross daily and follow me'",
+      "acceptableAnswers": [
+        "Matthew 19:21 - If you would be perfect, go, sell what you possess and give to the poor",
+        "Luke 9:3 - Take nothing for your journey",
+        "Luke 9:23 - If any man would come after me, let him deny himself and take up his cross daily and follow me"
+      ],
       "distractors": [
         "Matthew 5:3-10 The Beatitudes about the poor in spirit",
         "Matthew 25:31-46 Whatever you do to the least of these",
@@ -53,7 +57,8 @@
         "Mark 10:17-22 The rich young man",
         "Acts 2:42-47 The early church sharing all things in common"
       ],
-      "pageReference": "111-112"
+      "pageReference": "111-112",
+      "type": "accept-any"
     },
     {
       "id": "ch10_q5",

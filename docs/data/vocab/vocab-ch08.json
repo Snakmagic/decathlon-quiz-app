@@ -1,0 +1,161 @@
+{
+  "chapterNumber": 8,
+  "vocabulary": [
+    {
+      "id": "ch8_vocab1",
+      "term": "resolute",
+      "definition": "marked by firm determination",
+      "distractors": [
+        "to give up by formal declaration",
+        "present in all places at all times",
+        "to separate from association with another",
+        "one who has unlimited power",
+        "vigorously active"
+      ],
+      "pageReference": "79"
+    },
+    {
+      "id": "ch8_vocab2",
+      "term": "renounced",
+      "definition": "to give up by formal declaration",
+      "distractors": [
+        "vigorously active",
+        "one who has unlimited power",
+        "the place where one lives",
+        "present in all places at all times",
+        "characterized by a lack of security or stability that threatens with danger"
+      ],
+      "pageReference": "82"
+    },
+    {
+      "id": "ch8_vocab3",
+      "term": "precarious",
+      "definition": "characterized by a lack of security or stability that threatens with danger",
+      "distractors": [
+        "traveling from place to place",
+        "a trying experience",
+        "the invocation of a blessing",
+        "to separate from association with another",
+        "present in all places at all times"
+      ],
+      "pageReference": "82"
+    },
+    {
+      "id": "ch8_vocab4",
+      "term": "tribulation",
+      "definition": "a trying experience",
+      "distractors": [
+        "to separate from association with another",
+        "vigorously active",
+        "one who has unlimited power",
+        "the invocation of a blessing",
+        "to give up by formal declaration"
+      ],
+      "pageReference": "83"
+    },
+    {
+      "id": "ch8_vocab5",
+      "term": "strenuous",
+      "definition": "vigorously active",
+      "distractors": [
+        "a trying experience",
+        "traveling from place to place",
+        "marked by firm determination",
+        "the place where one lives",
+        "to separate from association with another"
+      ],
+      "pageReference": "84"
+    },
+    {
+      "id": "ch8_vocab6",
+      "term": "omnipotent",
+      "definition": "one who has unlimited power",
+      "distractors": [
+        "the invocation of a blessing",
+        "to give up by formal declaration",
+        "a trying experience",
+        "strong longing for or impulse toward wandering",
+        "vigorously active"
+      ],
+      "pageReference": "85"
+    },
+    {
+      "id": "ch8_vocab7",
+      "term": "omnipresent",
+      "definition": "present in all places at all times",
+      "distractors": [
+        "vigorously active",
+        "strong longing for or impulse toward wandering",
+        "to give up by formal declaration",
+        "characterized by a lack of security or stability that threatens with danger",
+        "traveling from place to place"
+      ],
+      "pageReference": "85"
+    },
+    {
+      "id": "ch8_vocab8",
+      "term": "benedictions",
+      "definition": "the invocation of a blessing",
+      "distractors": [
+        "the place where one lives",
+        "one who has unlimited power",
+        "a trying experience",
+        "traveling from place to place",
+        "strong longing for or impulse toward wandering"
+      ],
+      "pageReference": "86"
+    },
+    {
+      "id": "ch8_vocab9",
+      "term": "wanderlust",
+      "definition": "strong longing for or impulse toward wandering",
+      "distractors": [
+        "to give up by formal declaration",
+        "marked by firm determination",
+        "the invocation of a blessing",
+        "present in all places at all times",
+        "one who has unlimited power"
+      ],
+      "pageReference": "93"
+    },
+    {
+      "id": "ch8_vocab10",
+      "term": "itinerantly",
+      "definition": "traveling from place to place",
+      "distractors": [
+        "the invocation of a blessing",
+        "characterized by a lack of security or stability that threatens with danger",
+        "present in all places at all times",
+        "vigorously active",
+        "a trying experience"
+      ],
+      "pageReference": "94"
+    },
+    {
+      "id": "ch8_vocab11",
+      "term": "disassociated",
+      "definition": "to separate from association with another",
+      "distractors": [
+        "present in all places at all times",
+        "a trying experience",
+        "traveling from place to place",
+        "strong longing for or impulse toward wandering",
+        "characterized by a lack of security or stability that threatens with danger"
+      ],
+      "pageReference": "94"
+    },
+    {
+      "id": "ch8_vocab12",
+      "term": "abode",
+      "definition": "the place where one lives",
+      "distractors": [
+        "the invocation of a blessing",
+        "marked by firm determination",
+        "present in all places at all times",
+        "characterized by a lack of security or stability that threatens with danger",
+        "to give up by formal declaration"
+      ],
+      "pageReference": "94"
+    }
+  ]
+}

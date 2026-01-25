@@ -112,6 +112,31 @@
       color: white;
     }
 
+    .btn-vocab {
+      background-color: #7c3aed;
+      color: white;
+    }
+
+    .btn-vocab:hover {
+      background-color: #6d28d9;
+    }
+
+    .btn-vocab:disabled {
+      background-color: #9ca3af;
+      cursor: not-allowed;
+    }
+
+    .btn-vocab-outline {
+      background-color: transparent;
+      border: 2px solid #7c3aed;
+      color: #7c3aed;
+    }
+
+    .btn-vocab-outline:hover {
+      background-color: #7c3aed;
+      color: white;
+    }
+
     .menu-buttons {
       display: flex;
       flex-direction: column;
@@ -134,6 +159,14 @@
       border-color: #2c5282;
     }
 
+    .chapter-select.vocab {
+      border-color: #7c3aed;
+    }
+
+    .chapter-select.vocab:focus {
+      border-color: #6d28d9;
+    }
+
     .divider {
       display: flex;
       align-items: center;
@@ -152,6 +185,10 @@
       font-size: 0.875rem;
     }
 
+    .divider-text.vocab {
+      color: #7c3aed;
+    }
+
     .progress-bar {
       display: flex;
       justify-content: space-between;
@@ -160,6 +197,10 @@
       padding: 12px 16px;
       background-color: #f3f4f6;
       border-radius: 8px;
+    }
+
+    .progress-bar.vocab {
+      background-color: #f5f3ff;
     }
 
     .progress-text {
@@ -177,6 +218,25 @@
       font-weight: 500;
       margin-bottom: 24px;
       color: #1f2937;
+    }
+
+    .vocab-prompt {
+      font-size: 0.875rem;
+      color: #7c3aed;
+      margin-bottom: 8px;
+      font-weight: 500;
+    }
+
+    .vocab-definition {
+      font-size: 1.25rem;
+      font-weight: 500;
+      margin-bottom: 24px;
+      color: #1f2937;
+      font-style: italic;
+      padding: 16px;
+      background-color: #f5f3ff;
+      border-radius: 8px;
+      border-left: 4px solid #7c3aed;
     }
 
     .choices {
@@ -346,6 +406,11 @@
       border-left: 4px solid #dc2626;
     }
 
+    .missed-item.vocab {
+      background-color: #faf5ff;
+      border-left-color: #7c3aed;
+    }
+
     .missed-question {
       font-weight: 500;
       margin-bottom: 8px;
@@ -418,6 +483,10 @@
       color: #2c5282;
     }
 
+    .stat-value.vocab {
+      color: #7c3aed;
+    }
+
     .stat-label {
       font-size: 0.75rem;
       color: #6b7280;
@@ -470,6 +539,22 @@
       font-size: 0.875rem;
       color: #6b7280;
       margin-top: 8px;
+    }
+
+    .section-title {
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: #374151;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 12px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid #e5e7eb;
+    }
+
+    .section-title.vocab {
+      color: #7c3aed;
+      border-bottom-color: #7c3aed;
     }
 
     @media (max-width: 768px) {
@@ -542,15 +627,54 @@
       return shuffled.slice(0, count);
     }
 
+    // Utility: Pick one random item from array
+    function randomChoice(array) {
+      return array[Math.floor(Math.random() * array.length)];
+    }
+
     // Prepare a question with 4 randomized choices
     function prepareQuestion(question, chapterName, chapterNumber) {
-      const distractors = selectRandom(question.distractors, 3);
-      const choices = shuffleArray([question.correctAnswer, ...distractors]);
+      let correctAnswer;
+      let distractors;
+
+      // Handle "accept-any" type questions
+      if (question.type === 'accept-any' && question.acceptableAnswers) {
+        // Pick ONE random acceptable answer as the correct one for this attempt
+        correctAnswer = randomChoice(question.acceptableAnswers);
+        distractors = selectRandom(question.distractors, 3);
+      } else {
+        // Normal question
+        correctAnswer = question.correctAnswer;
+        distractors = selectRandom(question.distractors, 3);
+      }
+
+      const choices = shuffleArray([correctAnswer, ...distractors]);
+
       return {
         ...question,
         chapterName,
         chapterNumber,
         choices,
+        correctAnswer, // This is the selected correct answer for this attempt
+        isVocab: false
+      };
+    }
+
+    // Prepare a vocabulary item as a question
+    function prepareVocabQuestion(vocabItem, chapterNumber) {
+      const distractors = selectRandom(vocabItem.distractors, 3);
+      const choices = shuffleArray([vocabItem.term, ...distractors]);
+
+      return {
+        id: vocabItem.id,
+        question: vocabItem.definition, // Definition is the question
+        correctAnswer: vocabItem.term,  // Term is the answer
+        term: vocabItem.term,
+        definition: vocabItem.definition,
+        choices,
+        chapterNumber,
+        pageReference: vocabItem.pageReference,
+        isVocab: true
       };
     }
 
@@ -565,10 +689,25 @@
     // Log quiz attempt to Firestore
     async function logQuizAttempt(data) {
       try {
-        await db.collection('quizAttempts').add({
-          ...data,
+        const docData = {
+          studentName: data.studentName,
+          quizMode: data.quizMode,
+          score: data.score,
+          total: data.total,
+          percentage: data.percentage,
+          timeSpent: data.timeSpent,
+          attemptType: data.attemptType,
           timestamp: firebase.firestore.FieldValue.serverTimestamp()
-        });
+        };
+
+        // Use different field names for vocab vs questions
+        if (data.attemptType === 'vocabulary') {
+          docData.missedTerms = data.missedItems;
+        } else {
+          docData.missedQuestions = data.missedItems;
+        }
+
+        await db.collection('quizAttempts').add(docData);
         console.log('Quiz attempt logged successfully');
       } catch (error) {
         console.error('Error logging quiz attempt:', error);
@@ -650,10 +789,12 @@
     }
 
     // Start Screen Component
-    function StartScreen({ chapters, studentName, onStartQuiz, onChangeName }) {
+    function StartScreen({ chapters, vocabChapters, studentName, onStartQuiz, onStartVocabQuiz, onChangeName }) {
       const [selectedChapter, setSelectedChapter] = useState('');
+      const [selectedVocabChapter, setSelectedVocabChapter] = useState('');
 
       const totalQuestions = chapters.reduce((sum, ch) => sum + ch.questions.length, 0);
+      const totalVocab = vocabChapters.reduce((sum, ch) => sum + ch.vocabulary.length, 0);
 
       const handleChapterQuiz = () => {
         if (selectedChapter) {
@@ -680,6 +821,23 @@
         onStartQuiz(selected, `Random ${count} Questions`);
       };
 
+      const handleVocabChapterQuiz = () => {
+        if (selectedVocabChapter) {
+          const chapter = vocabChapters.find(ch => ch.chapterNumber === parseInt(selectedVocabChapter));
+          const questions = chapter.vocabulary.map(v =>
+            prepareVocabQuestion(v, chapter.chapterNumber)
+          );
+          onStartVocabQuiz(questions, `Vocabulary - Chapter ${chapter.chapterNumber}`);
+        }
+      };
+
+      const handleAllVocab = () => {
+        const allVocab = vocabChapters.flatMap(ch =>
+          ch.vocabulary.map(v => prepareVocabQuestion(v, ch.chapterNumber))
+        );
+        onStartVocabQuiz(shuffleArray(allVocab), 'Vocabulary - All Chapters');
+      };
+
       return (
         <div className="container">
           <div className="header">
@@ -702,9 +860,16 @@
                 <div className="stat-value">{totalQuestions}</div>
                 <div className="stat-label">Questions</div>
               </div>
+              <div className="stat-item">
+                <div className="stat-value vocab">{totalVocab}</div>
+                <div className="stat-label">Vocab Terms</div>
+              </div>
             </div>
 
             <div className="menu-buttons">
+              {/* Questions Section */}
+              <div className="section-title">Review Questions</div>
+
               <select
                 className="chapter-select"
                 value={selectedChapter}
@@ -726,12 +891,6 @@
                 Start Chapter Quiz
               </button>
 
-              <div className="divider">
-                <div className="divider-line"></div>
-                <span className="divider-text">OR</span>
-                <div className="divider-line"></div>
-              </div>
-
               <button className="btn btn-secondary" onClick={handleAllChapters}>
                 All Chapters ({totalQuestions} questions)
               </button>
@@ -751,6 +910,40 @@
               <button className="btn btn-outline" onClick={() => handleRandomQuiz(50)}>
                 Random 50 Questions
               </button>
+
+              {/* Vocabulary Section */}
+              <div className="divider">
+                <div className="divider-line"></div>
+                <span className="divider-text vocab">VOCABULARY</span>
+                <div className="divider-line"></div>
+              </div>
+
+              <div className="section-title vocab">Vocabulary Quiz</div>
+
+              <select
+                className="chapter-select vocab"
+                value={selectedVocabChapter}
+                onChange={(e) => setSelectedVocabChapter(e.target.value)}
+              >
+                <option value="">Select a Chapter...</option>
+                {vocabChapters.map(ch => (
+                  <option key={ch.chapterNumber} value={ch.chapterNumber}>
+                    Ch. {ch.chapterNumber} Vocabulary ({ch.vocabulary.length} terms)
+                  </option>
+                ))}
+              </select>
+
+              <button
+                className="btn btn-vocab"
+                onClick={handleVocabChapterQuiz}
+                disabled={!selectedVocabChapter}
+              >
+                Start Vocabulary Quiz
+              </button>
+
+              <button className="btn btn-vocab-outline" onClick={handleAllVocab}>
+                All Vocabulary ({totalVocab} terms)
+              </button>
             </div>
           </div>
         </div>
@@ -758,7 +951,7 @@
     }
 
     // Quiz Screen Component
-    function QuizScreen({ questions, quizTitle, onComplete }) {
+    function QuizScreen({ questions, quizTitle, isVocab, onComplete }) {
       const [currentIndex, setCurrentIndex] = useState(0);
       const [selectedAnswer, setSelectedAnswer] = useState(null);
       const [showFeedback, setShowFeedback] = useState(false);
@@ -814,16 +1007,23 @@
       return (
         <div className="container">
           <div className="card">
-            <div className="progress-bar">
+            <div className={`progress-bar ${isVocab ? 'vocab' : ''}`}>
               <span className="progress-text">
-                Question {currentIndex + 1} of {questions.length}
+                {isVocab ? 'Term' : 'Question'} {currentIndex + 1} of {questions.length}
               </span>
               <span className="chapter-tag">
-                Ch. {currentQuestion.chapterNumber}: {currentQuestion.chapterName}
+                {isVocab ? `Vocab Ch. ${currentQuestion.chapterNumber}` : `Ch. ${currentQuestion.chapterNumber}: ${currentQuestion.chapterName}`}
               </span>
             </div>
 
-            <div className="question-text">{currentQuestion.question}</div>
+            {isVocab ? (
+              <>
+                <div className="vocab-prompt">Which term matches this definition?</div>
+                <div className="vocab-definition">"{currentQuestion.question}"</div>
+              </>
+            ) : (
+              <div className="question-text">{currentQuestion.question}</div>
+            )}
 
             <div className="choices">
               {currentQuestion.choices.map((choice, index) => (
@@ -846,7 +1046,12 @@
                   {isCorrect ? 'Correct!' : 'Incorrect'}
                 </div>
                 <div className="feedback-text">
-                  {isCorrect ? 'Great job!' : `The correct answer is: ${currentQuestion.correctAnswer}`}
+                  {isCorrect
+                    ? 'Great job!'
+                    : isVocab
+                      ? `The correct term is: ${currentQuestion.correctAnswer}`
+                      : `The correct answer is: ${currentQuestion.correctAnswer}`
+                  }
                 </div>
                 <div className="page-ref">Page reference: {currentQuestion.pageReference}</div>
               </div>
@@ -854,7 +1059,7 @@
 
             {!showFeedback ? (
               <button
-                className="btn btn-primary"
+                className={`btn ${isVocab ? 'btn-vocab' : 'btn-primary'}`}
                 onClick={handleSubmit}
                 disabled={selectedAnswer === null}
               >
@@ -862,7 +1067,7 @@
               </button>
             ) : (
               <button className="btn btn-secondary" onClick={handleNext}>
-                {currentIndex + 1 >= questions.length ? 'See Results' : 'Next Question'}
+                {currentIndex + 1 >= questions.length ? 'See Results' : isVocab ? 'Next Term' : 'Next Question'}
               </button>
             )}
           </div>
@@ -871,7 +1076,7 @@
     }
 
     // Results Screen Component
-    function ResultsScreen({ answers, quizTitle, timeSpent, onReviewMissed, onRetry, onMenu }) {
+    function ResultsScreen({ answers, quizTitle, timeSpent, isVocab, onReviewMissed, onRetry, onMenu }) {
       const correct = answers.filter(a => a.correct).length;
       const total = answers.length;
       const percent = Math.round((correct / total) * 100);
@@ -893,17 +1098,28 @@
 
             {missed.length > 0 && (
               <div className="missed-section">
-                <div className="missed-title">Questions Missed: {missed.length}</div>
+                <div className="missed-title">{isVocab ? 'Terms' : 'Questions'} Missed: {missed.length}</div>
                 <div className="missed-list">
                   {missed.map((item, index) => (
-                    <div key={index} className="missed-item">
-                      <div className="missed-question">{item.question.question}</div>
-                      <div className="missed-answer">
-                        Correct: {item.question.correctAnswer}
-                      </div>
-                      <div className="missed-chapter">
-                        Chapter {item.question.chapterNumber}: {item.question.chapterName} (p. {item.question.pageReference})
-                      </div>
+                    <div key={index} className={`missed-item ${isVocab ? 'vocab' : ''}`}>
+                      {isVocab ? (
+                        <>
+                          <div className="missed-question">"{item.question.definition}"</div>
+                          <div className="missed-answer">
+                            Correct term: <strong>{item.question.term}</strong>
+                          </div>
+                        </>
+                      ) : (
+                        <>
+                          <div className="missed-question">{item.question.question}</div>
+                          <div className="missed-answer">
+                            Correct: {item.question.correctAnswer}
+                          </div>
+                          <div className="missed-chapter">
+                            Chapter {item.question.chapterNumber}: {item.question.chapterName} (p. {item.question.pageReference})
+                          </div>
+                        </>
+                      )}
                     </div>
                   ))}
                 </div>
@@ -912,8 +1128,8 @@
 
             <div className="results-buttons">
               {missed.length > 0 && (
-                <button className="btn btn-secondary" onClick={onReviewMissed}>
-                  Review Missed Questions ({missed.length})
+                <button className={`btn ${isVocab ? 'btn-vocab' : 'btn-secondary'}`} onClick={onReviewMissed}>
+                  Review Missed {isVocab ? 'Terms' : 'Questions'} ({missed.length})
                 </button>
               )}
               <button className="btn btn-primary" onClick={onRetry}>
@@ -932,6 +1148,7 @@
     function App() {
       const [mode, setMode] = useState('loading');
       const [chapters, setChapters] = useState([]);
+      const [vocabChapters, setVocabChapters] = useState([]);
       const [error, setError] = useState(null);
       const [quizQuestions, setQuizQuestions] = useState([]);
       const [quizTitle, setQuizTitle] = useState('');
@@ -939,6 +1156,7 @@
       const [lastQuizConfig, setLastQuizConfig] = useState(null);
       const [studentName, setStudentName] = useState('');
       const [timeSpent, setTimeSpent] = useState(0);
+      const [isVocabQuiz, setIsVocabQuiz] = useState(false);
 
       // Check for stored name and load chapters on mount
       useEffect(() => {
@@ -946,14 +1164,15 @@
         if (storedName) {
           setStudentName(storedName);
         }
-        loadChapters();
+        loadAllData();
       }, []);
 
-      const loadChapters = async () => {
+      const loadAllData = async () => {
         setMode('loading');
         setError(null);
 
         try {
+          // Load question chapters
           const loadedChapters = [];
           for (let i = 1; i <= 18; i++) {
             const paddedNum = i.toString().padStart(2, '0');
@@ -966,6 +1185,20 @@
           }
           loadedChapters.sort((a, b) => a.chapterNumber - b.chapterNumber);
           setChapters(loadedChapters);
+
+          // Load vocabulary chapters
+          const loadedVocab = [];
+          for (let i = 1; i <= 18; i++) {
+            const paddedNum = i.toString().padStart(2, '0');
+            const response = await fetch(`./data/vocab/vocab-ch${paddedNum}.json`);
+            if (!response.ok) {
+              throw new Error(`Failed to load vocab chapter ${i}`);
+            }
+            const vocab = await response.json();
+            loadedVocab.push(vocab);
+          }
+          loadedVocab.sort((a, b) => a.chapterNumber - b.chapterNumber);
+          setVocabChapters(loadedVocab);
 
           // Check if we need name entry
           const storedName = localStorage.getItem('studentName');
@@ -994,7 +1227,16 @@
       const handleStartQuiz = (questions, title) => {
         setQuizQuestions(questions);
         setQuizTitle(title);
-        setLastQuizConfig({ questions, title });
+        setLastQuizConfig({ questions, title, isVocab: false });
+        setIsVocabQuiz(false);
+        setMode('quiz');
+      };
+
+      const handleStartVocabQuiz = (questions, title) => {
+        setQuizQuestions(questions);
+        setQuizTitle(title);
+        setLastQuizConfig({ questions, title, isVocab: true });
+        setIsVocabQuiz(true);
         setMode('quiz');
       };
 
@@ -1006,14 +1248,29 @@
         // Log to Firestore
         const correct = answers.filter(a => a.correct).length;
         const total = answers.length;
-        const missed = answers.filter(a => !a.correct).map(a => ({
-          questionId: a.question.id,
-          question: a.question.question,
-          correctAnswer: a.question.correctAnswer,
-          userAnswer: a.userAnswer,
-          chapterNumber: a.question.chapterNumber,
-          chapterName: a.question.chapterName
-        }));
+
+        let missedItems;
+        if (isVocabQuiz) {
+          missedItems = answers.filter(a => !a.correct).map(a => ({
+            termId: a.question.id,
+            term: a.question.term,
+            definition: a.question.definition,
+            userAnswer: a.userAnswer,
+            correctAnswer: a.question.term,
+            chapterNumber: a.question.chapterNumber,
+            pageReference: a.question.pageReference
+          }));
+        } else {
+          missedItems = answers.filter(a => !a.correct).map(a => ({
+            questionId: a.question.id,
+            question: a.question.question,
+            correctAnswer: a.question.correctAnswer,
+            userAnswer: a.userAnswer,
+            chapterNumber: a.question.chapterNumber,
+            chapterName: a.question.chapterName,
+            pageReference: a.question.pageReference
+          }));
+        }
 
         await logQuizAttempt({
           studentName: studentName,
@@ -1022,28 +1279,59 @@
           total: total,
           percentage: Math.round((correct / total) * 100),
           timeSpent: elapsed,
-          missedQuestions: missed
+          attemptType: isVocabQuiz ? 'vocabulary' : 'questions',
+          missedItems: missedItems
         });
       };
 
       const handleReviewMissed = () => {
         const missed = quizAnswers.filter(a => !a.correct);
-        const reviewQuestions = missed.map(m =>
-          prepareQuestion(m.question, m.question.chapterName, m.question.chapterNumber)
-        );
+        let reviewQuestions;
+
+        if (isVocabQuiz) {
+          reviewQuestions = missed.map(m => {
+            const vocabItem = {
+              id: m.question.id,
+              term: m.question.term,
+              definition: m.question.definition,
+              distractors: m.question.choices.filter(c => c !== m.question.term),
+              pageReference: m.question.pageReference
+            };
+            return prepareVocabQuestion(vocabItem, m.question.chapterNumber);
+          });
+        } else {
+          reviewQuestions = missed.map(m =>
+            prepareQuestion(m.question, m.question.chapterName, m.question.chapterNumber)
+          );
+        }
+
         setQuizQuestions(reviewQuestions);
-        setQuizTitle('Review: Missed Questions');
+        setQuizTitle(`Review: Missed ${isVocabQuiz ? 'Terms' : 'Questions'}`);
         setMode('quiz');
       };
 
       const handleRetry = () => {
         if (lastQuizConfig) {
-          // Re-prepare questions to get new distractor combinations
-          const freshQuestions = lastQuizConfig.questions.map(q =>
-            prepareQuestion(q, q.chapterName, q.chapterNumber)
-          );
+          let freshQuestions;
+          if (lastQuizConfig.isVocab) {
+            freshQuestions = lastQuizConfig.questions.map(q => {
+              const vocabItem = {
+                id: q.id,
+                term: q.term,
+                definition: q.definition,
+                distractors: q.choices.filter(c => c !== q.term),
+                pageReference: q.pageReference
+              };
+              return prepareVocabQuestion(vocabItem, q.chapterNumber);
+            });
+          } else {
+            freshQuestions = lastQuizConfig.questions.map(q =>
+              prepareQuestion(q, q.chapterName, q.chapterNumber)
+            );
+          }
           setQuizQuestions(shuffleArray(freshQuestions));
           setQuizTitle(lastQuizConfig.title);
+          setIsVocabQuiz(lastQuizConfig.isVocab);
           setMode('quiz');
         }
       };
@@ -1051,6 +1339,7 @@
       const handleMenu = () => {
         setQuizQuestions([]);
         setQuizAnswers([]);
+        setIsVocabQuiz(false);
         setMode('menu');
       };
 
@@ -1059,7 +1348,7 @@
       }
 
       if (mode === 'error') {
-        return <ErrorScreen message={error} onRetry={loadChapters} />;
+        return <ErrorScreen message={error} onRetry={loadAllData} />;
       }
 
       if (mode === 'nameEntry') {
@@ -1070,8 +1359,10 @@
         return (
           <StartScreen
             chapters={chapters}
+            vocabChapters={vocabChapters}
             studentName={studentName}
             onStartQuiz={handleStartQuiz}
+            onStartVocabQuiz={handleStartVocabQuiz}
             onChangeName={handleChangeName}
           />
         );
@@ -1082,6 +1373,7 @@
           <QuizScreen
             questions={quizQuestions}
             quizTitle={quizTitle}
+            isVocab={isVocabQuiz}
             onComplete={handleQuizComplete}
           />
         );
@@ -1093,6 +1385,7 @@
             answers={quizAnswers}
             quizTitle={quizTitle}
             timeSpent={timeSpent}
+            isVocab={isVocabQuiz}
             onReviewMissed={handleReviewMissed}
             onRetry={handleRetry}
             onMenu={handleMenu}

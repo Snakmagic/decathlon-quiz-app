@@ -1,0 +1,174 @@
+{
+  "chapterNumber": 17,
+  "vocabulary": [
+    {
+      "id": "ch17_vocab1",
+      "term": "droves",
+      "definition": "a large number",
+      "distractors": [
+        "angry and bitter",
+        "the state of being faithful",
+        "to clear of guilt",
+        "the process of becoming more like God through participating in the divine life",
+        "exhibiting a special magnetic charm or appeal"
+      ],
+      "pageReference": "188"
+    },
+    {
+      "id": "ch17_vocab2",
+      "term": "nostalgia",
+      "definition": "wistful yearning for return to some past period",
+      "distractors": [
+        "the process of becoming more like God through participating in the divine life",
+        "to clear of guilt",
+        "exhibiting a special magnetic charm or appeal",
+        "the state of being faithful",
+        "angry and bitter"
+      ],
+      "pageReference": "188"
+    },
+    {
+      "id": "ch17_vocab3",
+      "term": "charismatic",
+      "definition": "exhibiting a special magnetic charm or appeal",
+      "distractors": [
+        "characteristics of one that manages supervisory duties",
+        "a large number",
+        "bringing about salvation",
+        "supernatural communication in which God speaks",
+        "the state of being faithful"
+      ],
+      "pageReference": "189"
+    },
+    {
+      "id": "ch17_vocab4",
+      "term": "administrative",
+      "definition": "characteristics of one that manages supervisory duties",
+      "distractors": [
+        "bringing about salvation",
+        "a large number",
+        "to clear of guilt",
+        "the state of being faithful",
+        "to withhold something"
+      ],
+      "pageReference": "189"
+    },
+    {
+      "id": "ch17_vocab5",
+      "term": "acrimonious",
+      "definition": "angry and bitter",
+      "distractors": [
+        "the process of becoming more like God through participating in the divine life",
+        "wistful yearning for return to some past period",
+        "bringing about salvation",
+        "to withhold something",
+        "the state of being faithful"
+      ],
+      "pageReference": "190"
+    },
+    {
+      "id": "ch17_vocab6",
+      "term": "depriving",
+      "definition": "to withhold something",
+      "distractors": [
+        "the state of being faithful",
+        "angry and bitter",
+        "to clear of guilt",
+        "a large number",
+        "deficient in worldly wisdom"
+      ],
+      "pageReference": "190"
+    },
+    {
+      "id": "ch17_vocab7",
+      "term": "ve",
+      "definition": "deficient in worldly wisdom",
+      "distractors": [
+        "the process of becoming more like God through participating in the divine life",
+        "characteristics of one that manages supervisory duties",
+        "supernatural communication in which God speaks",
+        "bringing about salvation",
+        "exhibiting a special magnetic charm or appeal"
+      ],
+      "pageReference": "191"
+    },
+    {
+      "id": "ch17_vocab8",
+      "term": "locution",
+      "definition": "supernatural communication in which God speaks",
+      "distractors": [
+        "exhibiting a special magnetic charm or appeal",
+        "characteristics of one that manages supervisory duties",
+        "the state of being faithful",
+        "to clear of guilt",
+        "to withhold something"
+      ],
+      "pageReference": "192"
+    },
+    {
+      "id": "ch17_vocab9",
+      "term": "redemptive",
+      "definition": "bringing about salvation",
+      "distractors": [
+        "to clear of guilt",
+        "the process of becoming more like God through participating in the divine life",
+        "exhibiting a special magnetic charm or appeal",
+        "including everyone",
+        "deficient in worldly wisdom"
+      ],
+      "pageReference": "193"
+    },
+    {
+      "id": "ch17_vocab10",
+      "term": "divinization",
+      "definition": "the process of becoming more like God through participating in the divine life",
+      "distractors": [
+        "the state of being faithful",
+        "supernatural communication in which God speaks",
+        "characteristics of one that manages supervisory duties",
+        "deficient in worldly wisdom",
+        "to clear of guilt"
+      ],
+      "pageReference": "200"
+    },
+    {
+      "id": "ch17_vocab11",
+      "term": "purgative",
+      "definition": "to clear of guilt",
+      "distractors": [
+        "deficient in worldly wisdom",
+        "bringing about salvation",
+        "supernatural communication in which God speaks",
+        "exhibiting a special magnetic charm or appeal",
+        "a large number"
+      ],
+      "pageReference": "201"
+    },
+    {
+      "id": "ch17_vocab12",
+      "term": "fidelity",
+      "definition": "the state of being faithful",
+      "distractors": [
+        "the process of becoming more like God through participating in the divine life",
+        "a large number",
+        "supernatural communication in which God speaks",
+        "characteristics of one that manages supervisory duties",
+        "angry and bitter"
+      ],
+      "pageReference": "203"
+    },
+    {
+      "id": "ch17_vocab13",
+      "term": "all-encompassing",
+      "definition": "including everyone",
+      "distractors": [
+        "characteristics of one that manages supervisory duties",
+        "to withhold something",
+        "a large number",
+        "angry and bitter",
+        "to clear of guilt"
+      ],
+      "pageReference": "204"
+    }
+  ]
+}

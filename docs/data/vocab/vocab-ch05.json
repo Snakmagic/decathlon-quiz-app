@@ -1,0 +1,161 @@
+{
+  "chapterNumber": 5,
+  "vocabulary": [
+    {
+      "id": "ch5_vocab1",
+      "term": "leper",
+      "definition": "a person affected with leprosy",
+      "distractors": [
+        "sin",
+        "exemption or freedom from punishment",
+        "impossible to comprehend",
+        "to take vengeance for",
+        "punishment"
+      ],
+      "pageReference": "47"
+    },
+    {
+      "id": "ch5_vocab2",
+      "term": "repulsed",
+      "definition": "to cause disgust",
+      "distractors": [
+        "a person affected with leprosy",
+        "sin",
+        "punishment",
+        "relegated to an unimportant or powerless position within a society",
+        "to impair (as in beauty) by deep and persistent injuries"
+      ],
+      "pageReference": "47"
+    },
+    {
+      "id": "ch5_vocab3",
+      "term": "avenge",
+      "definition": "to take vengeance for",
+      "distractors": [
+        "relegated to an unimportant or powerless position within a society",
+        "an experience associated with the definite and decisive adoption of a religion",
+        "exemption or freedom from punishment",
+        "impossible to comprehend",
+        "sin"
+      ],
+      "pageReference": "47"
+    },
+    {
+      "id": "ch5_vocab4",
+      "term": "plight",
+      "definition": "unfortunate or difficult situation",
+      "distractors": [
+        "to take vengeance for",
+        "relegated to an unimportant or powerless position within a society",
+        "impossible to comprehend",
+        "producing a feeling of desolation",
+        "punishment"
+      ],
+      "pageReference": "48"
+    },
+    {
+      "id": "ch5_vocab5",
+      "term": "impunity",
+      "definition": "exemption or freedom from punishment",
+      "distractors": [
+        "sin",
+        "producing a feeling of desolation",
+        "impossible to comprehend",
+        "an experience associated with the definite and decisive adoption of a religion",
+        "a person affected with leprosy"
+      ],
+      "pageReference": "52"
+    },
+    {
+      "id": "ch5_vocab6",
+      "term": "disfigured",
+      "definition": "to impair (as in beauty) by deep and persistent injuries",
+      "distractors": [
+        "an experience associated with the definite and decisive adoption of a religion",
+        "unfortunate or difficult situation",
+        "to cause disgust",
+        "exemption or freedom from punishment",
+        "a person affected with leprosy"
+      ],
+      "pageReference": "53"
+    },
+    {
+      "id": "ch5_vocab7",
+      "term": "marginalized",
+      "definition": "relegated to an unimportant or powerless position within a society",
+      "distractors": [
+        "a person affected with leprosy",
+        "to cause disgust",
+        "unfortunate or difficult situation",
+        "impossible to comprehend",
+        "punishment"
+      ],
+      "pageReference": "54"
+    },
+    {
+      "id": "ch5_vocab8",
+      "term": "loneliness",
+      "definition": "producing a feeling of desolation",
+      "distractors": [
+        "relegated to an unimportant or powerless position within a society",
+        "to cause disgust",
+        "unfortunate or difficult situation",
+        "a person affected with leprosy",
+        "to impair (as in beauty) by deep and persistent injuries"
+      ],
+      "pageReference": "54"
+    },
+    {
+      "id": "ch5_vocab9",
+      "term": "inconceivable",
+      "definition": "impossible to comprehend",
+      "distractors": [
+        "a person affected with leprosy",
+        "punishment",
+        "unfortunate or difficult situation",
+        "sin",
+        "relegated to an unimportant or powerless position within a society"
+      ],
+      "pageReference": "55"
+    },
+    {
+      "id": "ch5_vocab10",
+      "term": "iniquities",
+      "definition": "sin",
+      "distractors": [
+        "to take vengeance for",
+        "punishment",
+        "to cause disgust",
+        "exemption or freedom from punishment",
+        "relegated to an unimportant or powerless position within a society"
+      ],
+      "pageReference": "57"
+    },
+    {
+      "id": "ch5_vocab11",
+      "term": "chastisement",
+      "definition": "punishment",
+      "distractors": [
+        "sin",
+        "an experience associated with the definite and decisive adoption of a religion",
+        "impossible to comprehend",
+        "a person affected with leprosy",
+        "exemption or freedom from punishment"
+      ],
+      "pageReference": "57"
+    },
+    {
+      "id": "ch5_vocab12",
+      "term": "conversion",
+      "definition": "an experience associated with the definite and decisive adoption of a religion",
+      "distractors": [
+        "to cause disgust",
+        "punishment",
+        "relegated to an unimportant or powerless position within a society",
+        "to take vengeance for",
+        "impossible to comprehend"
+      ],
+      "pageReference": "58"
+    }
+  ]
+}

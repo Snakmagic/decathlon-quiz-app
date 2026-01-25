@@ -1,0 +1,109 @@
+{
+  "chapterNumber": 13,
+  "vocabulary": [
+    {
+      "id": "ch13_vocab1",
+      "term": "hermitage",
+      "definition": "a place of private retreat",
+      "distractors": [
+        "being beyond comprehension",
+        "disassociated from any specific instance",
+        "come out into view",
+        "a steep rugged rock",
+        "exhibiting a great intensity of feeling"
+      ],
+      "pageReference": "142"
+    },
+    {
+      "id": "ch13_vocab2",
+      "term": "vigor",
+      "definition": "active bodily or mental strength",
+      "distractors": [
+        "a place of private retreat",
+        "being within the limits of possible experience or knowledge",
+        "being beyond comprehension",
+        "exhibiting a great intensity of feeling",
+        "a steep rugged rock"
+      ],
+      "pageReference": "142"
+    },
+    {
+      "id": "ch13_vocab3",
+      "term": "crags",
+      "definition": "a steep rugged rock",
+      "distractors": [
+        "active bodily or mental strength",
+        "being within the limits of possible experience or knowledge",
+        "being beyond comprehension",
+        "disassociated from any specific instance",
+        "a place of private retreat"
+      ],
+      "pageReference": "142"
+    },
+    {
+      "id": "ch13_vocab4",
+      "term": "emerge",
+      "definition": "come out into view",
+      "distractors": [
+        "disassociated from any specific instance",
+        "being beyond comprehension",
+        "exhibiting a great intensity of feeling",
+        "active bodily or mental strength",
+        "being within the limits of possible experience or knowledge"
+      ],
+      "pageReference": "143"
+    },
+    {
+      "id": "ch13_vocab5",
+      "term": "transcendent",
+      "definition": "being beyond comprehension",
+      "distractors": [
+        "active bodily or mental strength",
+        "exhibiting a great intensity of feeling",
+        "come out into view",
+        "a place of private retreat",
+        "disassociated from any specific instance"
+      ],
+      "pageReference": "143"
+    },
+    {
+      "id": "ch13_vocab6",
+      "term": "immanent",
+      "definition": "being within the limits of possible experience or knowledge",
+      "distractors": [
+        "active bodily or mental strength",
+        "a steep rugged rock",
+        "a place of private retreat",
+        "exhibiting a great intensity of feeling",
+        "being beyond comprehension"
+      ],
+      "pageReference": "144"
+    },
+    {
+      "id": "ch13_vocab7",
+      "term": "fervently",
+      "definition": "exhibiting a great intensity of feeling",
+      "distractors": [
+        "being within the limits of possible experience or knowledge",
+        "active bodily or mental strength",
+        "being beyond comprehension",
+        "disassociated from any specific instance",
+        "a steep rugged rock"
+      ],
+      "pageReference": "148"
+    },
+    {
+      "id": "ch13_vocab8",
+      "term": "abstract",
+      "definition": "disassociated from any specific instance",
+      "distractors": [
+        "being within the limits of possible experience or knowledge",
+        "active bodily or mental strength",
+        "a steep rugged rock",
+        "exhibiting a great intensity of feeling",
+        "being beyond comprehension"
+      ],
+      "pageReference": "149"
+    }
+  ]
+}

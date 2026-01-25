@@ -58,15 +58,20 @@
     {
       "id": "ch14_q5",
       "question": "What symbols did pilgrims carry to signify where they were traveling?",
-      "correctAnswer": "To Compostela: scalloped shell; to Rome: keys; to Holy Land: Jerusalem cross",
-      "distractors": [
-        "To Compostela: staff and gourd; to Rome: papal seal; to Holy Land: palm branch",
-        "To Compostela: red cross; to Rome: golden key; to Holy Land: olive branch",
-        "To Compostela: Santiago star; to Rome: fish symbol; to Holy Land: crown of thorns",
-        "To Compostela: walking stick; to Rome: Peter's rock; to Holy Land: shepherd's crook",
-        "To Compostela: yellow arrow; to Rome: crossed keys; to Holy Land: star of David"
+      "acceptableAnswers": [
+        "To Compostela: scalloped shell",
+        "To Rome: keys",
+        "To Holy Land: Jerusalem cross"
       ],
-      "pageReference": "152"
+      "distractors": [
+        "To Compostela: palm branch",
+        "To Rome: fish symbol",
+        "To Holy Land: star of David",
+        "To Compostela: red cross",
+        "To Rome: papal seal"
+      ],
+      "pageReference": "152",
+      "type": "accept-any"
     },
     {
       "id": "ch14_q6",

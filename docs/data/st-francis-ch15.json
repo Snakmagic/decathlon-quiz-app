@@ -226,8 +226,11 @@
     },
     {
       "id": "ch15_q18",
-      "question": "What did the sultan realize about Francis that was different from other Christians he had encountered?",
-      "correctAnswer": "He came with humility and poverty and not the sword, he came as a brother not as an enemy",
+      "acceptableAnswers": [
+        "He was different from others who came with the sword",
+        "He came with humility and poverty",
+        "He came as a brother not as an enemy"
+      ],
       "distractors": [
         "He was a great scholar of theology",
         "He had miraculous powers from God",
@@ -235,7 +238,8 @@
         "He was willing to convert to Islam",
         "He was a holy hermit seeking solitude"
       ],
-      "pageReference": "174"
+      "pageReference": "174",
+      "type": "accept-any"
     },
     {
       "id": "ch15_q19",

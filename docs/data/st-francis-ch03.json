@@ -110,7 +110,11 @@
     {
       "id": "ch3_q9",
       "question": "Why was the request to turn back distressing to Francis?",
-      "correctAnswer": "It would bring shame to his family; he was concerned his father would disinherit him",
+      "acceptableAnswers": [
+        "Everyone would judge him as a coward",
+        "It would bring shame to his family",
+        "He was concerned his father would disinherit him"
+],
       "distractors": [
         "He would lose his armor and expensive warhorse",
         "His companions would feel betrayed and abandoned",
@@ -118,6 +122,7 @@
         "He had given his word to Sir Walter of Brienne",
         "He feared God's punishment for disobedience"
       ],
+      "type": "accept-any",
       "pageReference": "27-28"
     },
     {

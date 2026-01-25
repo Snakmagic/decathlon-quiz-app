@@ -1,0 +1,239 @@
+{
+  "chapterNumber": 2,
+  "vocabulary": [
+    {
+      "id": "ch2_vocab1",
+      "term": "valor",
+      "definition": "personal bravery",
+      "distractors": [
+        "to make the subject of dispute",
+        "strong feeling of dislike, actively hostile",
+        "to make more severe",
+        "collection of an amount that is officially required to pay especially as a tax",
+        "to attack by surprise from a hidden place"
+      ],
+      "pageReference": "7"
+    },
+    {
+      "id": "ch2_vocab2",
+      "term": "heritage",
+      "definition": "legacy",
+      "distractors": [
+        "a demand, usually money, for the release of someone from captivity",
+        "a retaliatory act",
+        "woven or knit cloth",
+        "to make the subject of dispute",
+        "greedy, seeking to hoard riches"
+      ],
+      "pageReference": "7"
+    },
+    {
+      "id": "ch2_vocab3",
+      "term": "textiles",
+      "definition": "woven or knit cloth",
+      "distractors": [
+        "to attack by surprise from a hidden place",
+        "strong feeling of dislike, actively hostile",
+        "a demand, usually money, for the release of someone from captivity",
+        "legacy",
+        "one who urges or attempts to stir up war"
+      ],
+      "pageReference": "8"
+    },
+    {
+      "id": "ch2_vocab4",
+      "term": "tyrannical",
+      "definition": "characteristic of a ruler who exercises absolute power",
+      "distractors": [
+        "greedy, seeking to hoard riches",
+        "personal bravery",
+        "to attack by surprise from a hidden place",
+        "woven or knit cloth",
+        "collection of an amount that is officially required to pay especially as a tax"
+      ],
+      "pageReference": "9"
+    },
+    {
+      "id": "ch2_vocab5",
+      "term": "levied",
+      "definition": "collection of an amount that is officially required to pay especially as a tax",
+      "distractors": [
+        "state of being alertly watchful especially to avoid danger",
+        "to make the subject of dispute",
+        "legacy",
+        "characteristic of a ruler who exercises absolute power",
+        "one who urges or attempts to stir up war"
+      ],
+      "pageReference": "9"
+    },
+    {
+      "id": "ch2_vocab6",
+      "term": "reprisals",
+      "definition": "a retaliatory act",
+      "distractors": [
+        "personal bravery",
+        "to attack by surprise from a hidden place",
+        "a community organized on a communal basis",
+        "a military blockade of a city",
+        "one who urges or attempts to stir up war"
+      ],
+      "pageReference": "9"
+    },
+    {
+      "id": "ch2_vocab7",
+      "term": "commune",
+      "definition": "a community organized on a communal basis",
+      "distractors": [
+        "an ornamental covering for a horse",
+        "loyalty to a cause",
+        "a military blockade of a city",
+        "legacy",
+        "strong feeling of dislike, actively hostile"
+      ],
+      "pageReference": "9"
+    },
+    {
+      "id": "ch2_vocab8",
+      "term": "exacerbated",
+      "definition": "to make more severe",
+      "distractors": [
+        "woven or knit cloth",
+        "to attack by surprise from a hidden place",
+        "characteristic of a ruler who exercises absolute power",
+        "loyalty to a cause",
+        "state of being alertly watchful especially to avoid danger"
+      ],
+      "pageReference": "10"
+    },
+    {
+      "id": "ch2_vocab9",
+      "term": "animosity",
+      "definition": "strong feeling of dislike, actively hostile",
+      "distractors": [
+        "an ornamental covering for a horse",
+        "characteristic of a ruler who exercises absolute power",
+        "personal bravery",
+        "a community organized on a communal basis",
+        "a demand, usually money, for the release of someone from captivity"
+      ],
+      "pageReference": "10"
+    },
+    {
+      "id": "ch2_vocab10",
+      "term": "allegiance",
+      "definition": "loyalty to a cause",
+      "distractors": [
+        "collection of an amount that is officially required to pay especially as a tax",
+        "to attack by surprise from a hidden place",
+        "legacy",
+        "a retaliatory act",
+        "an ornamental covering for a horse"
+      ],
+      "pageReference": "10"
+    },
+    {
+      "id": "ch2_vocab11",
+      "term": "warmongers",
+      "definition": "one who urges or attempts to stir up war",
+      "distractors": [
+        "loyalty to a cause",
+        "woven or knit cloth",
+        "collection of an amount that is officially required to pay especially as a tax",
+        "a demand, usually money, for the release of someone from captivity",
+        "an ornamental covering for a horse"
+      ],
+      "pageReference": "12"
+    },
+    {
+      "id": "ch2_vocab12",
+      "term": "avaricious",
+      "definition": "greedy, seeking to hoard riches",
+      "distractors": [
+        "a military blockade of a city",
+        "a demand, usually money, for the release of someone from captivity",
+        "an ornamental covering for a horse",
+        "characteristic of a ruler who exercises absolute power",
+        "collection of an amount that is officially required to pay especially as a tax"
+      ],
+      "pageReference": "13"
+    },
+    {
+      "id": "ch2_vocab13",
+      "term": "siege",
+      "definition": "a military blockade of a city",
+      "distractors": [
+        "to make the subject of dispute",
+        "one who urges or attempts to stir up war",
+        "strong feeling of dislike, actively hostile",
+        "loyalty to a cause",
+        "greedy, seeking to hoard riches"
+      ],
+      "pageReference": "15"
+    },
+    {
+      "id": "ch2_vocab14",
+      "term": "caparison",
+      "definition": "an ornamental covering for a horse",
+      "distractors": [
+        "a demand, usually money, for the release of someone from captivity",
+        "a retaliatory act",
+        "a community organized on a communal basis",
+        "woven or knit cloth",
+        "state of being alertly watchful especially to avoid danger"
+      ],
+      "pageReference": "16"
+    },
+    {
+      "id": "ch2_vocab15",
+      "term": "contested",
+      "definition": "to make the subject of dispute",
+      "distractors": [
+        "loyalty to a cause",
+        "greedy, seeking to hoard riches",
+        "legacy",
+        "collection of an amount that is officially required to pay especially as a tax",
+        "a military blockade of a city"
+      ],
+      "pageReference": "17"
+    },
+    {
+      "id": "ch2_vocab16",
+      "term": "vigilance",
+      "definition": "state of being alertly watchful especially to avoid danger",
+      "distractors": [
+        "to attack by surprise from a hidden place",
+        "a community organized on a communal basis",
+        "legacy",
+        "to make more severe",
+        "characteristic of a ruler who exercises absolute power"
+      ],
+      "pageReference": "17"
+    },
+    {
+      "id": "ch2_vocab17",
+      "term": "ambush",
+      "definition": "to attack by surprise from a hidden place",
+      "distractors": [
+        "legacy",
+        "greedy, seeking to hoard riches",
+        "woven or knit cloth",
+        "state of being alertly watchful especially to avoid danger",
+        "to make the subject of dispute"
+      ],
+      "pageReference": "17"
+    },
+    {
+      "id": "ch2_vocab18",
+      "term": "ransom",
+      "definition": "a demand, usually money, for the release of someone from captivity",
+      "distractors": [
+        "strong feeling of dislike, actively hostile",
+        "a retaliatory act",
+        "one who urges or attempts to stir up war",
+        "collection of an amount that is officially required to pay especially as a tax",
+        "personal bravery"
+      ],
+      "pageReference": "19"
+    }
+  ]
+}

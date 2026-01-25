@@ -1,0 +1,83 @@
+{
+  "chapterNumber": 10,
+  "vocabulary": [
+    {
+      "id": "ch10_vocab1",
+      "term": "deriding",
+      "definition": "to laugh at or insult contemptuously",
+      "distractors": [
+        "respect in regard for another\u2019s wishes",
+        "to long persistently",
+        "to induce someone to convert to one's faith",
+        "to display abundantly",
+        "the quality or state of being holy or sacred"
+      ],
+      "pageReference": "107"
+    },
+    {
+      "id": "ch10_vocab2",
+      "term": "exuded",
+      "definition": "to display abundantly",
+      "distractors": [
+        "the quality or state of being holy or sacred",
+        "respect in regard for another\u2019s wishes",
+        "to induce someone to convert to one's faith",
+        "to laugh at or insult contemptuously",
+        "to long persistently"
+      ],
+      "pageReference": "107"
+    },
+    {
+      "id": "ch10_vocab3",
+      "term": "deference",
+      "definition": "respect in regard for another\u2019s wishes",
+      "distractors": [
+        "the quality or state of being holy or sacred",
+        "to induce someone to convert to one's faith",
+        "to long persistently",
+        "to display abundantly",
+        "to laugh at or insult contemptuously"
+      ],
+      "pageReference": "109"
+    },
+    {
+      "id": "ch10_vocab4",
+      "term": "sanctity",
+      "definition": "the quality or state of being holy or sacred",
+      "distractors": [
+        "to long persistently",
+        "to induce someone to convert to one's faith",
+        "to laugh at or insult contemptuously",
+        "to display abundantly",
+        "respect in regard for another\u2019s wishes"
+      ],
+      "pageReference": "110"
+    },
+    {
+      "id": "ch10_vocab5",
+      "term": "yearned",
+      "definition": "to long persistently",
+      "distractors": [
+        "the quality or state of being holy or sacred",
+        "to induce someone to convert to one's faith",
+        "to display abundantly",
+        "respect in regard for another\u2019s wishes",
+        "to laugh at or insult contemptuously"
+      ],
+      "pageReference": "111"
+    },
+    {
+      "id": "ch10_vocab6",
+      "term": "proselytize",
+      "definition": "to induce someone to convert to one's faith",
+      "distractors": [
+        "the quality or state of being holy or sacred",
+        "to long persistently",
+        "to laugh at or insult contemptuously",
+        "to display abundantly",
+        "respect in regard for another\u2019s wishes"
+      ],
+      "pageReference": "112"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "chapterNumber": 16,
+  "vocabulary": [
+    {
+      "id": "ch16_vocab1",
+      "term": "heady",
+      "definition": "intellectually demanding",
+      "distractors": [
+        "a small cave used as a place of prayer",
+        "priority of importance",
+        "substantially real",
+        "comforted",
+        "removed or distant either physically or emotionally"
+      ],
+      "pageReference": "181"
+    },
+    {
+      "id": "ch16_vocab2",
+      "term": "solemnities",
+      "definition": "highest ranking feast days in the liturgical calendar of the Catholic Church",
+      "distractors": [
+        "loud in sound",
+        "intellectually demanding",
+        "priority of importance",
+        "substantially real",
+        "a small cave used as a place of prayer"
+      ],
+      "pageReference": "181"
+    },
+    {
+      "id": "ch16_vocab3",
+      "term": "aloof",
+      "definition": "removed or distant either physically or emotionally",
+      "distractors": [
+        "intellectually demanding",
+        "to brighten with light",
+        "a representation of the Nativity scene",
+        "priority of importance",
+        "substantially real"
+      ],
+      "pageReference": "182"
+    },
+    {
+      "id": "ch16_vocab4",
+      "term": "tangible",
+      "definition": "substantially real",
+      "distractors": [
+        "comforted",
+        "intellectually demanding",
+        "removed or distant either physically or emotionally",
+        "highest ranking feast days in the liturgical calendar of the Catholic Church",
+        "a small cave used as a place of prayer"
+      ],
+      "pageReference": "183"
+    },
+    {
+      "id": "ch16_vocab5",
+      "term": "illuminated",
+      "definition": "to brighten with light",
+      "distractors": [
+        "loud in sound",
+        "highest ranking feast days in the liturgical calendar of the Catholic Church",
+        "priority of importance",
+        "substantially real",
+        "intellectually demanding"
+      ],
+      "pageReference": "185"
+    },
+    {
+      "id": "ch16_vocab6",
+      "term": "consoled",
+      "definition": "comforted",
+      "distractors": [
+        "to brighten with light",
+        "a representation of the Nativity scene",
+        "highest ranking feast days in the liturgical calendar of the Catholic Church",
+        "a small cave used as a place of prayer",
+        "removed or distant either physically or emotionally"
+      ],
+      "pageReference": "185"
+    },
+    {
+      "id": "ch16_vocab7",
+      "term": "sonorous",
+      "definition": "loud in sound",
+      "distractors": [
+        "a representation of the Nativity scene",
+        "removed or distant either physically or emotionally",
+        "a small cave used as a place of prayer",
+        "highest ranking feast days in the liturgical calendar of the Catholic Church",
+        "intellectually demanding"
+      ],
+      "pageReference": "186"
+    },
+    {
+      "id": "ch16_vocab8",
+      "term": "grotto",
+      "definition": "a small cave used as a place of prayer",
+      "distractors": [
+        "priority of importance",
+        "substantially real",
+        "highest ranking feast days in the liturgical calendar of the Catholic Church",
+        "a representation of the Nativity scene",
+        "removed or distant either physically or emotionally"
+      ],
+      "pageReference": "186"
+    },
+    {
+      "id": "ch16_vocab9",
+      "term": "precedence",
+      "definition": "priority of importance",
+      "distractors": [
+        "intellectually demanding",
+        "removed or distant either physically or emotionally",
+        "loud in sound",
+        "comforted",
+        "a small cave used as a place of prayer"
+      ],
+      "pageReference": "186"
+    },
+    {
+      "id": "ch16_vocab10",
+      "term": "che",
+      "definition": "a representation of the Nativity scene",
+      "distractors": [
+        "priority of importance",
+        "highest ranking feast days in the liturgical calendar of the Catholic Church",
+        "a small cave used as a place of prayer",
+        "removed or distant either physically or emotionally",
+        "comforted"
+      ],
+      "pageReference": "186"
+    }
+  ]
+}

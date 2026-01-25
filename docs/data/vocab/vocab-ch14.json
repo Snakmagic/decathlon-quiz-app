@@ -1,0 +1,96 @@
+{
+  "chapterNumber": 14,
+  "vocabulary": [
+    {
+      "id": "ch14_vocab1",
+      "term": "shrines",
+      "definition": "a place of holiness and devotion",
+      "distractors": [
+        "a consecrated place",
+        "to start up something again",
+        "a stock of needed materials or supplies",
+        "a comparatively narrow passageway connecting two large bodies of water",
+        "the state of voluntary absence from one\u2019s home"
+      ],
+      "pageReference": "151"
+    },
+    {
+      "id": "ch14_vocab2",
+      "term": "migrate",
+      "definition": "to move from one place to another",
+      "distractors": [
+        "to start up something again",
+        "a stock of needed materials or supplies",
+        "a comparatively narrow passageway connecting two large bodies of water",
+        "a place of holiness and devotion",
+        "the state of voluntary absence from one\u2019s home"
+      ],
+      "pageReference": "152"
+    },
+    {
+      "id": "ch14_vocab3",
+      "term": "exile",
+      "definition": "the state of voluntary absence from one\u2019s home",
+      "distractors": [
+        "a place of holiness and devotion",
+        "to start up something again",
+        "a stock of needed materials or supplies",
+        "a consecrated place",
+        "a comparatively narrow passageway connecting two large bodies of water"
+      ],
+      "pageReference": "153"
+    },
+    {
+      "id": "ch14_vocab4",
+      "term": "rekindled",
+      "definition": "to start up something again",
+      "distractors": [
+        "to move from one place to another",
+        "a comparatively narrow passageway connecting two large bodies of water",
+        "a place of holiness and devotion",
+        "a consecrated place",
+        "the state of voluntary absence from one\u2019s home"
+      ],
+      "pageReference": "155"
+    },
+    {
+      "id": "ch14_vocab5",
+      "term": "provisions",
+      "definition": "a stock of needed materials or supplies",
+      "distractors": [
+        "a comparatively narrow passageway connecting two large bodies of water",
+        "the state of voluntary absence from one\u2019s home",
+        "a consecrated place",
+        "to start up something again",
+        "to move from one place to another"
+      ],
+      "pageReference": "156"
+    },
+    {
+      "id": "ch14_vocab6",
+      "term": "strait",
+      "definition": "a comparatively narrow passageway connecting two large bodies of water",
+      "distractors": [
+        "a place of holiness and devotion",
+        "to move from one place to another",
+        "a stock of needed materials or supplies",
+        "the state of voluntary absence from one\u2019s home",
+        "a consecrated place"
+      ],
+      "pageReference": "156"
+    },
+    {
+      "id": "ch14_vocab7",
+      "term": "sanctuary",
+      "definition": "a consecrated place",
+      "distractors": [
+        "a stock of needed materials or supplies",
+        "to start up something again",
+        "a place of holiness and devotion",
+        "a comparatively narrow passageway connecting two large bodies of water",
+        "to move from one place to another"
+      ],
+      "pageReference": "156"
+    }
+  ]
+}

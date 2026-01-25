@@ -1,0 +1,122 @@
+{
+  "chapterNumber": 11,
+  "vocabulary": [
+    {
+      "id": "ch11_vocab1",
+      "term": "itinerant",
+      "definition": "traveling from place to place",
+      "distractors": [
+        "a French song",
+        "not concerned with religion or religious purposes, secular",
+        "worthy of religious veneration, holy",
+        "generosity and helpfulness especially toward the needy or suffering",
+        "a particular form of a language which is peculiar to a specific region or social group"
+      ],
+      "pageReference": "116"
+    },
+    {
+      "id": "ch11_vocab2",
+      "term": "alms",
+      "definition": "something (such as money or food) given freely to relieve the poor",
+      "distractors": [
+        "not lessened",
+        "not concerned with religion or religious purposes, secular",
+        "generosity and helpfulness especially toward the needy or suffering",
+        "a French song",
+        "worthy of religious veneration, holy"
+      ],
+      "pageReference": "116"
+    },
+    {
+      "id": "ch11_vocab3",
+      "term": "dialect",
+      "definition": "a particular form of a language which is peculiar to a specific region or social group",
+      "distractors": [
+        "traveling from place to place",
+        "not concerned with religion or religious purposes, secular",
+        "certified documents showing that a person has a right to exercise official power",
+        "a French song",
+        "something (such as money or food) given freely to relieve the poor"
+      ],
+      "pageReference": "117"
+    },
+    {
+      "id": "ch11_vocab4",
+      "term": "profane",
+      "definition": "not concerned with religion or religious purposes, secular",
+      "distractors": [
+        "traveling from place to place",
+        "generosity and helpfulness especially toward the needy or suffering",
+        "a particular form of a language which is peculiar to a specific region or social group",
+        "certified documents showing that a person has a right to exercise official power",
+        "worthy of religious veneration, holy"
+      ],
+      "pageReference": "118"
+    },
+    {
+      "id": "ch11_vocab5",
+      "term": "sacred",
+      "definition": "worthy of religious veneration, holy",
+      "distractors": [
+        "traveling from place to place",
+        "a particular form of a language which is peculiar to a specific region or social group",
+        "not concerned with religion or religious purposes, secular",
+        "generosity and helpfulness especially toward the needy or suffering",
+        "not lessened"
+      ],
+      "pageReference": "118"
+    },
+    {
+      "id": "ch11_vocab6",
+      "term": "chanson",
+      "definition": "a French song",
+      "distractors": [
+        "certified documents showing that a person has a right to exercise official power",
+        "generosity and helpfulness especially toward the needy or suffering",
+        "traveling from place to place",
+        "worthy of religious veneration, holy",
+        "a particular form of a language which is peculiar to a specific region or social group"
+      ],
+      "pageReference": "118"
+    },
+    {
+      "id": "ch11_vocab7",
+      "term": "charity",
+      "definition": "generosity and helpfulness especially toward the needy or suffering",
+      "distractors": [
+        "not lessened",
+        "something (such as money or food) given freely to relieve the poor",
+        "a French song",
+        "worthy of religious veneration, holy",
+        "a particular form of a language which is peculiar to a specific region or social group"
+      ],
+      "pageReference": "121"
+    },
+    {
+      "id": "ch11_vocab8",
+      "term": "unmitigated",
+      "definition": "not lessened",
+      "distractors": [
+        "certified documents showing that a person has a right to exercise official power",
+        "traveling from place to place",
+        "worthy of religious veneration, holy",
+        "a French song",
+        "not concerned with religion or religious purposes, secular"
+      ],
+      "pageReference": "124"
+    },
+    {
+      "id": "ch11_vocab9",
+      "term": "credentials",
+      "definition": "certified documents showing that a person has a right to exercise official power",
+      "distractors": [
+        "generosity and helpfulness especially toward the needy or suffering",
+        "a French song",
+        "traveling from place to place",
+        "a particular form of a language which is peculiar to a specific region or social group",
+        "not concerned with religion or religious purposes, secular"
+      ],
+      "pageReference": "125"
+    }
+  ]
+}
