@@ -6,11 +6,11 @@
       "term": "heady",
       "definition": "intellectually demanding",
       "distractors": [
-        "a small cave used as a place of prayer",
-        "priority of importance",
-        "substantially real",
-        "comforted",
-        "removed or distant either physically or emotionally"
+        "illuminated",
+        "aloof",
+        "sonorous",
+        "precedence",
+        "solemnities"
       ],
       "pageReference": "181"
     },
@@ -19,11 +19,11 @@
       "term": "solemnities",
       "definition": "highest ranking feast days in the liturgical calendar of the Catholic Church",
       "distractors": [
-        "loud in sound",
-        "intellectually demanding",
-        "priority of importance",
-        "substantially real",
-        "a small cave used as a place of prayer"
+        "heady",
+        "che",
+        "aloof",
+        "illuminated",
+        "precedence"
       ],
       "pageReference": "181"
     },
@@ -32,11 +32,11 @@
       "term": "aloof",
       "definition": "removed or distant either physically or emotionally",
       "distractors": [
-        "intellectually demanding",
-        "to brighten with light",
-        "a representation of the Nativity scene",
-        "priority of importance",
-        "substantially real"
+        "tangible",
+        "precedence",
+        "consoled",
+        "solemnities",
+        "heady"
       ],
       "pageReference": "182"
     },
@@ -45,11 +45,11 @@
       "term": "tangible",
       "definition": "substantially real",
       "distractors": [
-        "comforted",
-        "intellectually demanding",
-        "removed or distant either physically or emotionally",
-        "highest ranking feast days in the liturgical calendar of the Catholic Church",
-        "a small cave used as a place of prayer"
+        "precedence",
+        "aloof",
+        "heady",
+        "che",
+        "consoled"
       ],
       "pageReference": "183"
     },
@@ -58,11 +58,11 @@
       "term": "illuminated",
       "definition": "to brighten with light",
       "distractors": [
-        "loud in sound",
-        "highest ranking feast days in the liturgical calendar of the Catholic Church",
-        "priority of importance",
-        "substantially real",
-        "intellectually demanding"
+        "che",
+        "precedence",
+        "consoled",
+        "heady",
+        "aloof"
       ],
       "pageReference": "185"
     },
@@ -71,11 +71,11 @@
       "term": "consoled",
       "definition": "comforted",
       "distractors": [
-        "to brighten with light",
-        "a representation of the Nativity scene",
-        "highest ranking feast days in the liturgical calendar of the Catholic Church",
-        "a small cave used as a place of prayer",
-        "removed or distant either physically or emotionally"
+        "heady",
+        "solemnities",
+        "illuminated",
+        "grotto",
+        "che"
       ],
       "pageReference": "185"
     },
@@ -84,11 +84,11 @@
       "term": "sonorous",
       "definition": "loud in sound",
       "distractors": [
-        "a representation of the Nativity scene",
-        "removed or distant either physically or emotionally",
-        "a small cave used as a place of prayer",
-        "highest ranking feast days in the liturgical calendar of the Catholic Church",
-        "intellectually demanding"
+        "precedence",
+        "tangible",
+        "consoled",
+        "heady",
+        "solemnities"
       ],
       "pageReference": "186"
     },
@@ -97,11 +97,11 @@
       "term": "grotto",
       "definition": "a small cave used as a place of prayer",
       "distractors": [
-        "priority of importance",
-        "substantially real",
-        "highest ranking feast days in the liturgical calendar of the Catholic Church",
-        "a representation of the Nativity scene",
-        "removed or distant either physically or emotionally"
+        "precedence",
+        "tangible",
+        "che",
+        "sonorous",
+        "illuminated"
       ],
       "pageReference": "186"
     },
@@ -110,11 +110,11 @@
       "term": "precedence",
       "definition": "priority of importance",
       "distractors": [
-        "intellectually demanding",
-        "removed or distant either physically or emotionally",
-        "loud in sound",
-        "comforted",
-        "a small cave used as a place of prayer"
+        "aloof",
+        "solemnities",
+        "illuminated",
+        "sonorous",
+        "che"
       ],
       "pageReference": "186"
     },
@@ -123,11 +123,11 @@
       "term": "che",
       "definition": "a representation of the Nativity scene",
       "distractors": [
-        "priority of importance",
-        "highest ranking feast days in the liturgical calendar of the Catholic Church",
-        "a small cave used as a place of prayer",
-        "removed or distant either physically or emotionally",
-        "comforted"
+        "aloof",
+        "grotto",
+        "tangible",
+        "heady",
+        "solemnities"
       ],
       "pageReference": "186"
     }

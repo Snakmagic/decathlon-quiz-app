@@ -6,11 +6,11 @@
       "term": "shrines",
       "definition": "a place of holiness and devotion",
       "distractors": [
-        "a consecrated place",
-        "to start up something again",
-        "a stock of needed materials or supplies",
-        "a comparatively narrow passageway connecting two large bodies of water",
-        "the state of voluntary absence from one\u2019s home"
+        "provisions",
+        "migrate",
+        "exile",
+        "strait",
+        "rekindled"
       ],
       "pageReference": "151"
     },
@@ -19,11 +19,11 @@
       "term": "migrate",
       "definition": "to move from one place to another",
       "distractors": [
-        "to start up something again",
-        "a stock of needed materials or supplies",
-        "a comparatively narrow passageway connecting two large bodies of water",
-        "a place of holiness and devotion",
-        "the state of voluntary absence from one\u2019s home"
+        "rekindled",
+        "provisions",
+        "sanctuary",
+        "strait",
+        "exile"
       ],
       "pageReference": "152"
     },
@@ -32,11 +32,11 @@
       "term": "exile",
       "definition": "the state of voluntary absence from one\u2019s home",
       "distractors": [
-        "a place of holiness and devotion",
-        "to start up something again",
-        "a stock of needed materials or supplies",
-        "a consecrated place",
-        "a comparatively narrow passageway connecting two large bodies of water"
+        "provisions",
+        "sanctuary",
+        "rekindled",
+        "migrate",
+        "shrines"
       ],
       "pageReference": "153"
     },
@@ -45,11 +45,11 @@
       "term": "rekindled",
       "definition": "to start up something again",
       "distractors": [
-        "to move from one place to another",
-        "a comparatively narrow passageway connecting two large bodies of water",
-        "a place of holiness and devotion",
-        "a consecrated place",
-        "the state of voluntary absence from one\u2019s home"
+        "strait",
+        "exile",
+        "provisions",
+        "shrines",
+        "sanctuary"
       ],
       "pageReference": "155"
     },
@@ -58,11 +58,11 @@
       "term": "provisions",
       "definition": "a stock of needed materials or supplies",
       "distractors": [
-        "a comparatively narrow passageway connecting two large bodies of water",
-        "the state of voluntary absence from one\u2019s home",
-        "a consecrated place",
-        "to start up something again",
-        "to move from one place to another"
+        "strait",
+        "shrines",
+        "sanctuary",
+        "migrate",
+        "exile"
       ],
       "pageReference": "156"
     },
@@ -71,11 +71,11 @@
       "term": "strait",
       "definition": "a comparatively narrow passageway connecting two large bodies of water",
       "distractors": [
-        "a place of holiness and devotion",
-        "to move from one place to another",
-        "a stock of needed materials or supplies",
-        "the state of voluntary absence from one\u2019s home",
-        "a consecrated place"
+        "sanctuary",
+        "shrines",
+        "provisions",
+        "rekindled",
+        "migrate"
       ],
       "pageReference": "156"
     },
@@ -84,11 +84,11 @@
       "term": "sanctuary",
       "definition": "a consecrated place",
       "distractors": [
-        "a stock of needed materials or supplies",
-        "to start up something again",
-        "a place of holiness and devotion",
-        "a comparatively narrow passageway connecting two large bodies of water",
-        "to move from one place to another"
+        "rekindled",
+        "migrate",
+        "strait",
+        "provisions",
+        "exile"
       ],
       "pageReference": "156"
     }

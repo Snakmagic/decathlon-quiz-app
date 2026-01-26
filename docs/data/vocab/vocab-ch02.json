@@ -6,11 +6,11 @@
       "term": "valor",
       "definition": "personal bravery",
       "distractors": [
-        "to make the subject of dispute",
-        "strong feeling of dislike, actively hostile",
-        "to make more severe",
-        "collection of an amount that is officially required to pay especially as a tax",
-        "to attack by surprise from a hidden place"
+        "ransom",
+        "animosity",
+        "allegiance",
+        "ambush",
+        "caparison"
       ],
       "pageReference": "7"
     },
@@ -19,11 +19,11 @@
       "term": "heritage",
       "definition": "legacy",
       "distractors": [
-        "a demand, usually money, for the release of someone from captivity",
-        "a retaliatory act",
-        "woven or knit cloth",
-        "to make the subject of dispute",
-        "greedy, seeking to hoard riches"
+        "warmongers",
+        "caparison",
+        "allegiance",
+        "contested",
+        "valor"
       ],
       "pageReference": "7"
     },
@@ -32,11 +32,11 @@
       "term": "textiles",
       "definition": "woven or knit cloth",
       "distractors": [
-        "to attack by surprise from a hidden place",
-        "strong feeling of dislike, actively hostile",
-        "a demand, usually money, for the release of someone from captivity",
-        "legacy",
-        "one who urges or attempts to stir up war"
+        "reprisals",
+        "heritage",
+        "avaricious",
+        "valor",
+        "warmongers"
       ],
       "pageReference": "8"
     },
@@ -45,11 +45,11 @@
       "term": "tyrannical",
       "definition": "characteristic of a ruler who exercises absolute power",
       "distractors": [
-        "greedy, seeking to hoard riches",
-        "personal bravery",
-        "to attack by surprise from a hidden place",
-        "woven or knit cloth",
-        "collection of an amount that is officially required to pay especially as a tax"
+        "contested",
+        "caparison",
+        "avaricious",
+        "levied",
+        "valor"
       ],
       "pageReference": "9"
     },
@@ -58,11 +58,11 @@
       "term": "levied",
       "definition": "collection of an amount that is officially required to pay especially as a tax",
       "distractors": [
-        "state of being alertly watchful especially to avoid danger",
-        "to make the subject of dispute",
-        "legacy",
-        "characteristic of a ruler who exercises absolute power",
-        "one who urges or attempts to stir up war"
+        "commune",
+        "animosity",
+        "vigilance",
+        "heritage",
+        "siege"
       ],
       "pageReference": "9"
     },
@@ -71,11 +71,11 @@
       "term": "reprisals",
       "definition": "a retaliatory act",
       "distractors": [
-        "personal bravery",
-        "to attack by surprise from a hidden place",
-        "a community organized on a communal basis",
-        "a military blockade of a city",
-        "one who urges or attempts to stir up war"
+        "textiles",
+        "warmongers",
+        "tyrannical",
+        "ambush",
+        "vigilance"
       ],
       "pageReference": "9"
     },
@@ -84,11 +84,11 @@
       "term": "commune",
       "definition": "a community organized on a communal basis",
       "distractors": [
-        "an ornamental covering for a horse",
-        "loyalty to a cause",
-        "a military blockade of a city",
-        "legacy",
-        "strong feeling of dislike, actively hostile"
+        "siege",
+        "avaricious",
+        "exacerbated",
+        "animosity",
+        "levied"
       ],
       "pageReference": "9"
     },
@@ -97,11 +97,11 @@
       "term": "exacerbated",
       "definition": "to make more severe",
       "distractors": [
-        "woven or knit cloth",
-        "to attack by surprise from a hidden place",
-        "characteristic of a ruler who exercises absolute power",
-        "loyalty to a cause",
-        "state of being alertly watchful especially to avoid danger"
+        "ambush",
+        "avaricious",
+        "animosity",
+        "reprisals",
+        "warmongers"
       ],
       "pageReference": "10"
     },
@@ -110,11 +110,11 @@
       "term": "animosity",
       "definition": "strong feeling of dislike, actively hostile",
       "distractors": [
-        "an ornamental covering for a horse",
-        "characteristic of a ruler who exercises absolute power",
-        "personal bravery",
-        "a community organized on a communal basis",
-        "a demand, usually money, for the release of someone from captivity"
+        "reprisals",
+        "ambush",
+        "textiles",
+        "caparison",
+        "ransom"
       ],
       "pageReference": "10"
     },
@@ -123,11 +123,11 @@
       "term": "allegiance",
       "definition": "loyalty to a cause",
       "distractors": [
-        "collection of an amount that is officially required to pay especially as a tax",
-        "to attack by surprise from a hidden place",
-        "legacy",
-        "a retaliatory act",
-        "an ornamental covering for a horse"
+        "reprisals",
+        "exacerbated",
+        "tyrannical",
+        "textiles",
+        "ambush"
       ],
       "pageReference": "10"
     },
@@ -136,11 +136,11 @@
       "term": "warmongers",
       "definition": "one who urges or attempts to stir up war",
       "distractors": [
-        "loyalty to a cause",
-        "woven or knit cloth",
-        "collection of an amount that is officially required to pay especially as a tax",
-        "a demand, usually money, for the release of someone from captivity",
-        "an ornamental covering for a horse"
+        "ransom",
+        "animosity",
+        "commune",
+        "ambush",
+        "allegiance"
       ],
       "pageReference": "12"
     },
@@ -149,11 +149,11 @@
       "term": "avaricious",
       "definition": "greedy, seeking to hoard riches",
       "distractors": [
-        "a military blockade of a city",
-        "a demand, usually money, for the release of someone from captivity",
-        "an ornamental covering for a horse",
-        "characteristic of a ruler who exercises absolute power",
-        "collection of an amount that is officially required to pay especially as a tax"
+        "textiles",
+        "commune",
+        "siege",
+        "ransom",
+        "valor"
       ],
       "pageReference": "13"
     },
@@ -162,11 +162,11 @@
       "term": "siege",
       "definition": "a military blockade of a city",
       "distractors": [
-        "to make the subject of dispute",
-        "one who urges or attempts to stir up war",
-        "strong feeling of dislike, actively hostile",
-        "loyalty to a cause",
-        "greedy, seeking to hoard riches"
+        "animosity",
+        "reprisals",
+        "contested",
+        "heritage",
+        "vigilance"
       ],
       "pageReference": "15"
     },
@@ -175,11 +175,11 @@
       "term": "caparison",
       "definition": "an ornamental covering for a horse",
       "distractors": [
-        "a demand, usually money, for the release of someone from captivity",
-        "a retaliatory act",
-        "a community organized on a communal basis",
-        "woven or knit cloth",
-        "state of being alertly watchful especially to avoid danger"
+        "ambush",
+        "ransom",
+        "vigilance",
+        "tyrannical",
+        "textiles"
       ],
       "pageReference": "16"
     },
@@ -188,11 +188,11 @@
       "term": "contested",
       "definition": "to make the subject of dispute",
       "distractors": [
-        "loyalty to a cause",
-        "greedy, seeking to hoard riches",
-        "legacy",
-        "collection of an amount that is officially required to pay especially as a tax",
-        "a military blockade of a city"
+        "ransom",
+        "ambush",
+        "allegiance",
+        "textiles",
+        "levied"
       ],
       "pageReference": "17"
     },
@@ -201,11 +201,11 @@
       "term": "vigilance",
       "definition": "state of being alertly watchful especially to avoid danger",
       "distractors": [
-        "to attack by surprise from a hidden place",
-        "a community organized on a communal basis",
-        "legacy",
-        "to make more severe",
-        "characteristic of a ruler who exercises absolute power"
+        "animosity",
+        "ambush",
+        "warmongers",
+        "caparison",
+        "siege"
       ],
       "pageReference": "17"
     },
@@ -214,11 +214,11 @@
       "term": "ambush",
       "definition": "to attack by surprise from a hidden place",
       "distractors": [
-        "legacy",
-        "greedy, seeking to hoard riches",
-        "woven or knit cloth",
-        "state of being alertly watchful especially to avoid danger",
-        "to make the subject of dispute"
+        "siege",
+        "levied",
+        "valor",
+        "allegiance",
+        "caparison"
       ],
       "pageReference": "17"
     },
@@ -227,11 +227,11 @@
       "term": "ransom",
       "definition": "a demand, usually money, for the release of someone from captivity",
       "distractors": [
-        "strong feeling of dislike, actively hostile",
-        "a retaliatory act",
-        "one who urges or attempts to stir up war",
-        "collection of an amount that is officially required to pay especially as a tax",
-        "personal bravery"
+        "warmongers",
+        "caparison",
+        "levied",
+        "textiles",
+        "commune"
       ],
       "pageReference": "19"
     }

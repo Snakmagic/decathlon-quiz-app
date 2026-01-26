@@ -6,11 +6,11 @@
       "term": "laxity",
       "definition": "the state of being not stringent",
       "distractors": [
-        "a state of utter calm and unruffled repose or quietude",
-        "radiant with light or emotion",
-        "to bring back to into its original state",
-        "substances of which something can be made",
-        "a receptacle for the consecrated elements of the Eucharist"
+        "materials",
+        "tabernacle",
+        "ablaze",
+        "evangelization",
+        "serenity"
       ],
       "pageReference": "97"
     },
@@ -19,11 +19,11 @@
       "term": "materials",
       "definition": "substances of which something can be made",
       "distractors": [
-        "a receptacle for the consecrated elements of the Eucharist",
-        "radiant with light or emotion",
-        "to bring back to into its original state",
-        "a state of utter calm and unruffled repose or quietude",
-        "to preach the gospel to convert others to Christianity"
+        "ablaze",
+        "disposition",
+        "laxity",
+        "serenity",
+        "evangelization"
       ],
       "pageReference": "97"
     },
@@ -32,11 +32,11 @@
       "term": "restoration",
       "definition": "to bring back to into its original state",
       "distractors": [
-        "substances of which something can be made",
-        "a receptacle for the consecrated elements of the Eucharist",
-        "to preach the gospel to convert others to Christianity",
-        "radiant with light or emotion",
-        "the tendency of something to act in a certain manner under given circumstances"
+        "serenity",
+        "tabernacle",
+        "laxity",
+        "materials",
+        "ablaze"
       ],
       "pageReference": "97"
     },
@@ -45,11 +45,11 @@
       "term": "serenity",
       "definition": "a state of utter calm and unruffled repose or quietude",
       "distractors": [
-        "the tendency of something to act in a certain manner under given circumstances",
-        "the state of being not stringent",
-        "substances of which something can be made",
-        "radiant with light or emotion",
-        "a receptacle for the consecrated elements of the Eucharist"
+        "materials",
+        "ablaze",
+        "laxity",
+        "disposition",
+        "restoration"
       ],
       "pageReference": "98"
     },
@@ -58,11 +58,11 @@
       "term": "tabernacle",
       "definition": "a receptacle for the consecrated elements of the Eucharist",
       "distractors": [
-        "to bring back to into its original state",
-        "the state of being not stringent",
-        "the tendency of something to act in a certain manner under given circumstances",
-        "radiant with light or emotion",
-        "to preach the gospel to convert others to Christianity"
+        "laxity",
+        "disposition",
+        "ablaze",
+        "materials",
+        "restoration"
       ],
       "pageReference": "99"
     },
@@ -71,11 +71,11 @@
       "term": "ablaze",
       "definition": "radiant with light or emotion",
       "distractors": [
-        "the state of being not stringent",
-        "the tendency of something to act in a certain manner under given circumstances",
-        "a receptacle for the consecrated elements of the Eucharist",
-        "to preach the gospel to convert others to Christianity",
-        "a state of utter calm and unruffled repose or quietude"
+        "materials",
+        "serenity",
+        "restoration",
+        "evangelization",
+        "laxity"
       ],
       "pageReference": "100"
     },
@@ -84,11 +84,11 @@
       "term": "evangelization",
       "definition": "to preach the gospel to convert others to Christianity",
       "distractors": [
-        "the state of being not stringent",
-        "a state of utter calm and unruffled repose or quietude",
-        "the tendency of something to act in a certain manner under given circumstances",
-        "to bring back to into its original state",
-        "a receptacle for the consecrated elements of the Eucharist"
+        "laxity",
+        "tabernacle",
+        "ablaze",
+        "materials",
+        "disposition"
       ],
       "pageReference": "101"
     },
@@ -97,11 +97,11 @@
       "term": "disposition",
       "definition": "the tendency of something to act in a certain manner under given circumstances",
       "distractors": [
-        "to preach the gospel to convert others to Christianity",
-        "the state of being not stringent",
-        "substances of which something can be made",
-        "a receptacle for the consecrated elements of the Eucharist",
-        "radiant with light or emotion"
+        "restoration",
+        "ablaze",
+        "tabernacle",
+        "serenity",
+        "materials"
       ],
       "pageReference": "103"
     }

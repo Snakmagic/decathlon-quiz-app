@@ -6,11 +6,11 @@
       "term": "leper",
       "definition": "a person affected with leprosy",
       "distractors": [
-        "sin",
-        "exemption or freedom from punishment",
-        "impossible to comprehend",
-        "to take vengeance for",
-        "punishment"
+        "repulsed",
+        "conversion",
+        "loneliness",
+        "chastisement",
+        "disfigured"
       ],
       "pageReference": "47"
     },
@@ -19,11 +19,11 @@
       "term": "repulsed",
       "definition": "to cause disgust",
       "distractors": [
-        "a person affected with leprosy",
-        "sin",
-        "punishment",
-        "relegated to an unimportant or powerless position within a society",
-        "to impair (as in beauty) by deep and persistent injuries"
+        "plight",
+        "disfigured",
+        "loneliness",
+        "chastisement",
+        "iniquities"
       ],
       "pageReference": "47"
     },
@@ -32,11 +32,11 @@
       "term": "avenge",
       "definition": "to take vengeance for",
       "distractors": [
-        "relegated to an unimportant or powerless position within a society",
-        "an experience associated with the definite and decisive adoption of a religion",
-        "exemption or freedom from punishment",
-        "impossible to comprehend",
-        "sin"
+        "leper",
+        "inconceivable",
+        "disfigured",
+        "conversion",
+        "loneliness"
       ],
       "pageReference": "47"
     },
@@ -45,11 +45,11 @@
       "term": "plight",
       "definition": "unfortunate or difficult situation",
       "distractors": [
-        "to take vengeance for",
-        "relegated to an unimportant or powerless position within a society",
-        "impossible to comprehend",
-        "producing a feeling of desolation",
-        "punishment"
+        "leper",
+        "avenge",
+        "iniquities",
+        "conversion",
+        "chastisement"
       ],
       "pageReference": "48"
     },
@@ -58,11 +58,11 @@
       "term": "impunity",
       "definition": "exemption or freedom from punishment",
       "distractors": [
-        "sin",
-        "producing a feeling of desolation",
-        "impossible to comprehend",
-        "an experience associated with the definite and decisive adoption of a religion",
-        "a person affected with leprosy"
+        "plight",
+        "avenge",
+        "inconceivable",
+        "marginalized",
+        "conversion"
       ],
       "pageReference": "52"
     },
@@ -71,11 +71,11 @@
       "term": "disfigured",
       "definition": "to impair (as in beauty) by deep and persistent injuries",
       "distractors": [
-        "an experience associated with the definite and decisive adoption of a religion",
-        "unfortunate or difficult situation",
-        "to cause disgust",
-        "exemption or freedom from punishment",
-        "a person affected with leprosy"
+        "inconceivable",
+        "plight",
+        "repulsed",
+        "leper",
+        "impunity"
       ],
       "pageReference": "53"
     },
@@ -84,11 +84,11 @@
       "term": "marginalized",
       "definition": "relegated to an unimportant or powerless position within a society",
       "distractors": [
-        "a person affected with leprosy",
-        "to cause disgust",
-        "unfortunate or difficult situation",
-        "impossible to comprehend",
-        "punishment"
+        "leper",
+        "conversion",
+        "impunity",
+        "repulsed",
+        "inconceivable"
       ],
       "pageReference": "54"
     },
@@ -97,11 +97,11 @@
       "term": "loneliness",
       "definition": "producing a feeling of desolation",
       "distractors": [
-        "relegated to an unimportant or powerless position within a society",
-        "to cause disgust",
-        "unfortunate or difficult situation",
-        "a person affected with leprosy",
-        "to impair (as in beauty) by deep and persistent injuries"
+        "avenge",
+        "inconceivable",
+        "plight",
+        "leper",
+        "chastisement"
       ],
       "pageReference": "54"
     },
@@ -110,11 +110,11 @@
       "term": "inconceivable",
       "definition": "impossible to comprehend",
       "distractors": [
-        "a person affected with leprosy",
-        "punishment",
-        "unfortunate or difficult situation",
-        "sin",
-        "relegated to an unimportant or powerless position within a society"
+        "leper",
+        "disfigured",
+        "marginalized",
+        "impunity",
+        "repulsed"
       ],
       "pageReference": "55"
     },
@@ -123,11 +123,11 @@
       "term": "iniquities",
       "definition": "sin",
       "distractors": [
-        "to take vengeance for",
-        "punishment",
-        "to cause disgust",
-        "exemption or freedom from punishment",
-        "relegated to an unimportant or powerless position within a society"
+        "conversion",
+        "inconceivable",
+        "avenge",
+        "plight",
+        "repulsed"
       ],
       "pageReference": "57"
     },
@@ -136,11 +136,11 @@
       "term": "chastisement",
       "definition": "punishment",
       "distractors": [
-        "sin",
-        "an experience associated with the definite and decisive adoption of a religion",
-        "impossible to comprehend",
-        "a person affected with leprosy",
-        "exemption or freedom from punishment"
+        "inconceivable",
+        "disfigured",
+        "loneliness",
+        "marginalized",
+        "avenge"
       ],
       "pageReference": "57"
     },
@@ -149,11 +149,11 @@
       "term": "conversion",
       "definition": "an experience associated with the definite and decisive adoption of a religion",
       "distractors": [
-        "to cause disgust",
-        "punishment",
-        "relegated to an unimportant or powerless position within a society",
-        "to take vengeance for",
-        "impossible to comprehend"
+        "chastisement",
+        "repulsed",
+        "inconceivable",
+        "disfigured",
+        "plight"
       ],
       "pageReference": "58"
     }

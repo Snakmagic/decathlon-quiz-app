@@ -6,11 +6,11 @@
       "term": "hermitage",
       "definition": "a place of private retreat",
       "distractors": [
-        "being beyond comprehension",
-        "disassociated from any specific instance",
-        "come out into view",
-        "a steep rugged rock",
-        "exhibiting a great intensity of feeling"
+        "transcendent",
+        "fervently",
+        "crags",
+        "vigor",
+        "immanent"
       ],
       "pageReference": "142"
     },
@@ -19,11 +19,11 @@
       "term": "vigor",
       "definition": "active bodily or mental strength",
       "distractors": [
-        "a place of private retreat",
-        "being within the limits of possible experience or knowledge",
-        "being beyond comprehension",
-        "exhibiting a great intensity of feeling",
-        "a steep rugged rock"
+        "fervently",
+        "transcendent",
+        "abstract",
+        "hermitage",
+        "emerge"
       ],
       "pageReference": "142"
     },
@@ -32,11 +32,11 @@
       "term": "crags",
       "definition": "a steep rugged rock",
       "distractors": [
-        "active bodily or mental strength",
-        "being within the limits of possible experience or knowledge",
-        "being beyond comprehension",
-        "disassociated from any specific instance",
-        "a place of private retreat"
+        "fervently",
+        "transcendent",
+        "emerge",
+        "abstract",
+        "vigor"
       ],
       "pageReference": "142"
     },
@@ -45,11 +45,11 @@
       "term": "emerge",
       "definition": "come out into view",
       "distractors": [
-        "disassociated from any specific instance",
-        "being beyond comprehension",
-        "exhibiting a great intensity of feeling",
-        "active bodily or mental strength",
-        "being within the limits of possible experience or knowledge"
+        "abstract",
+        "hermitage",
+        "fervently",
+        "transcendent",
+        "immanent"
       ],
       "pageReference": "143"
     },
@@ -58,11 +58,11 @@
       "term": "transcendent",
       "definition": "being beyond comprehension",
       "distractors": [
-        "active bodily or mental strength",
-        "exhibiting a great intensity of feeling",
-        "come out into view",
-        "a place of private retreat",
-        "disassociated from any specific instance"
+        "emerge",
+        "crags",
+        "abstract",
+        "immanent",
+        "vigor"
       ],
       "pageReference": "143"
     },
@@ -71,11 +71,11 @@
       "term": "immanent",
       "definition": "being within the limits of possible experience or knowledge",
       "distractors": [
-        "active bodily or mental strength",
-        "a steep rugged rock",
-        "a place of private retreat",
-        "exhibiting a great intensity of feeling",
-        "being beyond comprehension"
+        "fervently",
+        "vigor",
+        "abstract",
+        "crags",
+        "transcendent"
       ],
       "pageReference": "144"
     },
@@ -84,11 +84,11 @@
       "term": "fervently",
       "definition": "exhibiting a great intensity of feeling",
       "distractors": [
-        "being within the limits of possible experience or knowledge",
-        "active bodily or mental strength",
-        "being beyond comprehension",
-        "disassociated from any specific instance",
-        "a steep rugged rock"
+        "vigor",
+        "hermitage",
+        "crags",
+        "abstract",
+        "immanent"
       ],
       "pageReference": "148"
     },
@@ -97,11 +97,11 @@
       "term": "abstract",
       "definition": "disassociated from any specific instance",
       "distractors": [
-        "being within the limits of possible experience or knowledge",
-        "active bodily or mental strength",
-        "a steep rugged rock",
-        "exhibiting a great intensity of feeling",
-        "being beyond comprehension"
+        "immanent",
+        "vigor",
+        "fervently",
+        "crags",
+        "transcendent"
       ],
       "pageReference": "149"
     }

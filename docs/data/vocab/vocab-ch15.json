@@ -6,11 +6,11 @@
       "term": "sultan",
       "definition": "a king of a Muslim state",
       "distractors": [
-        "guards",
-        "the state of being first",
-        "a proclamation having the force of law",
-        "a Persian religion",
-        "to win over"
+        "edict",
+        "oroastrian",
+        "diplomacy",
+        "fortifications",
+        "emaciated"
       ],
       "pageReference": "157"
     },
@@ -19,11 +19,11 @@
       "term": "edict",
       "definition": "a proclamation having the force of law",
       "distractors": [
-        "a Muslim mystic",
-        "a Persian religion",
-        "the state of being first",
-        "a particular mode of reasoning viewed as valid",
-        "annual alms that each Muslim is expected to pay for charitable and religious purposes"
+        "disarmed",
+        "spared",
+        "oroastrian",
+        "primacy",
+        "emaciated"
       ],
       "pageReference": "160"
     },
@@ -32,11 +32,11 @@
       "term": "oroastrian",
       "definition": "a Persian religion",
       "distractors": [
-        "a proclamation having the force of law",
-        "one that settles a dispute",
-        "something that defends or strengthens",
-        "skill in handling affairs without arousing hostility",
-        "very thin and weak"
+        "spared",
+        "sentries",
+        "emaciated",
+        "arbitrator",
+        "primacy"
       ],
       "pageReference": "160"
     },
@@ -45,11 +45,11 @@
       "term": "spared",
       "definition": "to refrain from attacking",
       "distractors": [
-        "a particular mode of reasoning viewed as valid",
-        "guards",
-        "skill in handling affairs without arousing hostility",
-        "the state of being first",
-        "a king of a Muslim state"
+        "edict",
+        "logic",
+        "diplomacy",
+        "sufi",
+        "primacy"
       ],
       "pageReference": "160"
     },
@@ -58,11 +58,11 @@
       "term": "fortifications",
       "definition": "something that defends or strengthens",
       "distractors": [
-        "to refrain from attacking",
-        "a proclamation having the force of law",
-        "to win over",
-        "a king of a Muslim state",
-        "a Persian religion"
+        "arbitrator",
+        "sultan",
+        "primacy",
+        "oroastrian",
+        "akat"
       ],
       "pageReference": "161"
     },
@@ -71,11 +71,11 @@
       "term": "primacy",
       "definition": "the state of being first",
       "distractors": [
-        "a Muslim mystic",
-        "very thin and weak",
-        "guards",
-        "annual alms that each Muslim is expected to pay for charitable and religious purposes",
-        "to win over"
+        "sentries",
+        "oroastrian",
+        "spared",
+        "arbitrator",
+        "akat"
       ],
       "pageReference": "162"
     },
@@ -84,11 +84,11 @@
       "term": "logic",
       "definition": "a particular mode of reasoning viewed as valid",
       "distractors": [
-        "skill in handling affairs without arousing hostility",
-        "to refrain from attacking",
-        "annual alms that each Muslim is expected to pay for charitable and religious purposes",
-        "a Muslim mystic",
-        "very thin and weak"
+        "disarmed",
+        "diplomacy",
+        "sultan",
+        "edict",
+        "spared"
       ],
       "pageReference": "164"
     },
@@ -97,11 +97,11 @@
       "term": "arbitrator",
       "definition": "one that settles a dispute",
       "distractors": [
-        "to win over",
-        "very thin and weak",
-        "a proclamation having the force of law",
-        "guards",
-        "a king of a Muslim state"
+        "primacy",
+        "sentries",
+        "sultan",
+        "akat",
+        "sufi"
       ],
       "pageReference": "165"
     },
@@ -110,11 +110,11 @@
       "term": "diplomacy",
       "definition": "skill in handling affairs without arousing hostility",
       "distractors": [
-        "a king of a Muslim state",
-        "something that defends or strengthens",
-        "one that settles a dispute",
-        "very thin and weak",
-        "to win over"
+        "oroastrian",
+        "sufi",
+        "emaciated",
+        "edict",
+        "disarmed"
       ],
       "pageReference": "167"
     },
@@ -123,11 +123,11 @@
       "term": "sentries",
       "definition": "guards",
       "distractors": [
-        "to refrain from attacking",
-        "the state of being first",
-        "very thin and weak",
-        "to win over",
-        "annual alms that each Muslim is expected to pay for charitable and religious purposes"
+        "akat",
+        "logic",
+        "disarmed",
+        "emaciated",
+        "arbitrator"
       ],
       "pageReference": "170"
     },
@@ -136,11 +136,11 @@
       "term": "disarmed",
       "definition": "to win over",
       "distractors": [
-        "to refrain from attacking",
-        "guards",
-        "a particular mode of reasoning viewed as valid",
-        "a proclamation having the force of law",
-        "a Persian religion"
+        "sentries",
+        "arbitrator",
+        "fortifications",
+        "sufi",
+        "spared"
       ],
       "pageReference": "171"
     },
@@ -149,11 +149,11 @@
       "term": "emaciated",
       "definition": "very thin and weak",
       "distractors": [
-        "to win over",
-        "the state of being first",
-        "skill in handling affairs without arousing hostility",
-        "annual alms that each Muslim is expected to pay for charitable and religious purposes",
-        "something that defends or strengthens"
+        "primacy",
+        "logic",
+        "fortifications",
+        "oroastrian",
+        "disarmed"
       ],
       "pageReference": "173"
     },
@@ -162,11 +162,11 @@
       "term": "akat",
       "definition": "annual alms that each Muslim is expected to pay for charitable and religious purposes",
       "distractors": [
-        "to win over",
-        "very thin and weak",
-        "guards",
-        "a Muslim mystic",
-        "a Persian religion"
+        "primacy",
+        "sultan",
+        "emaciated",
+        "disarmed",
+        "edict"
       ],
       "pageReference": "174"
     },
@@ -175,11 +175,11 @@
       "term": "sufi",
       "definition": "a Muslim mystic",
       "distractors": [
-        "a particular mode of reasoning viewed as valid",
-        "skill in handling affairs without arousing hostility",
-        "to win over",
-        "one that settles a dispute",
-        "to refrain from attacking"
+        "sultan",
+        "edict",
+        "fortifications",
+        "spared",
+        "arbitrator"
       ],
       "pageReference": "178"
     }

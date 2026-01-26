@@ -6,11 +6,11 @@
       "term": "largesse",
       "definition": "liberal giving (as of money) to or as if to an inferior",
       "distractors": [
-        "a layman living in a monastery under a modified rule and without vows",
-        "bodily marks or pains resembling the wounds of the crucified Jesus",
-        "a transformative change of heart",
-        "the subjection and denial of bodily passions and appetites by abstinence or selfinflicted pain or discomfort",
-        "one who lives in solitude especially for religious reasons"
+        "hermit",
+        "penance",
+        "intuition",
+        "recluse",
+        "antithesis"
       ],
       "pageReference": "60"
     },
@@ -19,11 +19,11 @@
       "term": "hermit",
       "definition": "one who lives in solitude especially for religious reasons",
       "distractors": [
-        "a layman living in a monastery under a modified rule and without vows",
-        "the subjection and denial of bodily passions and appetites by abstinence or selfinflicted pain or discomfort",
-        "to obtain or take (something) for oneself",
-        "liberal giving (as of money) to or as if to an inferior",
-        "a transformative change of heart"
+        "impetuous",
+        "antithesis",
+        "consoled",
+        "oblate",
+        "penance"
       ],
       "pageReference": "61"
     },
@@ -32,11 +32,11 @@
       "term": "recluse",
       "definition": "a person who leads a secluded or solitary life",
       "distractors": [
-        "of, relating to, or affecting the body",
-        "a transformative change of heart",
-        "liberal giving (as of money) to or as if to an inferior",
-        "one who lives in solitude especially for religious reasons",
-        "the direct opposite"
+        "corporal",
+        "hermit",
+        "penance",
+        "impetuous",
+        "stigmata"
       ],
       "pageReference": "61"
     },
@@ -45,11 +45,11 @@
       "term": "oblate",
       "definition": "a layman living in a monastery under a modified rule and without vows",
       "distractors": [
-        "a person who leads a secluded or solitary life",
-        "one who lives in solitude especially for religious reasons",
-        "the subjection and denial of bodily passions and appetites by abstinence or selfinflicted pain or discomfort",
-        "to obtain or take (something) for oneself",
-        "bodily marks or pains resembling the wounds of the crucified Jesus"
+        "stigmata",
+        "metanoia",
+        "impetuous",
+        "hermit",
+        "largesse"
       ],
       "pageReference": "61"
     },
@@ -58,11 +58,11 @@
       "term": "corporal",
       "definition": "of, relating to, or affecting the body",
       "distractors": [
-        "one who lives in solitude especially for religious reasons",
-        "quick and ready insight",
-        "a transformative change of heart",
-        "a layman living in a monastery under a modified rule and without vows",
-        "the subjection and denial of bodily passions and appetites by abstinence or selfinflicted pain or discomfort"
+        "oblate",
+        "antithesis",
+        "impetuous",
+        "intuition",
+        "largesse"
       ],
       "pageReference": "61"
     },
@@ -71,11 +71,11 @@
       "term": "penance",
       "definition": "the subjection and denial of bodily passions and appetites by abstinence or selfinflicted pain or discomfort",
       "distractors": [
-        "bodily marks or pains resembling the wounds of the crucified Jesus",
-        "of, relating to, or affecting the body",
-        "a layman living in a monastery under a modified rule and without vows",
-        "quick and ready insight",
-        "liberal giving (as of money) to or as if to an inferior"
+        "corporal",
+        "stigmata",
+        "consoled",
+        "recluse",
+        "largesse"
       ],
       "pageReference": "61"
     },
@@ -84,11 +84,11 @@
       "term": "antithesis",
       "definition": "the direct opposite",
       "distractors": [
-        "a layman living in a monastery under a modified rule and without vows",
-        "one who lives in solitude especially for religious reasons",
-        "liberal giving (as of money) to or as if to an inferior",
-        "to obtain or take (something) for oneself",
-        "quick and ready insight"
+        "impetuous",
+        "penance",
+        "corporal",
+        "stigmata",
+        "metanoia"
       ],
       "pageReference": "63"
     },
@@ -97,11 +97,11 @@
       "term": "metanoia",
       "definition": "a transformative change of heart",
       "distractors": [
-        "one who lives in solitude especially for religious reasons",
-        "to obtain or take (something) for oneself",
-        "the subjection and denial of bodily passions and appetites by abstinence or selfinflicted pain or discomfort",
-        "liberal giving (as of money) to or as if to an inferior",
-        "a person who leads a secluded or solitary life"
+        "intuition",
+        "impetuous",
+        "antithesis",
+        "appropriate",
+        "stigmata"
       ],
       "pageReference": "63"
     },
@@ -110,11 +110,11 @@
       "term": "consoled",
       "definition": "to alleviate the grief, sense of loss, or trouble of",
       "distractors": [
-        "bodily marks or pains resembling the wounds of the crucified Jesus",
-        "the direct opposite",
-        "marked by impulsive passion",
-        "a transformative change of heart",
-        "quick and ready insight"
+        "intuition",
+        "metanoia",
+        "appropriate",
+        "penance",
+        "corporal"
       ],
       "pageReference": "66"
     },
@@ -123,11 +123,11 @@
       "term": "appropriate",
       "definition": "to obtain or take (something) for oneself",
       "distractors": [
-        "liberal giving (as of money) to or as if to an inferior",
-        "the direct opposite",
-        "a layman living in a monastery under a modified rule and without vows",
-        "marked by impulsive passion",
-        "to alleviate the grief, sense of loss, or trouble of"
+        "consoled",
+        "oblate",
+        "intuition",
+        "metanoia",
+        "largesse"
       ],
       "pageReference": "67"
     },
@@ -136,11 +136,11 @@
       "term": "stigmata",
       "definition": "bodily marks or pains resembling the wounds of the crucified Jesus",
       "distractors": [
-        "to alleviate the grief, sense of loss, or trouble of",
-        "the direct opposite",
-        "liberal giving (as of money) to or as if to an inferior",
-        "marked by impulsive passion",
-        "one who lives in solitude especially for religious reasons"
+        "metanoia",
+        "largesse",
+        "recluse",
+        "oblate",
+        "appropriate"
       ],
       "pageReference": "68"
     },
@@ -149,11 +149,11 @@
       "term": "impetuous",
       "definition": "marked by impulsive passion",
       "distractors": [
-        "a transformative change of heart",
-        "of, relating to, or affecting the body",
-        "one who lives in solitude especially for religious reasons",
-        "to alleviate the grief, sense of loss, or trouble of",
-        "a layman living in a monastery under a modified rule and without vows"
+        "metanoia",
+        "stigmata",
+        "oblate",
+        "antithesis",
+        "corporal"
       ],
       "pageReference": "68"
     },
@@ -162,11 +162,11 @@
       "term": "intuition",
       "definition": "quick and ready insight",
       "distractors": [
-        "the subjection and denial of bodily passions and appetites by abstinence or selfinflicted pain or discomfort",
-        "a person who leads a secluded or solitary life",
-        "one who lives in solitude especially for religious reasons",
-        "the direct opposite",
-        "a layman living in a monastery under a modified rule and without vows"
+        "impetuous",
+        "recluse",
+        "stigmata",
+        "oblate",
+        "hermit"
       ],
       "pageReference": "69"
     }

@@ -6,11 +6,11 @@
       "term": "droves",
       "definition": "a large number",
       "distractors": [
-        "angry and bitter",
-        "the state of being faithful",
-        "to clear of guilt",
-        "the process of becoming more like God through participating in the divine life",
-        "exhibiting a special magnetic charm or appeal"
+        "ve",
+        "all-encompassing",
+        "locution",
+        "fidelity",
+        "purgative"
       ],
       "pageReference": "188"
     },
@@ -19,11 +19,11 @@
       "term": "nostalgia",
       "definition": "wistful yearning for return to some past period",
       "distractors": [
-        "the process of becoming more like God through participating in the divine life",
-        "to clear of guilt",
-        "exhibiting a special magnetic charm or appeal",
-        "the state of being faithful",
-        "angry and bitter"
+        "fidelity",
+        "redemptive",
+        "administrative",
+        "depriving",
+        "acrimonious"
       ],
       "pageReference": "188"
     },
@@ -32,11 +32,11 @@
       "term": "charismatic",
       "definition": "exhibiting a special magnetic charm or appeal",
       "distractors": [
-        "characteristics of one that manages supervisory duties",
-        "a large number",
-        "bringing about salvation",
-        "supernatural communication in which God speaks",
-        "the state of being faithful"
+        "administrative",
+        "fidelity",
+        "purgative",
+        "acrimonious",
+        "nostalgia"
       ],
       "pageReference": "189"
     },
@@ -45,11 +45,11 @@
       "term": "administrative",
       "definition": "characteristics of one that manages supervisory duties",
       "distractors": [
-        "bringing about salvation",
-        "a large number",
-        "to clear of guilt",
-        "the state of being faithful",
-        "to withhold something"
+        "redemptive",
+        "locution",
+        "purgative",
+        "droves",
+        "divinization"
       ],
       "pageReference": "189"
     },
@@ -58,11 +58,11 @@
       "term": "acrimonious",
       "definition": "angry and bitter",
       "distractors": [
-        "the process of becoming more like God through participating in the divine life",
-        "wistful yearning for return to some past period",
-        "bringing about salvation",
-        "to withhold something",
-        "the state of being faithful"
+        "redemptive",
+        "fidelity",
+        "administrative",
+        "charismatic",
+        "purgative"
       ],
       "pageReference": "190"
     },
@@ -71,11 +71,11 @@
       "term": "depriving",
       "definition": "to withhold something",
       "distractors": [
-        "the state of being faithful",
-        "angry and bitter",
-        "to clear of guilt",
-        "a large number",
-        "deficient in worldly wisdom"
+        "administrative",
+        "charismatic",
+        "nostalgia",
+        "ve",
+        "divinization"
       ],
       "pageReference": "190"
     },
@@ -84,11 +84,11 @@
       "term": "ve",
       "definition": "deficient in worldly wisdom",
       "distractors": [
-        "the process of becoming more like God through participating in the divine life",
-        "characteristics of one that manages supervisory duties",
-        "supernatural communication in which God speaks",
-        "bringing about salvation",
-        "exhibiting a special magnetic charm or appeal"
+        "locution",
+        "administrative",
+        "droves",
+        "all-encompassing",
+        "purgative"
       ],
       "pageReference": "191"
     },
@@ -97,11 +97,11 @@
       "term": "locution",
       "definition": "supernatural communication in which God speaks",
       "distractors": [
-        "exhibiting a special magnetic charm or appeal",
-        "characteristics of one that manages supervisory duties",
-        "the state of being faithful",
-        "to clear of guilt",
-        "to withhold something"
+        "administrative",
+        "purgative",
+        "droves",
+        "divinization",
+        "acrimonious"
       ],
       "pageReference": "192"
     },
@@ -110,11 +110,11 @@
       "term": "redemptive",
       "definition": "bringing about salvation",
       "distractors": [
-        "to clear of guilt",
-        "the process of becoming more like God through participating in the divine life",
-        "exhibiting a special magnetic charm or appeal",
-        "including everyone",
-        "deficient in worldly wisdom"
+        "divinization",
+        "nostalgia",
+        "ve",
+        "fidelity",
+        "all-encompassing"
       ],
       "pageReference": "193"
     },
@@ -123,11 +123,11 @@
       "term": "divinization",
       "definition": "the process of becoming more like God through participating in the divine life",
       "distractors": [
-        "the state of being faithful",
-        "supernatural communication in which God speaks",
-        "characteristics of one that manages supervisory duties",
-        "deficient in worldly wisdom",
-        "to clear of guilt"
+        "all-encompassing",
+        "nostalgia",
+        "administrative",
+        "locution",
+        "droves"
       ],
       "pageReference": "200"
     },
@@ -136,11 +136,11 @@
       "term": "purgative",
       "definition": "to clear of guilt",
       "distractors": [
-        "deficient in worldly wisdom",
-        "bringing about salvation",
-        "supernatural communication in which God speaks",
-        "exhibiting a special magnetic charm or appeal",
-        "a large number"
+        "ve",
+        "nostalgia",
+        "redemptive",
+        "fidelity",
+        "charismatic"
       ],
       "pageReference": "201"
     },
@@ -149,11 +149,11 @@
       "term": "fidelity",
       "definition": "the state of being faithful",
       "distractors": [
-        "the process of becoming more like God through participating in the divine life",
-        "a large number",
-        "supernatural communication in which God speaks",
-        "characteristics of one that manages supervisory duties",
-        "angry and bitter"
+        "depriving",
+        "ve",
+        "charismatic",
+        "nostalgia",
+        "all-encompassing"
       ],
       "pageReference": "203"
     },
@@ -162,11 +162,11 @@
       "term": "all-encompassing",
       "definition": "including everyone",
       "distractors": [
-        "characteristics of one that manages supervisory duties",
-        "to withhold something",
-        "a large number",
-        "angry and bitter",
-        "to clear of guilt"
+        "acrimonious",
+        "administrative",
+        "nostalgia",
+        "depriving",
+        "divinization"
       ],
       "pageReference": "204"
     }

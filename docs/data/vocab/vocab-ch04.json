@@ -6,11 +6,11 @@
       "term": "sanctuaries",
       "definition": "a consecrated place such as a church for worship and prayer",
       "distractors": [
-        "spellbound",
-        "the use of memory usually with little intelligence",
-        "having seemingly contradictory qualities",
-        "to set free",
-        "repeated practice"
+        "incarnate",
+        "liberate",
+        "venial",
+        "decorum",
+        "solace"
       ],
       "pageReference": "33"
     },
@@ -19,11 +19,11 @@
       "term": "solace",
       "definition": "a source of relief or consolation",
       "distractors": [
-        "repeated practice",
-        "the use of memory usually with little intelligence",
-        "the state of being glorified",
-        "take on bodily and especially human nature and form",
-        "less serious sin against God\u2019s law"
+        "incarnate",
+        "paradox",
+        "mesmerized",
+        "decorum",
+        "profundity"
       ],
       "pageReference": "33"
     },
@@ -32,11 +32,11 @@
       "term": "mesmerized",
       "definition": "spellbound",
       "distractors": [
-        "to give up",
-        "the state of being glorified",
-        "repeated practice",
-        "a source of relief or consolation",
-        "to set free"
+        "decorum",
+        "sanctuaries",
+        "profundity",
+        "liberate",
+        "rote"
       ],
       "pageReference": "34"
     },
@@ -45,11 +45,11 @@
       "term": "rote",
       "definition": "the use of memory usually with little intelligence",
       "distractors": [
-        "spellbound",
-        "take on bodily and especially human nature and form",
-        "less serious sin against God\u2019s law",
-        "repeated practice",
-        "the state of being glorified"
+        "profundity",
+        "relinquish",
+        "venial",
+        "mesmerized",
+        "decorum"
       ],
       "pageReference": "36"
     },
@@ -58,11 +58,11 @@
       "term": "custom",
       "definition": "repeated practice",
       "distractors": [
-        "a consecrated place such as a church for worship and prayer",
-        "the state of being glorified",
-        "a source of relief or consolation",
-        "spellbound",
-        "less serious sin against God\u2019s law"
+        "decency",
+        "relinquish",
+        "solace",
+        "venial",
+        "rote"
       ],
       "pageReference": "36"
     },
@@ -71,11 +71,11 @@
       "term": "decorum",
       "definition": "orderliness",
       "distractors": [
-        "having seemingly contradictory qualities",
-        "a source of relief or consolation",
-        "conditions considered essential for a proper standard of living",
-        "a consecrated place such as a church for worship and prayer",
-        "take on bodily and especially human nature and form"
+        "rote",
+        "liberate",
+        "incarnate",
+        "decency",
+        "relinquish"
       ],
       "pageReference": "36"
     },
@@ -84,11 +84,11 @@
       "term": "decency",
       "definition": "conditions considered essential for a proper standard of living",
       "distractors": [
-        "intellectual depth",
-        "orderliness",
-        "take on bodily and especially human nature and form",
-        "a source of relief or consolation",
-        "having seemingly contradictory qualities"
+        "custom",
+        "rote",
+        "solace",
+        "incarnate",
+        "profundity"
       ],
       "pageReference": "36"
     },
@@ -97,11 +97,11 @@
       "term": "venial",
       "definition": "less serious sin against God\u2019s law",
       "distractors": [
-        "spellbound",
-        "repeated practice",
-        "the state of being glorified",
-        "a consecrated place such as a church for worship and prayer",
-        "conditions considered essential for a proper standard of living"
+        "profundity",
+        "paradox",
+        "sanctuaries",
+        "rote",
+        "exaltation"
       ],
       "pageReference": "37"
     },
@@ -110,11 +110,11 @@
       "term": "paradox",
       "definition": "having seemingly contradictory qualities",
       "distractors": [
-        "to set free",
-        "take on bodily and especially human nature and form",
-        "conditions considered essential for a proper standard of living",
-        "orderliness",
-        "intellectual depth"
+        "rote",
+        "decorum",
+        "custom",
+        "venial",
+        "exaltation"
       ],
       "pageReference": "37"
     },
@@ -123,11 +123,11 @@
       "term": "liberate",
       "definition": "to set free",
       "distractors": [
-        "intellectual depth",
-        "a consecrated place such as a church for worship and prayer",
-        "spellbound",
-        "to give up",
-        "a source of relief or consolation"
+        "sanctuaries",
+        "mesmerized",
+        "incarnate",
+        "decorum",
+        "custom"
       ],
       "pageReference": "39"
     },
@@ -136,11 +136,11 @@
       "term": "profundity",
       "definition": "intellectual depth",
       "distractors": [
-        "having seemingly contradictory qualities",
-        "take on bodily and especially human nature and form",
-        "spellbound",
-        "a source of relief or consolation",
-        "to give up"
+        "mesmerized",
+        "rote",
+        "custom",
+        "sanctuaries",
+        "paradox"
       ],
       "pageReference": "39"
     },
@@ -149,11 +149,11 @@
       "term": "exaltation",
       "definition": "the state of being glorified",
       "distractors": [
-        "a source of relief or consolation",
-        "having seemingly contradictory qualities",
-        "take on bodily and especially human nature and form",
-        "less serious sin against God\u2019s law",
-        "orderliness"
+        "liberate",
+        "sanctuaries",
+        "incarnate",
+        "venial",
+        "decency"
       ],
       "pageReference": "39"
     },
@@ -162,11 +162,11 @@
       "term": "relinquish",
       "definition": "to give up",
       "distractors": [
-        "to set free",
-        "the state of being glorified",
-        "orderliness",
-        "the use of memory usually with little intelligence",
-        "less serious sin against God\u2019s law"
+        "mesmerized",
+        "profundity",
+        "paradox",
+        "decency",
+        "solace"
       ],
       "pageReference": "41"
     },
@@ -175,11 +175,11 @@
       "term": "incarnate",
       "definition": "take on bodily and especially human nature and form",
       "distractors": [
-        "having seemingly contradictory qualities",
-        "the use of memory usually with little intelligence",
-        "a source of relief or consolation",
-        "to set free",
-        "the state of being glorified"
+        "paradox",
+        "exaltation",
+        "solace",
+        "decency",
+        "relinquish"
       ],
       "pageReference": "41"
     }

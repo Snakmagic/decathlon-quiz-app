@@ -6,11 +6,11 @@
       "term": "resolute",
       "definition": "marked by firm determination",
       "distractors": [
-        "to give up by formal declaration",
-        "present in all places at all times",
-        "to separate from association with another",
-        "one who has unlimited power",
-        "vigorously active"
+        "wanderlust",
+        "benedictions",
+        "abode",
+        "disassociated",
+        "precarious"
       ],
       "pageReference": "79"
     },
@@ -19,11 +19,11 @@
       "term": "renounced",
       "definition": "to give up by formal declaration",
       "distractors": [
-        "vigorously active",
-        "one who has unlimited power",
-        "the place where one lives",
-        "present in all places at all times",
-        "characterized by a lack of security or stability that threatens with danger"
+        "precarious",
+        "strenuous",
+        "omnipotent",
+        "abode",
+        "omnipresent"
       ],
       "pageReference": "82"
     },
@@ -32,11 +32,11 @@
       "term": "precarious",
       "definition": "characterized by a lack of security or stability that threatens with danger",
       "distractors": [
-        "traveling from place to place",
-        "a trying experience",
-        "the invocation of a blessing",
-        "to separate from association with another",
-        "present in all places at all times"
+        "benedictions",
+        "abode",
+        "renounced",
+        "resolute",
+        "omnipresent"
       ],
       "pageReference": "82"
     },
@@ -45,11 +45,11 @@
       "term": "tribulation",
       "definition": "a trying experience",
       "distractors": [
-        "to separate from association with another",
-        "vigorously active",
-        "one who has unlimited power",
-        "the invocation of a blessing",
-        "to give up by formal declaration"
+        "strenuous",
+        "disassociated",
+        "wanderlust",
+        "abode",
+        "omnipotent"
       ],
       "pageReference": "83"
     },
@@ -58,11 +58,11 @@
       "term": "strenuous",
       "definition": "vigorously active",
       "distractors": [
-        "a trying experience",
-        "traveling from place to place",
-        "marked by firm determination",
-        "the place where one lives",
-        "to separate from association with another"
+        "disassociated",
+        "wanderlust",
+        "renounced",
+        "benedictions",
+        "omnipotent"
       ],
       "pageReference": "84"
     },
@@ -71,11 +71,11 @@
       "term": "omnipotent",
       "definition": "one who has unlimited power",
       "distractors": [
-        "the invocation of a blessing",
-        "to give up by formal declaration",
-        "a trying experience",
-        "strong longing for or impulse toward wandering",
-        "vigorously active"
+        "strenuous",
+        "itinerantly",
+        "precarious",
+        "wanderlust",
+        "renounced"
       ],
       "pageReference": "85"
     },
@@ -84,11 +84,11 @@
       "term": "omnipresent",
       "definition": "present in all places at all times",
       "distractors": [
-        "vigorously active",
-        "strong longing for or impulse toward wandering",
-        "to give up by formal declaration",
-        "characterized by a lack of security or stability that threatens with danger",
-        "traveling from place to place"
+        "benedictions",
+        "omnipotent",
+        "precarious",
+        "disassociated",
+        "tribulation"
       ],
       "pageReference": "85"
     },
@@ -97,11 +97,11 @@
       "term": "benedictions",
       "definition": "the invocation of a blessing",
       "distractors": [
-        "the place where one lives",
-        "one who has unlimited power",
-        "a trying experience",
-        "traveling from place to place",
-        "strong longing for or impulse toward wandering"
+        "precarious",
+        "itinerantly",
+        "disassociated",
+        "abode",
+        "omnipotent"
       ],
       "pageReference": "86"
     },
@@ -110,11 +110,11 @@
       "term": "wanderlust",
       "definition": "strong longing for or impulse toward wandering",
       "distractors": [
-        "to give up by formal declaration",
-        "marked by firm determination",
-        "the invocation of a blessing",
-        "present in all places at all times",
-        "one who has unlimited power"
+        "omnipresent",
+        "precarious",
+        "abode",
+        "tribulation",
+        "itinerantly"
       ],
       "pageReference": "93"
     },
@@ -123,11 +123,11 @@
       "term": "itinerantly",
       "definition": "traveling from place to place",
       "distractors": [
-        "the invocation of a blessing",
-        "characterized by a lack of security or stability that threatens with danger",
-        "present in all places at all times",
-        "vigorously active",
-        "a trying experience"
+        "wanderlust",
+        "benedictions",
+        "tribulation",
+        "precarious",
+        "renounced"
       ],
       "pageReference": "94"
     },
@@ -136,11 +136,11 @@
       "term": "disassociated",
       "definition": "to separate from association with another",
       "distractors": [
-        "present in all places at all times",
-        "a trying experience",
-        "traveling from place to place",
-        "strong longing for or impulse toward wandering",
-        "characterized by a lack of security or stability that threatens with danger"
+        "renounced",
+        "abode",
+        "itinerantly",
+        "strenuous",
+        "precarious"
       ],
       "pageReference": "94"
     },
@@ -149,11 +149,11 @@
       "term": "abode",
       "definition": "the place where one lives",
       "distractors": [
-        "the invocation of a blessing",
-        "marked by firm determination",
-        "present in all places at all times",
-        "characterized by a lack of security or stability that threatens with danger",
-        "to give up by formal declaration"
+        "omnipresent",
+        "tribulation",
+        "wanderlust",
+        "benedictions",
+        "omnipotent"
       ],
       "pageReference": "94"
     }

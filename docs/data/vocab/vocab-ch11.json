@@ -6,11 +6,11 @@
       "term": "itinerant",
       "definition": "traveling from place to place",
       "distractors": [
-        "a French song",
-        "not concerned with religion or religious purposes, secular",
-        "worthy of religious veneration, holy",
-        "generosity and helpfulness especially toward the needy or suffering",
-        "a particular form of a language which is peculiar to a specific region or social group"
+        "credentials",
+        "chanson",
+        "unmitigated",
+        "sacred",
+        "profane"
       ],
       "pageReference": "116"
     },
@@ -19,11 +19,11 @@
       "term": "alms",
       "definition": "something (such as money or food) given freely to relieve the poor",
       "distractors": [
-        "not lessened",
-        "not concerned with religion or religious purposes, secular",
-        "generosity and helpfulness especially toward the needy or suffering",
-        "a French song",
-        "worthy of religious veneration, holy"
+        "charity",
+        "itinerant",
+        "chanson",
+        "profane",
+        "unmitigated"
       ],
       "pageReference": "116"
     },
@@ -32,11 +32,11 @@
       "term": "dialect",
       "definition": "a particular form of a language which is peculiar to a specific region or social group",
       "distractors": [
-        "traveling from place to place",
-        "not concerned with religion or religious purposes, secular",
-        "certified documents showing that a person has a right to exercise official power",
-        "a French song",
-        "something (such as money or food) given freely to relieve the poor"
+        "credentials",
+        "profane",
+        "charity",
+        "sacred",
+        "itinerant"
       ],
       "pageReference": "117"
     },
@@ -45,11 +45,11 @@
       "term": "profane",
       "definition": "not concerned with religion or religious purposes, secular",
       "distractors": [
-        "traveling from place to place",
-        "generosity and helpfulness especially toward the needy or suffering",
-        "a particular form of a language which is peculiar to a specific region or social group",
-        "certified documents showing that a person has a right to exercise official power",
-        "worthy of religious veneration, holy"
+        "chanson",
+        "sacred",
+        "alms",
+        "dialect",
+        "itinerant"
       ],
       "pageReference": "118"
     },
@@ -58,11 +58,11 @@
       "term": "sacred",
       "definition": "worthy of religious veneration, holy",
       "distractors": [
-        "traveling from place to place",
-        "a particular form of a language which is peculiar to a specific region or social group",
-        "not concerned with religion or religious purposes, secular",
-        "generosity and helpfulness especially toward the needy or suffering",
-        "not lessened"
+        "unmitigated",
+        "charity",
+        "itinerant",
+        "alms",
+        "profane"
       ],
       "pageReference": "118"
     },
@@ -71,11 +71,11 @@
       "term": "chanson",
       "definition": "a French song",
       "distractors": [
-        "certified documents showing that a person has a right to exercise official power",
-        "generosity and helpfulness especially toward the needy or suffering",
-        "traveling from place to place",
-        "worthy of religious veneration, holy",
-        "a particular form of a language which is peculiar to a specific region or social group"
+        "profane",
+        "charity",
+        "dialect",
+        "itinerant",
+        "credentials"
       ],
       "pageReference": "118"
     },
@@ -84,11 +84,11 @@
       "term": "charity",
       "definition": "generosity and helpfulness especially toward the needy or suffering",
       "distractors": [
-        "not lessened",
-        "something (such as money or food) given freely to relieve the poor",
-        "a French song",
-        "worthy of religious veneration, holy",
-        "a particular form of a language which is peculiar to a specific region or social group"
+        "dialect",
+        "itinerant",
+        "unmitigated",
+        "profane",
+        "chanson"
       ],
       "pageReference": "121"
     },
@@ -97,11 +97,11 @@
       "term": "unmitigated",
       "definition": "not lessened",
       "distractors": [
-        "certified documents showing that a person has a right to exercise official power",
-        "traveling from place to place",
-        "worthy of religious veneration, holy",
-        "a French song",
-        "not concerned with religion or religious purposes, secular"
+        "credentials",
+        "sacred",
+        "chanson",
+        "itinerant",
+        "alms"
       ],
       "pageReference": "124"
     },
@@ -110,11 +110,11 @@
       "term": "credentials",
       "definition": "certified documents showing that a person has a right to exercise official power",
       "distractors": [
-        "generosity and helpfulness especially toward the needy or suffering",
-        "a French song",
-        "traveling from place to place",
-        "a particular form of a language which is peculiar to a specific region or social group",
-        "not concerned with religion or religious purposes, secular"
+        "charity",
+        "alms",
+        "unmitigated",
+        "sacred",
+        "profane"
       ],
       "pageReference": "125"
     }

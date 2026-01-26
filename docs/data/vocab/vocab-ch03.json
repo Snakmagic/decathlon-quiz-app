@@ -6,11 +6,11 @@
       "term": "emaciated",
       "definition": "very thin and feeble especially from lack of nutrition or illness",
       "distractors": [
-        "soldiers hired for wages",
-        "extremely luxurious",
-        "an examination of one\u2019s own thoughts and feelings",
-        "contrary to what one would intuitively expect",
-        "to go over in the mind repeatedly"
+        "subterranean",
+        "discernment",
+        "inkling",
+        "counterintuitive",
+        "ruminating"
       ],
       "pageReference": "20"
     },
@@ -19,11 +19,11 @@
       "term": "squalid",
       "definition": "marked by filthiness",
       "distractors": [
-        "a vigorous campaign for religious change",
-        "an examination of one\u2019s own thoughts and feelings",
-        "a vague notion",
-        "being under the ground level",
-        "extremely luxurious"
+        "crusade",
+        "counterintuitive",
+        "introspection",
+        "emaciated",
+        "subterranean"
       ],
       "pageReference": "20"
     },
@@ -32,11 +32,11 @@
       "term": "sumptuous",
       "definition": "extremely luxurious",
       "distractors": [
-        "an act of coming to know or recognize something mentally",
-        "marked by filthiness",
-        "very thin and feeble especially from lack of nutrition or illness",
-        "being under the ground level",
-        "soldiers hired for wages"
+        "mercenaries",
+        "inkling",
+        "discernment",
+        "subterranean",
+        "squalid"
       ],
       "pageReference": "20"
     },
@@ -45,11 +45,11 @@
       "term": "subterranean",
       "definition": "being under the ground level",
       "distractors": [
-        "extremely luxurious",
-        "a vague notion",
-        "contrary to what one would intuitively expect",
-        "an examination of one\u2019s own thoughts and feelings",
-        "a vigorous campaign for religious change"
+        "discernment",
+        "introspection",
+        "crusade",
+        "sumptuous",
+        "mercenaries"
       ],
       "pageReference": "20"
     },
@@ -58,11 +58,11 @@
       "term": "mercenaries",
       "definition": "soldiers hired for wages",
       "distractors": [
-        "an act of coming to know or recognize something mentally",
-        "an examination of one\u2019s own thoughts and feelings",
-        "contrary to what one would intuitively expect",
-        "a vague notion",
-        "to go over in the mind repeatedly"
+        "introspection",
+        "discernment",
+        "subterranean",
+        "crusade",
+        "counterintuitive"
       ],
       "pageReference": "23"
     },
@@ -71,11 +71,11 @@
       "term": "ruminating",
       "definition": "to go over in the mind repeatedly",
       "distractors": [
-        "a vague notion",
-        "very thin and feeble especially from lack of nutrition or illness",
-        "marked by filthiness",
-        "a vigorous campaign for religious change",
-        "an act of coming to know or recognize something mentally"
+        "counterintuitive",
+        "crusade",
+        "subterranean",
+        "inkling",
+        "sumptuous"
       ],
       "pageReference": "26"
     },
@@ -84,11 +84,11 @@
       "term": "counterintuitive",
       "definition": "contrary to what one would intuitively expect",
       "distractors": [
-        "to go over in the mind repeatedly",
-        "a vague notion",
-        "soldiers hired for wages",
-        "extremely luxurious",
-        "a vigorous campaign for religious change"
+        "discernment",
+        "squalid",
+        "crusade",
+        "inkling",
+        "emaciated"
       ],
       "pageReference": "28"
     },
@@ -97,11 +97,11 @@
       "term": "inkling",
       "definition": "a vague notion",
       "distractors": [
-        "a vigorous campaign for religious change",
-        "being under the ground level",
-        "an examination of one\u2019s own thoughts and feelings",
-        "soldiers hired for wages",
-        "extremely luxurious"
+        "squalid",
+        "counterintuitive",
+        "introspection",
+        "sumptuous",
+        "emaciated"
       ],
       "pageReference": "29"
     },
@@ -110,11 +110,11 @@
       "term": "crusade",
       "definition": "a vigorous campaign for religious change",
       "distractors": [
-        "extremely luxurious",
-        "to go over in the mind repeatedly",
-        "being under the ground level",
-        "soldiers hired for wages",
-        "contrary to what one would intuitively expect"
+        "counterintuitive",
+        "mercenaries",
+        "squalid",
+        "discernment",
+        "subterranean"
       ],
       "pageReference": "30"
     },
@@ -123,11 +123,11 @@
       "term": "introspection",
       "definition": "an examination of one\u2019s own thoughts and feelings",
       "distractors": [
-        "extremely luxurious",
-        "very thin and feeble especially from lack of nutrition or illness",
-        "being under the ground level",
-        "a vigorous campaign for religious change",
-        "a vague notion"
+        "sumptuous",
+        "emaciated",
+        "inkling",
+        "discernment",
+        "squalid"
       ],
       "pageReference": "30"
     },
@@ -136,11 +136,11 @@
       "term": "discernment",
       "definition": "an act of coming to know or recognize something mentally",
       "distractors": [
-        "marked by filthiness",
-        "a vigorous campaign for religious change",
-        "extremely luxurious",
-        "contrary to what one would intuitively expect",
-        "being under the ground level"
+        "introspection",
+        "ruminating",
+        "inkling",
+        "emaciated",
+        "crusade"
       ],
       "pageReference": "30"
     }
