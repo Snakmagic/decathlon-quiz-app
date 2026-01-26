@@ -7,7 +7,7 @@
       "definition": "a king of a Muslim state",
       "distractors": [
         "edict",
-        "oroastrian",
+        "Zoroastrian",
         "diplomacy",
         "fortifications",
         "emaciated"
@@ -21,20 +21,20 @@
       "distractors": [
         "disarmed",
         "spared",
-        "oroastrian",
-        "primacy",
+        "Zoroastrian",
+        "Saracens",
         "emaciated"
       ],
       "pageReference": "160"
     },
     {
       "id": "ch15_vocab3",
-      "term": "oroastrian",
+      "term": "Zoroastrian",
       "definition": "a Persian religion",
       "distractors": [
         "spared",
         "sentries",
-        "emaciated",
+        "Saracens",
         "arbitrator",
         "primacy"
       ],
@@ -49,7 +49,7 @@
         "logic",
         "diplomacy",
         "sufi",
-        "primacy"
+        "Saracens"
       ],
       "pageReference": "160"
     },
@@ -61,8 +61,8 @@
         "arbitrator",
         "sultan",
         "primacy",
-        "oroastrian",
-        "akat"
+        "Zoroastrian",
+        "Zakat"
       ],
       "pageReference": "161"
     },
@@ -72,10 +72,10 @@
       "definition": "the state of being first",
       "distractors": [
         "sentries",
-        "oroastrian",
+        "Saracens",
         "spared",
         "arbitrator",
-        "akat"
+        "Zakat"
       ],
       "pageReference": "162"
     },
@@ -100,7 +100,7 @@
         "primacy",
         "sentries",
         "sultan",
-        "akat",
+        "Zakat",
         "sufi"
       ],
       "pageReference": "165"
@@ -110,7 +110,7 @@
       "term": "diplomacy",
       "definition": "skill in handling affairs without arousing hostility",
       "distractors": [
-        "oroastrian",
+        "Zoroastrian",
         "sufi",
         "emaciated",
         "edict",
@@ -123,7 +123,7 @@
       "term": "sentries",
       "definition": "guards",
       "distractors": [
-        "akat",
+        "Zakat",
         "logic",
         "disarmed",
         "emaciated",
@@ -152,14 +152,14 @@
         "primacy",
         "logic",
         "fortifications",
-        "oroastrian",
+        "Zoroastrian",
         "disarmed"
       ],
       "pageReference": "173"
     },
     {
       "id": "ch15_vocab13",
-      "term": "akat",
+      "term": "Zakat",
       "definition": "annual alms that each Muslim is expected to pay for charitable and religious purposes",
       "distractors": [
         "primacy",
@@ -178,10 +178,23 @@
         "sultan",
         "edict",
         "fortifications",
-        "spared",
+        "Saracens",
         "arbitrator"
       ],
       "pageReference": "178"
+    },
+    {
+      "id": "ch15_vocab15",
+      "term": "Saracens",
+      "definition": "a term used in medieval Europe, especially by Christians, to refer to Muslims, particularly those from the Middle East and North Africa during the time of the Crusades",
+      "distractors": [
+        "sultan",
+        "edict",
+        "fortifications",
+        "spared",
+        "arbitrator"
+      ],
+      "pageReference": "157"
     }
   ]
 }

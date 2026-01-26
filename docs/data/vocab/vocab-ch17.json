@@ -6,10 +6,10 @@
       "term": "droves",
       "definition": "a large number",
       "distractors": [
-        "ve",
+        "naïve",
         "all-encompassing",
         "locution",
-        "fidelity",
+        "plenary indulgence",
         "purgative"
       ],
       "pageReference": "188"
@@ -34,7 +34,7 @@
       "distractors": [
         "administrative",
         "fidelity",
-        "purgative",
+        "plenary indulgence",
         "acrimonious",
         "nostalgia"
       ],
@@ -59,7 +59,7 @@
       "definition": "angry and bitter",
       "distractors": [
         "redemptive",
-        "fidelity",
+        "plenary indulgence",
         "administrative",
         "charismatic",
         "purgative"
@@ -74,14 +74,14 @@
         "administrative",
         "charismatic",
         "nostalgia",
-        "ve",
+        "naïve",
         "divinization"
       ],
       "pageReference": "190"
     },
     {
       "id": "ch17_vocab7",
-      "term": "ve",
+      "term": "naïve",
       "definition": "deficient in worldly wisdom",
       "distractors": [
         "locution",
@@ -112,7 +112,7 @@
       "distractors": [
         "divinization",
         "nostalgia",
-        "ve",
+        "naïve",
         "fidelity",
         "all-encompassing"
       ],
@@ -136,7 +136,7 @@
       "term": "purgative",
       "definition": "to clear of guilt",
       "distractors": [
-        "ve",
+        "plenary indulgence",
         "nostalgia",
         "redemptive",
         "fidelity",
@@ -150,7 +150,7 @@
       "definition": "the state of being faithful",
       "distractors": [
         "depriving",
-        "ve",
+        "plenary indulgence",
         "charismatic",
         "nostalgia",
         "all-encompassing"
@@ -166,9 +166,22 @@
         "administrative",
         "nostalgia",
         "depriving",
-        "divinization"
+        "plenary indulgence"
       ],
       "pageReference": "204"
+    },
+    {
+      "id": "ch17_vocab14",
+      "term": "plenary indulgence",
+      "definition": "Full removal of all punishment due for sins that have already been forgiven. The Church offers it as a gift of mercy through Jesus Christ. To receive it, a person must do certain spiritual actions",
+      "distractors": [
+        "acrimonious",
+        "naïve",
+        "nostalgia",
+        "depriving",
+        "divinization"
+      ],
+      "pageReference": "187"
     }
   ]
 }

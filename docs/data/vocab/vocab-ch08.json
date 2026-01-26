@@ -6,9 +6,9 @@
       "term": "resolute",
       "definition": "marked by firm determination",
       "distractors": [
-        "wanderlust",
+        "terraced",
         "benedictions",
-        "abode",
+        "kinship",
         "disassociated",
         "precarious"
       ],
@@ -20,9 +20,9 @@
       "definition": "to give up by formal declaration",
       "distractors": [
         "precarious",
-        "strenuous",
+        "brigands",
         "omnipotent",
-        "abode",
+        "fraternal",
         "omnipresent"
       ],
       "pageReference": "82"
@@ -33,10 +33,10 @@
       "definition": "characterized by a lack of security or stability that threatens with danger",
       "distractors": [
         "benedictions",
-        "abode",
+        "tau",
         "renounced",
-        "resolute",
-        "omnipresent"
+        "kinship",
+        "terraced"
       ],
       "pageReference": "82"
     },
@@ -62,7 +62,7 @@
         "wanderlust",
         "renounced",
         "benedictions",
-        "omnipotent"
+        "brigands"
       ],
       "pageReference": "84"
     },
@@ -75,7 +75,7 @@
         "itinerantly",
         "precarious",
         "wanderlust",
-        "renounced"
+        "omnipresent"
       ],
       "pageReference": "85"
     },
@@ -86,9 +86,9 @@
       "distractors": [
         "benedictions",
         "omnipotent",
-        "precarious",
-        "disassociated",
-        "tribulation"
+        "kinship",
+        "fraternal",
+        "tau"
       ],
       "pageReference": "85"
     },
@@ -100,7 +100,7 @@
         "precarious",
         "itinerantly",
         "disassociated",
-        "abode",
+        "terraced",
         "omnipotent"
       ],
       "pageReference": "86"
@@ -125,7 +125,7 @@
       "distractors": [
         "wanderlust",
         "benedictions",
-        "tribulation",
+        "fraternal",
         "precarious",
         "renounced"
       ],
@@ -156,6 +156,71 @@
         "omnipotent"
       ],
       "pageReference": "94"
+    },
+    {
+      "id": "ch8_vocab13",
+      "term": "tau",
+      "definition": "a simple cross-shaped symbol resembling the Greek letter T, a personal sign of conversion and commitment to Christ",
+      "distractors": [
+        "omnipresent",
+        "abode",
+        "renounced",
+        "resolute",
+        "brigands"
+      ],
+      "pageReference": "80"
+    },
+    {
+      "id": "ch8_vocab14",
+      "term": "brigands",
+      "definition": "one who lives by plunder usually as a member of a band",
+      "distractors": [
+        "omnipresent",
+        "fraternal",
+        "abode",
+        "tribulation",
+        "omnipotent"
+      ],
+      "pageReference": "82"
+    },
+    {
+      "id": "ch8_vocab15",
+      "term": "kinship",
+      "definition": "a profound sense of connection that recognizes every person as part of one human family",
+      "distractors": [
+        "strenuous",
+        "itinerantly",
+        "precarious",
+        "wanderlust",
+        "terraced"
+      ],
+      "pageReference": "85"
+    },
+    {
+      "id": "ch8_vocab16",
+      "term": "terraced",
+      "definition": "a series of horizontal ridges made in a hillside to increase cultivatable land, conserve moisture, or minimize erosion",
+      "distractors": [
+        "abode",
+        "tribulation",
+        "tau",
+        "kinship",
+        "omnipotent"
+      ],
+      "pageReference": "86"
+    },
+    {
+      "id": "ch8_vocab17",
+      "term": "fraternal",
+      "definition": "in the Franciscan tradition, it reflects a humble way of life where no one is above another, and each person—especially the poor and marginalized—is treated as a beloved sibling",
+      "distractors": [
+        "precarious",
+        "itinerantly",
+        "brigands",
+        "benedictions",
+        "kinship"
+      ],
+      "pageReference": "89"
     }
   ]
 }

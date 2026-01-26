@@ -8,7 +8,7 @@
       "distractors": [
         "traditionalists",
         "heterodox",
-        "stability",
+        "charism",
         "orthodox",
         "vassals"
       ],
@@ -33,7 +33,7 @@
       "definition": "the strength to stand or endure",
       "distractors": [
         "heterodox",
-        "vassals",
+        "charism",
         "orthodox",
         "endorsement",
         "basilica"
@@ -73,7 +73,7 @@
       "distractors": [
         "basilica",
         "traditionalists",
-        "theocracy",
+        "charism",
         "schism",
         "stability"
       ],
@@ -99,7 +99,7 @@
       "distractors": [
         "tonsure",
         "basilica",
-        "traditionalists",
+        "heterodox",
         "vassals",
         "schism"
       ],
@@ -140,7 +140,7 @@
         "dissident",
         "tonsure",
         "heterodox",
-        "vassals"
+        "charism"
       ],
       "pageReference": "130"
     },
@@ -156,6 +156,19 @@
         "basilica"
       ],
       "pageReference": "138"
+    },
+    {
+      "id": "ch12_vocab13",
+      "term": "charism",
+      "definition": "an extraordinary power (as of healing) given a Christian by the Holy Spirit for the good of the church",
+      "distractors": [
+        "basilica",
+        "traditionalists",
+        "theocracy",
+        "schism",
+        "stability"
+      ],
+      "pageReference": "139"
     }
   ]
 }

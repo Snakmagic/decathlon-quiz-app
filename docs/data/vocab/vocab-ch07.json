@@ -9,7 +9,7 @@
         "eccentric",
         "squanderer",
         "banish",
-        "mitre",
+        "anathemas",
         "rebellious"
       ],
       "pageReference": "71"
@@ -21,7 +21,7 @@
       "distractors": [
         "piazza",
         "rebellious",
-        "invectives",
+        "anathemas",
         "erratic",
         "banish"
       ],
@@ -113,7 +113,7 @@
         "divested",
         "primogeniture",
         "erratic",
-        "prelate",
+        "anathemas",
         "episcopal"
       ],
       "pageReference": "75"
@@ -139,7 +139,7 @@
         "episcopal",
         "tribunals",
         "squanderer",
-        "banish",
+        "anathemas",
         "dilapidated"
       ],
       "pageReference": "76"
@@ -191,7 +191,7 @@
         "divested",
         "prelate",
         "episcopal",
-        "piazza",
+        "anathemas",
         "banish"
       ],
       "pageReference": "78"
@@ -202,9 +202,22 @@
       "definition": "to dispossess especially of property, authority, or title",
       "distractors": [
         "prelate",
-        "dilapidated",
+        "anathemas",
         "episcopal",
         "invectives",
+        "mantle"
+      ],
+      "pageReference": "78"
+    },
+    {
+      "id": "ch7_vocab17",
+      "term": "anathemas",
+      "definition": "a ban solemnly pronounced by ecclesiastical authority and accompanied by excommunication",
+      "distractors": [
+        "banish",
+        "rebellious",
+        "invectives",
+        "episcopal",
         "mantle"
       ],
       "pageReference": "78"

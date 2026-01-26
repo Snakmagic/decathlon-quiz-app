@@ -22,7 +22,7 @@
         "deriding",
         "yearned",
         "deference",
-        "sanctity",
+        "catechized",
         "proselytize"
       ],
       "pageReference": "107"
@@ -47,7 +47,7 @@
       "distractors": [
         "proselytize",
         "exuded",
-        "deriding",
+        "catechized",
         "yearned",
         "deference"
       ],
@@ -61,7 +61,7 @@
         "deference",
         "deriding",
         "exuded",
-        "sanctity",
+        "catechized",
         "proselytize"
       ],
       "pageReference": "111"
@@ -73,11 +73,24 @@
       "distractors": [
         "exuded",
         "sanctity",
-        "yearned",
+        "catechized",
         "deriding",
         "deference"
       ],
       "pageReference": "112"
+    },
+    {
+      "id": "ch10_vocab7",
+      "term": "catechized",
+      "definition": "to be given religious instruction systematically especially by questions, answers and explanations",
+      "distractors": [
+        "deriding",
+        "yearned",
+        "proselytize",
+        "sanctity",
+        "deference"
+      ],
+      "pageReference": "108"
     }
   ]
 }

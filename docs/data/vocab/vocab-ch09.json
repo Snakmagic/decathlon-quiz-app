@@ -7,9 +7,9 @@
       "definition": "the state of being not stringent",
       "distractors": [
         "materials",
-        "tabernacle",
+        "heretics",
         "ablaze",
-        "evangelization",
+        "commissioned",
         "serenity"
       ],
       "pageReference": "97"
@@ -22,7 +22,7 @@
         "ablaze",
         "disposition",
         "laxity",
-        "serenity",
+        "mortar",
         "evangelization"
       ],
       "pageReference": "97"
@@ -34,7 +34,7 @@
       "distractors": [
         "serenity",
         "tabernacle",
-        "laxity",
+        "commissioned",
         "materials",
         "ablaze"
       ],
@@ -48,7 +48,7 @@
         "materials",
         "ablaze",
         "laxity",
-        "disposition",
+        "heretics",
         "restoration"
       ],
       "pageReference": "98"
@@ -58,7 +58,7 @@
       "term": "tabernacle",
       "definition": "a receptacle for the consecrated elements of the Eucharist",
       "distractors": [
-        "laxity",
+        "mortar",
         "disposition",
         "ablaze",
         "materials",
@@ -72,7 +72,7 @@
       "definition": "radiant with light or emotion",
       "distractors": [
         "materials",
-        "serenity",
+        "commissioned",
         "restoration",
         "evangelization",
         "laxity"
@@ -104,6 +104,45 @@
         "materials"
       ],
       "pageReference": "103"
+    },
+    {
+      "id": "ch9_vocab9",
+      "term": "heretics",
+      "definition": "a baptized member of the Roman Catholic Church who refuses to acknowledge or accept a revealed truth",
+      "distractors": [
+        "restoration",
+        "ablaze",
+        "disposition",
+        "mortar",
+        "materials"
+      ],
+      "pageReference": "97"
+    },
+    {
+      "id": "ch9_vocab10",
+      "term": "mortar",
+      "definition": "a building material (such as a mixture of cement, lime, or gypsum plaster with sand and water) that hardens and is used in masonry or plastering",
+      "distractors": [
+        "restoration",
+        "ablaze",
+        "laxity",
+        "heretics",
+        "evangelization"
+      ],
+      "pageReference": "98"
+    },
+    {
+      "id": "ch9_vocab11",
+      "term": "commissioned",
+      "definition": "an authorization or command to act in a prescribed manner or to perform prescribed acts",
+      "distractors": [
+        "restoration",
+        "mortar",
+        "materials",
+        "heretics",
+        "serenity"
+      ],
+      "pageReference": "100"
     }
   ]
 }

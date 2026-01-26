@@ -8,7 +8,7 @@
       "distractors": [
         "illuminated",
         "aloof",
-        "sonorous",
+        "nativity",
         "precedence",
         "solemnities"
       ],
@@ -19,8 +19,8 @@
       "term": "solemnities",
       "definition": "highest ranking feast days in the liturgical calendar of the Catholic Church",
       "distractors": [
-        "heady",
-        "che",
+        "nativity",
+        "crèche",
         "aloof",
         "illuminated",
         "precedence"
@@ -33,7 +33,7 @@
       "definition": "removed or distant either physically or emotionally",
       "distractors": [
         "tangible",
-        "precedence",
+        "nativity",
         "consoled",
         "solemnities",
         "heady"
@@ -48,7 +48,7 @@
         "precedence",
         "aloof",
         "heady",
-        "che",
+        "crèche",
         "consoled"
       ],
       "pageReference": "183"
@@ -58,7 +58,7 @@
       "term": "illuminated",
       "definition": "to brighten with light",
       "distractors": [
-        "che",
+        "crèche",
         "precedence",
         "consoled",
         "heady",
@@ -74,8 +74,8 @@
         "heady",
         "solemnities",
         "illuminated",
-        "grotto",
-        "che"
+        "nativity",
+        "crèche"
       ],
       "pageReference": "185"
     },
@@ -99,7 +99,7 @@
       "distractors": [
         "precedence",
         "tangible",
-        "che",
+        "crèche",
         "sonorous",
         "illuminated"
       ],
@@ -112,15 +112,15 @@
       "distractors": [
         "aloof",
         "solemnities",
-        "illuminated",
+        "nativity",
         "sonorous",
-        "che"
+        "crèche"
       ],
       "pageReference": "186"
     },
     {
       "id": "ch16_vocab10",
-      "term": "che",
+      "term": "crèche",
       "definition": "a representation of the Nativity scene",
       "distractors": [
         "aloof",
@@ -130,6 +130,19 @@
         "solemnities"
       ],
       "pageReference": "186"
+    },
+    {
+      "id": "ch16_vocab11",
+      "term": "nativity",
+      "definition": "solemnity marking the Incarnation - God becoming man; can also refer more broadly to artistic depictions or reenactments of Jesus’ birth",
+      "distractors": [
+        "aloof",
+        "grotto",
+        "crèche",
+        "heady",
+        "solemnities"
+      ],
+      "pageReference": "181"
     }
   ]
 }

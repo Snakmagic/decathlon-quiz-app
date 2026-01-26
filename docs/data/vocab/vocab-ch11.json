@@ -8,9 +8,9 @@
       "distractors": [
         "credentials",
         "chanson",
-        "unmitigated",
+        "friars",
         "sacred",
-        "profane"
+        "self-aggrandizement"
       ],
       "pageReference": "116"
     },
@@ -22,7 +22,7 @@
         "charity",
         "itinerant",
         "chanson",
-        "profane",
+        "charismatically",
         "unmitigated"
       ],
       "pageReference": "116"
@@ -48,8 +48,8 @@
         "chanson",
         "sacred",
         "alms",
-        "dialect",
-        "itinerant"
+        "friars",
+        "self-aggrandizement"
       ],
       "pageReference": "118"
     },
@@ -112,11 +112,50 @@
       "distractors": [
         "charity",
         "alms",
-        "unmitigated",
+        "charismatically",
         "sacred",
         "profane"
       ],
       "pageReference": "125"
+    },
+    {
+      "id": "ch11_vocab10",
+      "term": "friars",
+      "definition": "a member of a religious order who lives a life of poverty, preaching, and service to others, often out among the people rather than in a monastery",
+      "distractors": [
+        "charity",
+        "alms",
+        "unmitigated",
+        "sacred",
+        "self-aggrandizement"
+      ],
+      "pageReference": "116"
+    },
+    {
+      "id": "ch11_vocab11",
+      "term": "charismatically",
+      "definition": "praying in an expressive and Spirit-filled way; might include singing, spontaneous words, raised hands or deep enthusiasm for God",
+      "distractors": [
+        "profane",
+        "charity",
+        "sacred",
+        "friars",
+        "self-aggrandizement"
+      ],
+      "pageReference": "119"
+    },
+    {
+      "id": "ch11_vocab12",
+      "term": "self-aggrandizement",
+      "definition": "acting or intended to enhance one's power, wealth, position, or reputation",
+      "distractors": [
+        "charity",
+        "alms",
+        "unmitigated",
+        "chanson",
+        "profane"
+      ],
+      "pageReference": "121"
     }
   ]
 }

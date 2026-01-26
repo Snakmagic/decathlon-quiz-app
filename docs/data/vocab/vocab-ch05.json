@@ -8,7 +8,7 @@
       "distractors": [
         "repulsed",
         "conversion",
-        "loneliness",
+        "solidarity",
         "chastisement",
         "disfigured"
       ],
@@ -35,7 +35,7 @@
         "leper",
         "inconceivable",
         "disfigured",
-        "conversion",
+        "solidarity",
         "loneliness"
       ],
       "pageReference": "47"
@@ -46,7 +46,7 @@
       "definition": "unfortunate or difficult situation",
       "distractors": [
         "leper",
-        "avenge",
+        "podestà",
         "iniquities",
         "conversion",
         "chastisement"
@@ -58,10 +58,10 @@
       "term": "impunity",
       "definition": "exemption or freedom from punishment",
       "distractors": [
-        "plight",
+        "solidarity",
         "avenge",
         "inconceivable",
-        "marginalized",
+        "podestà",
         "conversion"
       ],
       "pageReference": "52"
@@ -75,7 +75,7 @@
         "plight",
         "repulsed",
         "leper",
-        "impunity"
+        "podestà"
       ],
       "pageReference": "53"
     },
@@ -98,7 +98,7 @@
       "definition": "producing a feeling of desolation",
       "distractors": [
         "avenge",
-        "inconceivable",
+        "solidarity",
         "plight",
         "leper",
         "chastisement"
@@ -138,7 +138,7 @@
       "distractors": [
         "inconceivable",
         "disfigured",
-        "loneliness",
+        "podestà",
         "marginalized",
         "avenge"
       ],
@@ -150,12 +150,38 @@
       "definition": "an experience associated with the definite and decisive adoption of a religion",
       "distractors": [
         "chastisement",
-        "repulsed",
+        "solidarity",
         "inconceivable",
         "disfigured",
         "plight"
       ],
       "pageReference": "58"
+    },
+     {
+      "id": "ch5_vocab13",
+      "term": "podestà",
+      "definition": "a chief magistrate in a medieval Italian municipality",
+      "distractors": [
+        "chastisement",
+        "repulsed",
+        "marginalized",
+        "solidarity",
+        "plight"
+      ],
+      "pageReference": "51"
+    },
+     {
+      "id": "ch5_vocab14",
+      "term": "solidarity",
+      "definition": "a moral virtue that calls us to recognize that all people are part of one human family and that we are interdependent",
+      "distractors": [
+        "chastisement",
+        "inconceivable",
+        "disfigured",
+        "chastisement",
+        "iniquities"
+      ],
+      "pageReference": "54"
     }
   ]
 }

@@ -33,7 +33,7 @@
       "definition": "woven or knit cloth",
       "distractors": [
         "reprisals",
-        "heritage",
+        "levied",
         "avaricious",
         "valor",
         "warmongers"
@@ -74,7 +74,7 @@
         "textiles",
         "warmongers",
         "tyrannical",
-        "ambush",
+        "levied",
         "vigilance"
       ],
       "pageReference": "9"
@@ -114,7 +114,7 @@
         "ambush",
         "textiles",
         "caparison",
-        "ransom"
+        "levied"
       ],
       "pageReference": "10"
     },
@@ -164,7 +164,7 @@
       "distractors": [
         "animosity",
         "reprisals",
-        "contested",
+        "levied",
         "heritage",
         "vigilance"
       ],
@@ -179,7 +179,7 @@
         "ransom",
         "vigilance",
         "tyrannical",
-        "textiles"
+        "bridle"
       ],
       "pageReference": "16"
     },

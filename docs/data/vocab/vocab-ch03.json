@@ -21,7 +21,7 @@
       "distractors": [
         "crusade",
         "counterintuitive",
-        "introspection",
+        "intuitively",
         "emaciated",
         "subterranean"
       ],
@@ -68,6 +68,19 @@
     },
     {
       "id": "ch3_vocab6",
+      "term": "intuitively",
+      "definition": "given to the power of attaining to direct knowledge without evident rational thought and inference",
+      "distractors": [
+        "ruminating",
+        "discernment",
+        "squalid",
+        "inkling",
+        "counterintuitive"
+      ],
+      "pageReference": "25"
+    },
+    {
+      "id": "ch3_vocab7",
       "term": "ruminating",
       "definition": "to go over in the mind repeatedly",
       "distractors": [
@@ -80,20 +93,20 @@
       "pageReference": "26"
     },
     {
-      "id": "ch3_vocab7",
+      "id": "ch3_vocab8",
       "term": "counterintuitive",
       "definition": "contrary to what one would intuitively expect",
       "distractors": [
         "discernment",
         "squalid",
         "crusade",
-        "inkling",
+        "intuitively",
         "emaciated"
       ],
       "pageReference": "28"
     },
     {
-      "id": "ch3_vocab8",
+      "id": "ch3_vocab9",
       "term": "inkling",
       "definition": "a vague notion",
       "distractors": [
@@ -106,7 +119,7 @@
       "pageReference": "29"
     },
     {
-      "id": "ch3_vocab9",
+      "id": "ch3_vocab10",
       "term": "crusade",
       "definition": "a vigorous campaign for religious change",
       "distractors": [
@@ -114,12 +127,12 @@
         "mercenaries",
         "squalid",
         "discernment",
-        "subterranean"
+        "intuitively"
       ],
       "pageReference": "30"
     },
     {
-      "id": "ch3_vocab10",
+      "id": "ch3_vocab11",
       "term": "introspection",
       "definition": "an examination of one\u2019s own thoughts and feelings",
       "distractors": [
@@ -132,13 +145,13 @@
       "pageReference": "30"
     },
     {
-      "id": "ch3_vocab11",
+      "id": "ch3_vocab12",
       "term": "discernment",
       "definition": "an act of coming to know or recognize something mentally",
       "distractors": [
         "introspection",
         "ruminating",
-        "inkling",
+        "intuitively",
         "emaciated",
         "crusade"
       ],

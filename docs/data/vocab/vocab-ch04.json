@@ -8,9 +8,9 @@
       "distractors": [
         "incarnate",
         "liberate",
-        "venial",
+        "flying buttresses",
         "decorum",
-        "solace"
+        "cultural"
       ],
       "pageReference": "33"
     },
@@ -21,7 +21,7 @@
       "distractors": [
         "incarnate",
         "paradox",
-        "mesmerized",
+        "cultural",
         "decorum",
         "profundity"
       ],
@@ -59,9 +59,9 @@
       "definition": "repeated practice",
       "distractors": [
         "decency",
-        "relinquish",
+        "cultural",
         "solace",
-        "venial",
+        "flying buttresses",
         "rote"
       ],
       "pageReference": "36"
@@ -87,7 +87,7 @@
         "custom",
         "rote",
         "solace",
-        "incarnate",
+        "cultural",
         "profundity"
       ],
       "pageReference": "36"
@@ -100,7 +100,7 @@
         "profundity",
         "paradox",
         "sanctuaries",
-        "rote",
+        "flying buttresses",
         "exaltation"
       ],
       "pageReference": "37"
@@ -126,7 +126,7 @@
         "sanctuaries",
         "mesmerized",
         "incarnate",
-        "decorum",
+        "cultural",
         "custom"
       ],
       "pageReference": "39"
@@ -162,7 +162,7 @@
       "term": "relinquish",
       "definition": "to give up",
       "distractors": [
-        "mesmerized",
+        "flying buttresses",
         "profundity",
         "paradox",
         "decency",
@@ -182,6 +182,32 @@
         "relinquish"
       ],
       "pageReference": "41"
+    },
+    {
+      "id": "ch4_vocab15",
+      "term": "flying buttresses",
+      "definition": "a masonry structure that typically consists of a straight inclined bar carried on an arch and a solid pier that receives the thrust of a roof",
+      "distractors": [
+        "paradox",
+        "exaltation",
+        "venial",
+        "decency",
+        "avian"
+      ],
+      "pageReference": "34"
+    },
+    {
+      "id": "ch4_vocab16",
+      "term": "cultural",
+      "definition": "relating to the set of shared attitudes, values, goals and practices that characterize an institution",
+      "distractors": [
+        "decorum",
+        "exaltation",
+        "solace",
+        "mesmerized",
+        "relinquish"
+      ],
+      "pageReference": "36"
     }
   ]
 }
