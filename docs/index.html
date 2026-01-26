@@ -632,6 +632,65 @@
       return array[Math.floor(Math.random() * array.length)];
     }
 
+    // Get adjacent chapters for vocabulary distractor pool
+    function getAdjacentChapters(chapterNum) {
+      if (chapterNum === 1) {
+        return [1, 2, 3]; // First chapter: use first 3
+      } else if (chapterNum === 18) {
+        return [16, 17, 18]; // Last chapter: use last 3
+      } else {
+        return [chapterNum - 1, chapterNum, chapterNum + 1]; // Normal: prev, current, next
+      }
+    }
+
+    // Select weighted distractors: 2 from current chapter, 1 from adjacent
+    function selectWeightedDistractors(allVocabChapters, currentChapter, correctTerm, count) {
+      const adjacentChapters = getAdjacentChapters(currentChapter);
+
+      // Get all terms from current chapter (excluding correct answer)
+      const currentChapterData = allVocabChapters.find(ch => ch.chapterNumber === currentChapter);
+      const fromCurrent = currentChapterData
+        ? currentChapterData.vocabulary
+            .filter(v => v.term !== correctTerm)
+            .map(v => v.term)
+        : [];
+
+      // Get all terms from adjacent chapters (excluding current chapter and correct answer)
+      const fromAdjacent = adjacentChapters
+        .filter(chNum => chNum !== currentChapter)
+        .flatMap(chNum => {
+          const chapterData = allVocabChapters.find(ch => ch.chapterNumber === chNum);
+          return chapterData ? chapterData.vocabulary.map(v => v.term) : [];
+        })
+        .filter(term => term !== correctTerm);
+
+      const selected = [];
+
+      // Try to get 2 from current chapter
+      if (fromCurrent.length >= 2) {
+        selected.push(...selectRandom(fromCurrent, 2));
+        // Get 1 from adjacent
+        if (fromAdjacent.length >= 1) {
+          selected.push(...selectRandom(fromAdjacent, 1));
+        } else {
+          // Fallback: get one more from current
+          const remaining = fromCurrent.filter(t => !selected.includes(t));
+          if (remaining.length > 0) {
+            selected.push(...selectRandom(remaining, 1));
+          }
+        }
+      } else {
+        // Not enough in current chapter, take what we can
+        selected.push(...shuffleArray(fromCurrent));
+        const needed = count - selected.length;
+        if (needed > 0 && fromAdjacent.length > 0) {
+          selected.push(...selectRandom(fromAdjacent, needed));
+        }
+      }
+
+      return selected.slice(0, count);
+    }
+
     // Prepare a question with 4 randomized choices
     function prepareQuestion(question, chapterName, chapterNumber) {
       let correctAnswer;
@@ -660,9 +719,10 @@
       };
     }
 
-    // Prepare a vocabulary item as a question
-    function prepareVocabQuestion(vocabItem, chapterNumber) {
-      const distractors = selectRandom(vocabItem.distractors, 3);
+    // Prepare a vocabulary item as a question (with adjacent chapter distractors)
+    function prepareVocabQuestion(vocabItem, chapterNumber, allVocabChapters) {
+      // Use adjacent chapter logic to get distractors
+      const distractors = selectWeightedDistractors(allVocabChapters, chapterNumber, vocabItem.term, 3);
       const choices = shuffleArray([vocabItem.term, ...distractors]);
 
       return {
@@ -825,7 +885,7 @@
         if (selectedVocabChapter) {
           const chapter = vocabChapters.find(ch => ch.chapterNumber === parseInt(selectedVocabChapter));
           const questions = chapter.vocabulary.map(v =>
-            prepareVocabQuestion(v, chapter.chapterNumber)
+            prepareVocabQuestion(v, chapter.chapterNumber, vocabChapters)
           );
           onStartVocabQuiz(questions, `Vocabulary - Chapter ${chapter.chapterNumber}`);
         }
@@ -833,7 +893,7 @@
 
       const handleAllVocab = () => {
         const allVocab = vocabChapters.flatMap(ch =>
-          ch.vocabulary.map(v => prepareVocabQuestion(v, ch.chapterNumber))
+          ch.vocabulary.map(v => prepareVocabQuestion(v, ch.chapterNumber, vocabChapters))
         );
         onStartVocabQuiz(shuffleArray(allVocab), 'Vocabulary - All Chapters');
       };
@@ -1294,10 +1354,9 @@
               id: m.question.id,
               term: m.question.term,
               definition: m.question.definition,
-              distractors: m.question.choices.filter(c => c !== m.question.term),
               pageReference: m.question.pageReference
             };
-            return prepareVocabQuestion(vocabItem, m.question.chapterNumber);
+            return prepareVocabQuestion(vocabItem, m.question.chapterNumber, vocabChapters);
           });
         } else {
           reviewQuestions = missed.map(m =>
@@ -1319,10 +1378,9 @@
                 id: q.id,
                 term: q.term,
                 definition: q.definition,
-                distractors: q.choices.filter(c => c !== q.term),
                 pageReference: q.pageReference
               };
-              return prepareVocabQuestion(vocabItem, q.chapterNumber);
+              return prepareVocabQuestion(vocabItem, q.chapterNumber, vocabChapters);
             });
           } else {
             freshQuestions = lastQuizConfig.questions.map(q =>
