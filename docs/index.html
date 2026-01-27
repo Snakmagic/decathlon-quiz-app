@@ -248,7 +248,7 @@
 
     .choice {
       display: flex;
-      align-items: flex-start;
+      align-items: center;
       padding: 16px;
       border: 2px solid #e5e7eb;
       border-radius: 8px;
@@ -319,10 +319,12 @@
     }
 
     .feedback {
-      padding: 20px;
+      padding: 16px 20px;
       border-radius: 8px;
       margin-bottom: 20px;
-      text-align: center;
+      display: flex;
+      align-items: center;
+      gap: 16px;
     }
 
     .feedback.correct {
@@ -335,15 +337,22 @@
       border: 2px solid #dc2626;
     }
 
+    .feedback-header {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-shrink: 0;
+    }
+
     .feedback-icon {
-      font-size: 2rem;
-      margin-bottom: 8px;
+      font-size: 1.5rem;
+      line-height: 1;
     }
 
     .feedback-title {
-      font-size: 1.25rem;
+      font-size: 1.125rem;
       font-weight: 600;
-      margin-bottom: 8px;
+      white-space: nowrap;
     }
 
     .feedback.correct .feedback-title {
@@ -354,15 +363,26 @@
       color: #dc2626;
     }
 
+    .feedback-body {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      min-width: 0;
+    }
+
     .feedback-text {
       color: #374151;
-      margin-bottom: 4px;
+      flex: 1;
     }
 
     .page-ref {
       font-size: 0.875rem;
       color: #6b7280;
       font-style: italic;
+      flex-shrink: 0;
+      text-align: right;
     }
 
     .results-score {
@@ -584,6 +604,28 @@
 
       .stats-bar {
         gap: 20px;
+      }
+
+      .feedback {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 8px;
+        padding: 16px;
+      }
+
+      .feedback-header {
+        justify-content: center;
+      }
+
+      .feedback-body {
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .page-ref {
+        text-align: center;
       }
     }
   </style>
@@ -1101,19 +1143,23 @@
 
             {showFeedback && (
               <div className={`feedback ${isCorrect ? 'correct' : 'incorrect'}`}>
-                <div className="feedback-icon">{isCorrect ? '✓' : '✗'}</div>
-                <div className="feedback-title">
-                  {isCorrect ? 'Correct!' : 'Incorrect'}
+                <div className="feedback-header">
+                  <div className="feedback-icon">{isCorrect ? '✓' : '✗'}</div>
+                  <div className="feedback-title">
+                    {isCorrect ? 'Correct!' : 'Incorrect'}
+                  </div>
                 </div>
-                <div className="feedback-text">
-                  {isCorrect
-                    ? 'Great job!'
-                    : isVocab
-                      ? `The correct term is: ${currentQuestion.correctAnswer}`
-                      : `The correct answer is: ${currentQuestion.correctAnswer}`
-                  }
+                <div className="feedback-body">
+                  <div className="feedback-text">
+                    {isCorrect
+                      ? 'Great job!'
+                      : isVocab
+                        ? `The correct term is: ${currentQuestion.correctAnswer}`
+                        : `The correct answer is: ${currentQuestion.correctAnswer}`
+                    }
+                  </div>
+                  <div className="page-ref">Page reference: {currentQuestion.pageReference}</div>
                 </div>
-                <div className="page-ref">Page reference: {currentQuestion.pageReference}</div>
               </div>
             )}
 
