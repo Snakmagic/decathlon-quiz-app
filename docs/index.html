@@ -634,6 +634,35 @@
         text-align: center;
         padding-top: 0;
       }
+
+      /* Compact correct answer on mobile - icon, title, message on one line */
+      .feedback.correct {
+        display: block;
+        text-align: center;
+      }
+
+      .feedback.correct .feedback-header {
+        display: inline-flex;
+        vertical-align: middle;
+      }
+
+      .feedback.correct .feedback-body {
+        display: inline;
+      }
+
+      .feedback.correct .feedback-text {
+        display: inline;
+        padding-top: 0;
+        margin-left: 8px;
+        vertical-align: middle;
+      }
+
+      .feedback.correct .page-ref {
+        display: block;
+        width: 100%;
+        margin-top: 8px;
+        padding-top: 0;
+      }
     }
   </style>
 </head>
