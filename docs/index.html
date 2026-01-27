@@ -323,7 +323,7 @@
       border-radius: 8px;
       margin-bottom: 20px;
       display: flex;
-      align-items: center;
+      align-items: flex-start;
       gap: 16px;
     }
 
@@ -342,17 +342,19 @@
       align-items: center;
       gap: 8px;
       flex-shrink: 0;
+      line-height: 1.5;
     }
 
     .feedback-icon {
-      font-size: 1.5rem;
-      line-height: 1;
+      font-size: 1.25rem;
+      line-height: 1.5;
     }
 
     .feedback-title {
       font-size: 1.125rem;
       font-weight: 600;
       white-space: nowrap;
+      line-height: 1.5;
     }
 
     .feedback.correct .feedback-title {
@@ -366,7 +368,7 @@
     .feedback-body {
       flex: 1;
       display: flex;
-      align-items: center;
+      align-items: flex-start;
       justify-content: space-between;
       gap: 12px;
       min-width: 0;
@@ -375,6 +377,8 @@
     .feedback-text {
       color: #374151;
       flex: 1;
+      line-height: 1.5;
+      padding-top: 3px;
     }
 
     .page-ref {
@@ -383,6 +387,8 @@
       font-style: italic;
       flex-shrink: 0;
       text-align: right;
+      line-height: 1.5;
+      padding-top: 3px;
     }
 
     .results-score {
@@ -626,6 +632,7 @@
 
       .page-ref {
         text-align: center;
+        padding-top: 0;
       }
     }
   </style>
