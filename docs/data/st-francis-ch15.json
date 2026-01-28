@@ -283,7 +283,12 @@
     {
       "id": "ch15_q22",
       "question": "What about Francis' faith impressed the sultan?",
-      "correctAnswer": "His inner peace, his ability to interact with Muslims in a respectable way, his refusal to give in to wealth and riches, and his way of responding to war with the peace of Christ",
+      "acceptableAnswers": [
+        "His inner peace",
+        "His ability to interact with Muslims in a respectable way",
+        "His refusal to give into wealth and riches",
+        "His way of responding to war with the peace of Christ"
+      ],
       "distractors": [
         "His knowledge of the Quran and Islamic teaching",
         "His willingness to die as a martyr",
@@ -291,11 +296,12 @@
         "His eloquent arguments for Christianity",
         "His connections to the Pope and church leaders"
       ],
+      "type": "accept-any",
       "pageReference": "178"
     },
     {
       "id": "ch15_q23",
-      "question": "Did either Francis convert to the Muslim religion or the sultan convert to Christianity? What beautiful thing happened?",
+      "question": "Did either Francis convert to the Muslim religion or the sultan convert to Christianity?",
       "correctAnswer": "No, neither changed their faith. The sultan responded with a gesture of peace",
       "distractors": [
         "Yes, the sultan secretly converted to Christianity",
@@ -309,7 +315,11 @@
     {
       "id": "ch15_q24",
       "question": "What did Francis receive from the sultan?",
-      "correctAnswer": "Administration and control of the Christian holy sites in the Muslim territory to the followers of Francis, a gift of an ivory horn and a prayer mat, also a letter for safe conduct to travel freely and securely throughout the Muslim territories",
+      "acceptableAnswers": [
+        "Administration and control of the Christian holy sites in the Muslim territory to the followers of Francis",
+        "A gift of an ivory horn and a prayer mat",
+        "A letter for safe conduct to travel freely and securely throughout the Muslim territories"
+      ],
       "distractors": [
         "Gold and jewels to fund the Franciscan order",
         "A palace in Jerusalem for the friars",
@@ -317,6 +327,7 @@
         "A promise to end the war immediately",
         "Permission to preach Christianity throughout his lands"
       ],
+      "type": "accept-any",
       "pageReference": "179"
     },
     {
@@ -335,7 +346,7 @@
     {
       "id": "ch15_q26",
       "question": "What sites in the Holy Land did Francis visit?",
-      "correctAnswer": "Church of the Holy Sepulchre, Calvary where Jesus died, and the tomb of Christ where Christ was buried and resurrected",
+      "correctAnswer": "Church of the Holy Sepulchre, Calvary where Jesus died, and the tomb of Christ",
       "distractors": [
         "The Garden of Gethsemane, the Mount of Olives, and the Jordan River",
         "Bethlehem, Nazareth, and the Sea of Galilee",
@@ -344,6 +355,162 @@
         "Mount Tabor, Cana, and Capernaum"
       ],
       "pageReference": "179-180"
+    },
+    {
+      "id": "ch15_q27",
+      "question": "What was one probable outcome of Francis walking into the Muslim territory?",
+      "correctAnswer": "His Martyrdom",
+      "distractors": [
+        "His conversion to Islam",
+        "His capture and imprisonment",
+        "His return with a peace treaty",
+        "His appointment as a papal ambassador",
+        "His expulsion from the Holy Land"
+      ],
+      "pageReference": "166"
+    },
+    {
+      "id": "ch15_q28",
+      "question": "Where was Jesus crucified and resurrected?",
+      "correctAnswer": "Jerusalem",
+      "distractors": [
+        "Bethlehem",
+        "Nazareth",
+        "Damascus",
+        "Antioch",
+        "Constantinople"
+      ],
+      "pageReference": "160"
+    },
+    {
+      "id": "ch15_q29",
+      "question": "What significant edict did Emperor Constantine issue in 313 that led to Christian Byzantine rule over the Holy Land?",
+      "correctAnswer": "The Edict of Milan",
+      "distractors": [
+        "The Edict of Thessalonica",
+        "The Edict of Nicaea",
+        "The Edict of Constantinople",
+        "The Edict of Jerusalem",
+        "The Edict of Rome"
+      ],
+      "pageReference": "160"
+    },
+    {
+      "id": "ch15_q30",
+      "question": "How many churches and monasteries were built in the Holy Land during a period of great peace?",
+      "correctAnswer": "Over 200",
+      "distractors": [
+        "About 50",
+        "Exactly 100",
+        "Around 150",
+        "Nearly 300",
+        "Just over 75"
+      ],
+      "pageReference": "160"
+    },
+    {
+      "id": "ch15_q31",
+      "question": "When Zoroastrian Persians invaded the Holy Land, which church was destroyed?",
+      "correctAnswer": "The Church of the Holy Sepulchre",
+      "distractors": [
+        "The Basilica of the Nativity",
+        "The Church of All Nations",
+        "The Church of the Resurrection",
+        "St. Peter's Basilica",
+        "The Church of Mount Zion"
+      ],
+      "pageReference": "160"
+    },
+    {
+      "id": "ch15_q32",
+      "question": "Who reconquered the Holy Land for Christians to establish Christian rule for the next twenty years?",
+      "correctAnswer": "Emperor Heraclius",
+      "distractors": [
+        "Emperor Constantine",
+        "Emperor Justinian",
+        "Pope Urban II",
+        "King Baldwin",
+        "Emperor Diocletian"
+      ],
+      "pageReference": "160"
+    },
+    {
+      "id": "ch15_q33",
+      "question": "What did Muslim Omar do in 637 when he established Arab rule in Jerusalem?",
+      "correctAnswer": "Forbade all Christian worship",
+      "distractors": [
+        "Allowed Christians to continue worship freely",
+        "Destroyed all Christian churches",
+        "Converted all churches to mosques",
+        "Expelled all Christians from the city",
+        "Required Christians to pay a tax but allowed worship"
+      ],
+      "pageReference": "160-161"
+    },
+    {
+      "id": "ch15_q34",
+      "question": "In what year did Pope Urban call for the first crusade to help reestablish a Christian presence in Jerusalem?",
+      "correctAnswer": "1095",
+      "distractors": [
+        "1099",
+        "1187",
+        "1054",
+        "1215",
+        "1076"
+      ],
+      "pageReference": "161"
+    },
+    {
+      "id": "ch15_q35",
+      "question": "After their success in 1099, what did Christians build for safe passage into the Holy Lands?",
+      "correctAnswer": "Roads, castles and fortifications",
+      "distractors": [
+        "Monasteries and schools",
+        "Ships and harbors",
+        "Hospitals and hospices",
+        "Markets and trading posts",
+        "Universities and libraries"
+      ],
+      "pageReference": "161"
+    },
+    {
+      "id": "ch15_q36",
+      "question": "How long was Jerusalem under Christian control after 1099, allowing safe Christian pilgrimage?",
+      "correctAnswer": "About 88 years (until 1187)",
+      "distractors": [
+        "About 20 years",
+        "About 50 years",
+        "About 100 years",
+        "About 150 years",
+        "About 200 years"
+      ],
+      "pageReference": "161"
+    },
+    {
+      "id": "ch15_q37",
+      "question": "Where did Pope Innocent promote the fifth crusade that was being fought to take back the Holy Land?",
+      "correctAnswer": "At the Lateran Council",
+      "distractors": [
+        "At the Council of Nicaea",
+        "At the Council of Trent",
+        "At the Vatican",
+        "At the Council of Constance",
+        "At St. Peter's Basilica"
+      ],
+      "pageReference": "161"
+    },
+    {
+      "id": "ch15_q38",
+      "question": "What was Francis' approach to the fifth crusade?",
+      "correctAnswer": "He was a man of peace and desired to talk to the sultan about peace",
+      "distractors": [
+        "He willingly joined to help take back the Holy Land",
+        "He supported the crusade through prayer and fasting",
+        "He recruited soldiers for the Christian army",
+        "He provided supplies and funding for the crusaders",
+        "He served as a chaplain to the Christian troops"
+      ],
+      "pageReference": "159-161"
     }
   ]
 }
