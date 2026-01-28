@@ -110,7 +110,12 @@
     {
       "id": "ch11_q9",
       "question": "How did the friars experience community that was the antithesis of the self-centered life?",
-      "correctAnswer": "They made known their needs to others, they cared for each other as if they were family members",
+       "acceptableAnswers": [
+        "They made known their needs for others",
+        "They cared for each other as if they were family members",
+        "They comforted each other when they were suffering",
+        "They challenged each other to strive for greater things"
+      ],
       "distractors": [
         "They practiced complete silence and solitude",
         "They competed with each other in holiness",
@@ -118,6 +123,7 @@
         "They followed strict rules of obedience",
         "They spent all their time in prayer together"
       ],
+      "type": "accept-any",
       "pageReference": "121"
     },
     {
