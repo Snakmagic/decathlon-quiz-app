@@ -45,7 +45,11 @@
     {
       "id": "ch3_q4",
       "question": "What words did Francis' father say to him as he left Assisi that Francis might have ruminated on during his journey?",
-      "correctAnswer": "Do not disappoint me, you will bring honor to this family, our family is strong",
+      "acceptableAnswers": [
+        "Do not disappoint me",
+        "You will bring honor to this family",
+        "Our family is strong"
+      ],
       "distractors": [
         "Fight bravely, return with glory, make us proud",
         "Remember your duty, serve God, protect the innocent",
@@ -53,6 +57,7 @@
         "Prove your worth, earn your knighthood, show your courage",
         "Trust in God, fight with honor, bring us fortune"
       ],
+      "type": "accept-any",
       "pageReference": "23"
     },
     {
@@ -71,7 +76,12 @@
     {
       "id": "ch3_q6",
       "question": "What were Francis' thoughts on war the night they stopped in Spoleto?",
-      "correctAnswer": "Francis had previously wanted to become a knight, now he wasn't so sure",
+      "acceptableAnswers": [
+        "He had previously wanted to become a knight, now he wasn't so sure",
+        "Was he supposed to kill?",
+        "Was it just?",
+        "What is peace?"
+      ],
       "distractors": [
         "He was excited and eager to prove himself in battle",
         "He was worried about dying and never returning home",
@@ -79,6 +89,7 @@
         "He felt confident that God would protect him in battle",
         "He wondered if he should have stayed in the merchant business"
       ],
+      "type": "accept-any",
       "pageReference": "25"
     },
     {
@@ -114,7 +125,7 @@
         "Everyone would judge him as a coward",
         "It would bring shame to his family",
         "He was concerned his father would disinherit him"
-],
+    ],
       "distractors": [
         "He would lose his armor and expensive warhorse",
         "His companions would feel betrayed and abandoned",

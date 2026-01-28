@@ -6,14 +6,19 @@
     {
       "id": "ch6_q1",
       "question": "How did Francis' largesse take on religious meaning instead of his spendthrift ways on worldly goods?",
-      "correctAnswer": "Francis began to give away food, money and clothes for the poor and bought furnishings for churches",
+      "acceptableAnswers": [
+        "He began to give away food, money and clothes to the poor",
+        "He bought furnishings for churches",
+        "He went on a pilgrimage to Rome"
+      ],
       "distractors": [
-        "He invested his father's money in church renovations",
+        "He invested his father's money in monastery renovations",
         "He donated his inheritance to the monastery",
         "He sold all his possessions and became a hermit",
         "He started a charitable foundation for the poor",
         "He funded the construction of new churches"
       ],
+      "type": "accept-any",
       "pageReference": "60"
     },
     {
@@ -32,7 +37,10 @@
     {
       "id": "ch6_q3",
       "question": "Francis turned from sin and had a change of heart in his what?",
-      "correctAnswer": "Penance or conversion",
+      "acceptableAnswers": [
+        "Penance",
+        "Conversion"
+      ],
       "distractors": [
         "Baptism",
         "Confirmation",
@@ -40,6 +48,7 @@
         "Prayer",
         "Meditation"
       ],
+      "type": "accept-any",
       "pageReference": "62"
     },
     {

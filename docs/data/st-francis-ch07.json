@@ -6,7 +6,11 @@
     {
       "id": "ch7_q1",
       "question": "What did Pietro's servant tell him about Francis when he returned from a long business journey?",
-      "correctAnswer": "Francis has been trying to get help to rebuild a country church. It is reported that he is living with the lepers",
+      "acceptableAnswers": [
+        "He has been going about trying to get help to rebuild a country church",
+        "He took cloth and a horse and sold them",
+        "It is reported that he is living with the lepers"
+      ],
       "distractors": [
         "Francis has joined a monastery and taken vows of poverty",
         "Francis has been preaching in the streets and gathering followers",
@@ -14,6 +18,7 @@
         "Francis has been arrested for disturbing the peace",
         "Francis has fallen ill and is being cared for by monks"
       ],
+      "type": "accept-any",
       "pageReference": "70"
     },
     {
@@ -84,7 +89,7 @@
     {
       "id": "ch7_q7",
       "question": "What two worlds did Francis feel like he had his feet in up to this point in his conversion?",
-      "correctAnswer": "First as part of his family as a first-born son with his father's support, security and money, then also as a follower of Christ",
+      "correctAnswer": "The world of his family as a first-born son with his father's support, security and money, then also as a follower of Christ",
       "distractors": [
         "The world of knights and the world of merchants",
         "The world of the rich and the world of the poor",
@@ -175,7 +180,12 @@
     {
       "id": "ch7_q14",
       "question": "What evidence did Francis' father present to explain how Francis had squandered his resources?",
-      "correctAnswer": "He said he had given him everything he needed and more to become a great prince and a knight",
+      "acceptableAnswers": [
+        "He said he had given him everything he needed and more to become a great prince",
+        "He had paid for his schooling, taught him the trade of being a merchant",
+        "Paid for training to be a knight",
+        "Purchased the finest armor and warhorse on two occasions, and yet Francis stole his best cloth and a horse"
+      ],
       "distractors": [
         "He listed all the money Francis had wasted on festivals and parties",
         "He showed how Francis had given away family assets to the poor",
@@ -183,6 +193,7 @@
         "He explained how Francis had damaged the family's reputation",
         "He demonstrated how Francis had disobeyed his commands"
       ],
+      "type": "accept-any",
       "pageReference": "76"
     },
     {

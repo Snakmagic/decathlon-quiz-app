@@ -19,7 +19,11 @@
     {
       "id": "ch2_q2",
       "question": "What had impressed Francis since his youth about the knights that he saw walking around Assisi?",
-      "correctAnswer": "Their proud coat of arms, fine garments and swords",
+      "acceptableAnswers": [
+        "Their proud coat of arms",
+        "Their fine leather gloves, boots and cloaks",
+        "Their colorful hose and swords"
+      ],
       "distractors": [
         "Their horses and battle tactics",
         "Their loyalty to the church and pope",
@@ -27,6 +31,7 @@
         "Their courage in battle and honor",
         "Their noble lineage and family crests"
       ],
+      "type": "accept-any",
       "pageReference": "7"
     },
     {
@@ -45,7 +50,10 @@
     {
       "id": "ch2_q4",
       "question": "Why did the Minors hate the Rocca fortress?",
-      "correctAnswer": "It represented centuries of tyrannical feudal rule and oppressive taxes",
+      "acceptableAnswers": [
+        "It represented centuries of tyrannical feudal rule",
+        "Oppressive taxes were levied against them there"
+      ],
       "distractors": [
         "It was built on sacred ground",
         "It housed enemy soldiers from Perugia",
@@ -53,6 +61,7 @@
         "It was where criminals were imprisoned",
         "It symbolized foreign occupation"
       ],
+      "type": "accept-any",
       "pageReference": "9"
     },
     {

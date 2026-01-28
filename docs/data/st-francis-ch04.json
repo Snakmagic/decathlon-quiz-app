@@ -32,7 +32,10 @@
     {
       "id": "ch4_q3",
       "question": "What was the condition of San Damiano and its community when Francis began visiting?",
-      "correctAnswer": "It was neglected and in disrepair",
+      "acceptableAnswers": [
+        "It was neglected and in disrepair",
+        "Fr. Peter celebrated Mass for a few peasants on Sundays and Holy Days"
+      ],
       "distractors": [
         "It had a vibrant community led by Fr. Peter",
         "It was being renovated by local craftsmen",
@@ -40,6 +43,7 @@
         "It was full of pilgrims visiting daily",
         "It was well-maintained by Benedictine monks"
       ],
+      "type": "accept-any",
       "pageReference": "34"
     },
     {
