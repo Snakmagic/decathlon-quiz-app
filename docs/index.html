@@ -1113,13 +1113,8 @@
 
       const handleNext = () => {
         if (currentIndex + 1 >= questions.length) {
-          const finalAnswers = [...userAnswers, {
-            question: currentQuestion,
-            userAnswer: selectedAnswer,
-            correct: isCorrect
-          }];
           const timeSpent = Math.round((Date.now() - startTimeRef.current) / 1000);
-          onComplete(finalAnswers, timeSpent);
+          onComplete(userAnswers, timeSpent);
         } else {
           setCurrentIndex(currentIndex + 1);
           setSelectedAnswer(null);
